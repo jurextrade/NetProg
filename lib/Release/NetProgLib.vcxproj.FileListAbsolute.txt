@@ -1,2 +1,3 @@
 D:\PROJECTS\MT4-Progress\NetProg\lib\Release\NetProg.lib
 D:\PROJECTS\NetProg\lib\Release\NetProg.lib
+D:\GITHUB\NetProg\lib\Release\NetProg.lib
