@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Initialization" href="Initialization.html" />
+    <link rel="prev" title="Programming" href="Programming.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> NetProg
+            <img src="_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="Programming.html">Programming</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">API</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Initialization.html">Initialization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Message_functions.html">Message functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Connection_functions.html">Connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Send_Receive_functions.html">Sending Receiving</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Callbacks.html">Callbacks</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="CExamples.html">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="Programming.html">Programming</a> &raquo;</li>
+      <li>API</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/API.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="api">
+<h1>API<a class="headerlink" href="#api" title="Permalink to this headline"></a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Initialization.html">Initialization</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXInit.html">MXInit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXEnd.html">MXEnd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXCreateDialogClass.html">MXCreateDialogClass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXCreateMessageClass.html">MXCreateMessageClass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXCreateMessage.html">MXCreateMessage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Message_functions.html">Message functions</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Connection_functions.html">Connection</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Send_Receive_functions.html">Sending Receiving</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXWriteBufferContent.html">MXWriteBufferContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXWriteFileContent.html">MXWriteFileContent</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Callbacks.html">Callbacks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXAddApplicationProcedure.html">MXAddApplicationProcedure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXAddCallBack.html">MXAddCallBack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions/MXAddComCallBack.html">MXAddAddComCallBack</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Initialization  Sending and Receiving functions
+Connection functions    Callbacks and Procedures</p>
+<p>Initialization functions</p>
+<p>MXInit  Initialize MX manager
+MXEnd   Close MX manager and free all resources
+MXCreateDialogClass     Create a dialog class
+MXFreeDialogClass       Free the dialog class
+MXCreateMessageClass    Create a message class in the dialog class
+MXFreeMessageClass      Free the message class
+MXCreateComClass        Create a connection class
+MXFreeComClassFromName  Free a connection class
+MXFreeComClass  Free connection class
+MXCreateMessage Create a message instance
+MXFreeMessage   Free message instance
+MXCopyMessage   Copy message instance
+MXAddObjectToMessageClass       Add object to a message class
+MXFreeObject    Free object in a message class
+MXFreeObjectsFromMessageClass
+MXFreeCom       Free connection instance
+MXAddPort       Add a listening port to an application
+MXGetPort       Returns the connection port number
+MXLoadResourceFile      Load a resource file in the MX manager
+MXDispatchEvents        Dispatch events (MX manager engine)</p>
+<p>Message functions</p>
+<p>MXSetValue      Set object value  to a  message
+MXGetValue      Return object value from its name
+MXSetRangeValue Set object value from its name
+MXGetRangeValue Return object value from its range in the message
+MXGetName       Set object value from its range
+MXGetType       Get object type (STRING CHAR WORD …)
+MXGetInternalType
+MXGetInternalLength
+MXGetInternalScale
+MXSetMessageStatut      Set message statut
+MXSetMessageDateHour    Set message output date and time</p>
+<p>Connection functions</p>
+<p>MXOpenTCP       Create a TCP connection
+MXOpenBase      Create a database connection
+MXOpenFile      create a file connection
+MXCloseCom      Close connection and free all input/ouput messages
+MXFlushCom      Flush all messages from the output queue of a connection</p>
+<p>Sending and Receiving functions</p>
+<p>MXPutMessage    Create and put a message in the ouput queue of a connection
+MXPutThisMessage        Put a created message in the ouput queue
+MXJoinCom       Join  two connections
+MXGetComFromClient      Get the connection instance from its client
+MXAddDGCommands Add DG Dialog to MX manager
+MXAddFTPCommands        Add FTP Dialog to MX manager
+MXAddPOPCommands        Add POP Dialog to MX manager
+MXAddSMTPCommands       Add SMTP Dialog to MX manager
+MXAddTCPCommands        Add TCP Dialog to MX manager
+MXAddDBCommands Add DBG Dialog to MX manager
+MXAddFIOPCommands       Add FIOP Dialog to MX manager
+MXAddHTTPCommands       Add HTTP Dialog to MX manager
+MXAddDNSCommands        Add DNS Dialog to MX manager
+MXTranferOutputQueue
+MXGetComClassFromName   Returns the connection class from the name parameter
+MXGetComClassFromCode   Returns the connection class from the code parameter
+MXGetDialogClassFromName        Returns the dialog class from the name parameter
+MXGetDialogClassFromCode        Returns the dialog class from the code parameter
+MXGetMessageClassFromName       Returns the message code from the name parmeter
+MXGetMessageClassFromCodes
+MXGetObjectFromName     Returns the object of a message from its name
+MXGetProtocolFromName   Returns the protocol identifier from the char name parameter
+MXSetComProtocol        Set a protocol to a connection
+MXReadyToSend
+MXGetReadyOutputMessage Returns the next message ready to send from the output queue of a connection
+MXGetReadyInputMessage  Returns the next message ready to read from the input queue of a connection
+MXFindIncompleteMessage  r
+MXCheckType2
+MXFreeContext
+MXAllocateContext
+MXExtendValueBuffer
+MXGetMessageSize
+MXGetMessageClassSize
+MXSetIOMessageClass      Associate a message class to a file fixed format connection
+MXSetIOSize
+MXGetFileSize
+MXGetBufferSize
+MXEstablishConnectionOn
+MXSetCom
+MXExecuteApplicationProcedures
+MXReadMessageStatut
+MXWriteBufferContent
+MXFindMessage
+MXReadFileContent
+MXReadBufferContent
+MXWriteFileContent
+MXCreateMessageFromCodes
+MXAllocMessage  Allocate a message instance
+MXInitValues    Reset all message values
+MXSetMode
+MXSend  Send a message in a synchronous mode
+MXRecv  Recv message in a synchronous mode
+MXInitMessage   Initialize a message instance
+MXFreeAndMoveComIn
+MXSetFileValue
+MXSetBufferValue
+MXSetStringValue</p>
+<p>Callbacks and Procedures</p>
+<p>MXFindApplicationProcedure      Returns an application procedure
+MXFindCallBack  Returns a callback associated to a messsage class
+MXFindGeneralCallBack   Returns a callback associated to
+MXFindComCallBack
+MXAddGeneralCallBack    Add a callback on receiving or sending a message belonging to a message class
+MXAddApplicationProcedure       Add an application procedure that will be  executed by MX manager during the events dispatching
+MXAddGeneralConnectCallBack     Add a callback that will be triggered on connecting or disconnecting any connection in the MX manager
+MXAddConnectCallBack    Add a callback on connecting or disconnecting only connections belonging to a connection class
+MXAddCallBack   Add a callback on sending or receiving a message belonging to a message class
+MXAddComCallBack        Add a callback on receiving or sending a message belonging to a message class on a  connection instance
+MXAddEndingProcedure    Add a callback on closing a connection instance
+MXRemoveGeneralCallBack Remove a callback
+MXRemoveApplicationProcedure    Remove an application procedure from the MX manager
+MXRemoveConnectCallBack Remove callback associated to a connection class
+MXRemoveGeneralConnectCallBack  Remove a general callback from the MX manager
+MXRemoveCallBack        Remove callback associated to a message class
+MXRemoveComCallBack     Remove Callback
+MXRemoveEndingProcedure Remove Ending callback</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Programming.html" class="btn btn-neutral float-left" title="Programming" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Initialization.html" class="btn btn-neutral float-right" title="Initialization" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

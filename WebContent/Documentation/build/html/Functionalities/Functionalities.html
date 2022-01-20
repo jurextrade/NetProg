@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Functionalities &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Asynchronous Programming" href="Asynchronous.html" />
+    <link rel="prev" title="Usage" href="../usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Asynchronous.html">Asynchronous Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Protocols.html">Supported Protocols</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Functionalities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model">Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dl-distributed-language">DL Distributed Language</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Functionalities</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Functionalities/Functionalities.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Asynchronous.html">Asynchronous Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Protocols.html">Supported Protocols</a></li>
+</ul>
+</div>
+<section id="functionalities">
+<h1>Functionalities<a class="headerlink" href="#functionalities" title="Permalink to this headline"></a></h1>
+<p>NetProg rests on MX API functionalities. MX allows the programming of messages.</p>
+<section id="general">
+<h2>General<a class="headerlink" href="#general" title="Permalink to this headline"></a></h2>
+<p>MX Engine ‘s role is  the management of the events related to connections (opening, closing, cut…),  input/output of the messages (reception, emission). For each event, it starts the associated callbacks. This is done by the management of queues for transmitted or receipts messages; we speak about asynchronous communication</p>
+<p>MX also offers the synchronous mode, which makes it possible to the application to transmit a message instantaneously.</p>
+<p>The 2 modes of synchronous and asynchronous communication can coexist on a same connection.</p>
+<p>It offers a means to the programmer of creating transfer journals allowing to know the course of a message transfer, the date of emission or reception.</p>
+<p>MX allows also to connect to databases in the same logical manner which is based also on messages. Request and results are also seen as messages.</p>
+<p>A language of script allowing the programming of distributed orders, it facilitates the development of communicating applications by the simple execution of files scripts. It is possible to send and recover files à.la.mode ftp, to manage variables, to associate orders certain types of events, to question data bases, to send messages, to carry out remote controls.</p>
+</section>
+<section id="model">
+<h2>Model<a class="headerlink" href="#model" title="Permalink to this headline"></a></h2>
+<p>The conceptualization of the exchanges between  applications to communicate is done in 2 stages :</p>
+<p>Definition of classes of dialogue containing the messages. Messages are represented by attributes (file, entirety, buffer, number,…). A message is only referred by the name of the dialogue class to which it belongs and by its message class name.</p>
+<p>Association between the entities-events and callbacks.</p>
+<p>Type of messages</p>
+<p>Messages with differed sendings</p>
+<p>If the message sent has the property ” differed sending “, it will be sent to the dates and hours requested by engine.</p>
+<p>Persistent messages</p>
+<p>If the message sent has the property ” persisting ” this one is preserved in the newspaper of the transfers defined by the programmer.</p>
+<p>Messages with marked reception</p>
+<p>If the message sent has the property ” marked reception “, engine MX of the transmitting application will start, on arrival of the marked event reception, the callback associated by the programmer.</p>
+</section>
+<section id="dl-distributed-language">
+<h2>DL Distributed Language<a class="headerlink" href="#dl-distributed-language" title="Permalink to this headline"></a></h2>
+<p>Language DL is a language of script, inspired by language LISP, allowing the programming of commands distributed on various machines.</p>
+<p>DL can be used in 3 ways:</p>
+<p>As a use of language DL in interpreted mode, with three operating modes:</p>
+<p>Writing of commands DL in command files (also called scripts of commands).</p>
+<p>Call to functions DL starting from a program C.</p>
+<p>Interactive mode, where the user can carry out commands DL in a shell.</p>
+<p>Strong points</p>
+<p>No code compilation</p>
+<p>Modification in real time of the behavior of the distant machine.</p>
+<p>Mechanism of waiting.</p>
+<p>Support of the mechanism containing messages of MX</p>
+<p>Call to functions DL starting from a program C</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../usage.html" class="btn btn-neutral float-left" title="Usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Asynchronous.html" class="btn btn-neutral float-right" title="Asynchronous Programming" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

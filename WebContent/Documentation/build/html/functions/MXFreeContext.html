@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>&lt;no title&gt; &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="MXAllocateContext.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="MXCheckType2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+            <img src="../_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Programming.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../Programming.html">Programming</a> &raquo;</li>
+          <li><a href="../API.html">API</a> &raquo;</li>
+          <li><a href="../Send_Receive_functions.html">Sending Receiving</a> &raquo;</li>
+      <li>&lt;no title&gt;</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/functions/MXFreeContext.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p>&lt;!DOCTYPE HTML PUBLIC “-//IETF//DTD HTML//EN”&gt;
+&lt;html&gt;</p>
+<p>&lt;head&gt;
+&lt;meta http-equiv=”Content-Type”
+content=”text/html; charset=iso-8859-1”&gt;
+&lt;meta name=”Version” content=”8.0.3429”&gt;
+&lt;meta name=”Date” content=”11/28/96”&gt;
+&lt;meta name=”Template” content=”D:Isaoff97OfficeHTML.DOT”&gt;
+&lt;meta name=”GENERATOR” content=”Microsoft FrontPage 5.0”&gt;
+&lt;title&gt;C NetProg Library : MXFreeContext&lt;/title&gt;
+&lt;/head&gt;
+&lt;SCRIPT language=javascript src=”2nd_roll_en.js”
+type=text/javascript&gt;&lt;/SCRIPT&gt;</p>
+<p>&lt;SCRIPT language=JavaScript&gt;
+&lt;!–
+function MM_jumpMenu(targ,selObj,restore){ //v3.0</p>
+<blockquote>
+<div><p>eval(targ+”.location=’”+selObj.options[selObj.selectedIndex].value+”’”);
+if (restore) selObj.selectedIndex=0;</p>
+</div></blockquote>
+<p>}
+//–&gt;
+&lt;/SCRIPT&gt;</p>
+<p>&lt;body topmargin=”0” leftmargin=”0” link=”#0000FF” vlink=”#0099FF”&gt;</p>
+<blockquote>
+<div><dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%” bgcolor=”#FFFFE6” style=”border-collapse: collapse” bordercolor=”#111111”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td&gt;</p>
+<p>&lt;img border=”0” src=”../images/eagle.GIF” width=”221” height=”188”&gt;
+&lt;/td&gt;
+&lt;td width=”100%” align=”center”&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;div align=”left”&gt;
+&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%” bordercolorlight=”#000080”&gt;</p>
+<blockquote>
+<div><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td width=”100%” valign=”baseline”&gt;</dt><dd><p>&lt;p align=”center”&gt;&lt;b&gt;&lt;font face=”Arial” size=”7” color=”#000080”&gt;NetProg&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><dl class="simple">
+<dt>&lt;td bgcolor=”#000080” height=”0”&gt;</dt><dd><p>&lt;p style=”text-indent: -4; margin-top: -17”&gt;&amp;nbsp;&lt;/td&gt;</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;/table&gt;</dt><dd><blockquote>
+<div><p>&lt;/div&gt;
+&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”175” valign=”top” align=”center” bgcolor=”#FFFFE6”&gt;</p>
+<blockquote>
+<div><p>&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+</dd>
+<dt>&lt;table width=”220” cellspacing=”0” cellpadding=”0” style=”border-collapse: collapse” bordercolor=”#111111” bgcolor=”#FFFFE6”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”220” colspan=”4” height=”100” align=”center”&gt;</p>
+<blockquote>
+<div><p>&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;</p>
+</div></blockquote>
+<p>&lt;img src=”../images/blank.gif” width=”18” height=”1” border=”0”&gt;&lt;p&gt;
+&lt;a href=”<a class="reference external" href="http://sourceforge.net">http://sourceforge.net</a>”&gt;
+&lt;img border=”0” src=”<a class="reference external" href="http://sourceforge.net/sflogo.php?group_id=144520&amp;amp;type=4">http://sourceforge.net/sflogo.php?group_id=144520&amp;amp;type=4</a>”&gt;&lt;/a&gt;&lt;br&gt;</p>
+<blockquote>
+<div><p>&lt;/font&gt;</p>
+</div></blockquote>
+<p>&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan=”2” width=”188”&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1” color=”#000080”&gt;&lt;b&gt;
+NETPROG&amp;nbsp; PRESENTATION&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+</div></blockquote>
+<p>&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1”&gt;
+&lt;a href=”../index.html”&gt;OverView&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1”&gt;
+&lt;a href=”../Functionalities.html”&gt;Functionalities&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;b&gt;&lt;a href=”../Programming.html”&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;
+Programming&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”14” valign=”top”&gt;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;/td&gt;
+&lt;td valign=”top” width=”17”&gt;&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;
+&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+<blockquote>
+<div><p>&lt;/font&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;td valign=”top” width=”171”&gt;&lt;b&gt;&lt;a href=”API_index.html”&gt;
+&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2” color=”#FF9900”&gt;API&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;</p>
+<blockquote>
+<div><p>&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”14” valign=”top”&gt;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;/td&gt;
+&lt;td valign=”top” width=”17”&gt;&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;
+&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+<blockquote>
+<div><p>&lt;/font&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;td valign=”top” width=”171”&gt;&lt;a href=”../Prog_C_Examples.html”&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;
+C Examples&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;</p>
+<p>&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1”&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;
+&lt;a href=”<a class="reference external" href="https://sourceforge.net/project/showfiles.php?group_id=144520">https://sourceforge.net/project/showfiles.php?group_id=144520</a>”&gt;
+Download&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/font&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><p>&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;td&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td valign=”top” width=”100%”&gt;&lt;b&gt;&lt;font face=”Verdana” size=”4” color=”#000080”&gt;MXFreeContext&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td valign=”baseline” align=”right” nowrap&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;&lt;b&gt;&lt;font color=”#FF9900”&gt;C</p>
+<blockquote>
+<div><p>NetProg Library&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><dl>
+<dt>&lt;td valign=”top” colspan=”2” bgcolor=”#FFAE1F” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”100%”&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+</dd>
+</dl>
+<p>&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<p>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+<dl>
+<dt>&lt;table border=”0” width=”100%” cellspacing=”0” cellpadding=”8”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><dl>
+<dt>&lt;td align=”left” valign=”top”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;#include</dt><dd><p>&amp;quot;mx.h&amp;quot;&lt;/font&gt;
+&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%”&gt;</p>
+<blockquote>
+<div><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”0%”&gt;&lt;/td&gt;
+&lt;td width=”50%”&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”0%”&gt;&lt;/td&gt;
+&lt;td width=”50%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;void       MXFreeContext (MXMessageContext* pcontext)&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</div></blockquote>
+<p>&lt;/table&gt;
+&lt;p&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&lt;b&gt;&lt;/b&gt;&lt;/font&gt;</p>
+</dd>
+</dl>
+<p>&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%” bordercolor=”#000000” bordercolordark=”#000080” bordercolorlight=”#000080”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”10%” height=”21” valign=”top”&gt;&lt;b&gt;&lt;font color=”#000080” size=”2” face=”Verdana”&gt;Parameters&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td bordercolor=”#000080” bordercolorlight=”#000080” bordercolordark=”#000080” height=”21” valign=”top”&gt;&lt;b&gt;&lt;font color=”#000080” size=”2” face=”Verdana”&gt;Description&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”10%” align=”left”&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;i&gt;pcontext&lt;/i&gt;&lt;/font&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”20%” align=”left”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%” bordercolor=”#000000” bordercolordark=”#000080” bordercolorlight=”#000080”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td valign=”top” width=”100%”&gt;</dt><dd><p>&lt;p align=”left”&gt;&lt;font color=”#000080” size=”2” face=”Verdana”&gt;&lt;b&gt;Description
+:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;br&gt;
+&lt;/b&gt;&lt;/p&gt;</p>
+</dd>
+</dl>
+<p>&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%” bordercolor=”#000000” bordercolordark=”#000080” bordercolorlight=”#000080”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td valign=”top”&gt;&lt;font color=”#000080” size=”2” face=”Verdana”&gt;&lt;b&gt;Return</dt><dd><p>Values :&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;br&gt;
+&lt;/b&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%” bordercolor=”#000000” bordercolordark=”#000080” bordercolorlight=”#000080”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td valign=”top”&gt;&lt;font color=”#000080” size=”2” face=”Verdana”&gt;&lt;b&gt;See Also</dt><dd><p>:&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;br&gt;
+&lt;/b&gt;
+&lt;/font&gt;&lt;font size=”2” face=”Verdana”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%” bordercolor=”#000000” bordercolordark=”#000080” bordercolorlight=”#000080”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td valign=”top” width=”100%”&gt;&lt;font color=”#000080” size=”2” face=”Verdana”&gt;&lt;b&gt;Example</dt><dd><p>:&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;br&gt;
+&lt;/b&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><p>&lt;p&gt;&amp;nbsp;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;td&gt;&amp;nbsp;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</div></blockquote>
+<p>&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</p>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="MXCheckType2.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="MXAllocateContext.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

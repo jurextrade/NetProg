@@ -1,0 +1,7 @@
+﻿  sclex.c
+D:\PROJECTS\MT4-Progress\NetProg\src\sclex.c(116,25): warning C4013: 'yylook' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\sclex.c(117,8): warning C4102: 'yyfussy': unreferenced label
+D:\PROJECTS\MT4-Progress\NetProg\src\sclex.c(976,37): warning C4101: 'yyw': unreferenced local variable
+wsock32.lib(WSOCK32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in odbc32.lib(ODBC32.dll); second definition ignored
+oscom.obj : warning LNK4006: ___WSAFDIsSet@8 already defined in wsock32.lib(WSOCK32.dll); second definition ignored
+  NetProgLib.vcxproj -> D:\PROJECTS\MT4-Progress\NetProg\lib\Debug\NetProg.lib

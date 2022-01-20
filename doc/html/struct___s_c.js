@@ -1,0 +1,28 @@
+var struct___s_c =
+[
+    [ "ApplicationField", "struct___s_c.html#a824d6b3a6259bc31c8147f8a56d4d84c", null ],
+    [ "BreakPoints", "struct___s_c.html#ae5e8ac749802c8b0a50ae2d511682f6d", null ],
+    [ "Clients", "struct___s_c.html#a4361de644a67ad52391d9ac7d6e4ce69", null ],
+    [ "Com", "struct___s_c.html#af88d2e33edec73f717dba066898df840", null ],
+    [ "Communications", "struct___s_c.html#a566a459b0b1f6a3b0d3e98e6d17a196b", null ],
+    [ "CurrentFileName", "struct___s_c.html#acf2c0a6ea18a8babc9f7d833e0652d6c", null ],
+    [ "CurrentSection", "struct___s_c.html#a2669e2354d78fed962f605ca33c461df", null ],
+    [ "EndingProcedure", "struct___s_c.html#aae2cfe43e488e57cd3d8e3f60b90f849", null ],
+    [ "InteractiveSection", "struct___s_c.html#a3efa28def8e915018cf62c33ceabb7c0", null ],
+    [ "LastActionIdentity", "struct___s_c.html#aac84873e7d14f5bc61108ca2504008cd", null ],
+    [ "LastError", "struct___s_c.html#a86b17a6cbf5bf0545a287d3a1caf6dc4", null ],
+    [ "ListActions", "struct___s_c.html#a6df00bae677c18eac7d1cdfa0ccd91dc", null ],
+    [ "ListAddedActions", "struct___s_c.html#a86389df3fb0fae43c0c244aacf3431df", null ],
+    [ "ListClientFunctions", "struct___s_c.html#a471488d659e4a4e3b2dc236babc6adb5", null ],
+    [ "ListComFunctions", "struct___s_c.html#a589de49d3f24072fbf2c3ba3c09aea4e", null ],
+    [ "ListDoingActions", "struct___s_c.html#a7464c845ec220d6e13cd4f8f1e748d23", null ],
+    [ "ListEntities", "struct___s_c.html#a7d9b8bb7f8913247ad0cdbac1aef712c", null ],
+    [ "ListSections", "struct___s_c.html#a7058b176c639f76e5b201cb5044e4b78", null ],
+    [ "ListSystemActions", "struct___s_c.html#a4f59f0ae5abf9f3d8d0876700d22ff14", null ],
+    [ "ListVariables", "struct___s_c.html#a89ec7033f5146a09e946ee8ae85674e3", null ],
+    [ "ListWaitingActions", "struct___s_c.html#af19d28a0c169d67f858424b53cb39696", null ],
+    [ "MX", "struct___s_c.html#a96260d2c0f62a602ca4626829d9f7345", null ],
+    [ "NbSections", "struct___s_c.html#a28ec5f76dd5719e503b0d1eb4677fbd8", null ],
+    [ "TraceProcedure", "struct___s_c.html#a0af44235535e525d5d05a1172d61c8be", null ],
+    [ "Version", "struct___s_c.html#ab10f9dea685b916af3687d88c44da5ef", null ]
+];

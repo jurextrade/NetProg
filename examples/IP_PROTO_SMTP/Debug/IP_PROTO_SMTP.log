@@ -1,0 +1,5 @@
+﻿  ip_proto_smtp.c
+D:\PROJECTS\MT4-Progress\NetProg\examples\IP_PROTO_SMTP\ip_proto_smtp.c(26,18): warning C4101: 'message': unreferenced local variable
+D:\PROJECTS\MT4-Progress\NetProg\examples\IP_PROTO_SMTP\ip_proto_smtp.c(25,11): warning C4101: 'SMTPCom': unreferenced local variable
+D:\PROJECTS\MT4-Progress\NetProg\examples\IP_PROTO_SMTP\ip_proto_smtp.c(24,15): warning C4101: 'pmessage': unreferenced local variable
+LINK : fatal error LNK1104: cannot open file '..\..\lib\Debug\NetProg.lib'

@@ -1,0 +1,20 @@
+DIALOG 7 *edipharm1*
+
+BEGIN
+   
+MESSAGE demandeconnexion 
+(STRING session STRING passwd1)
+   
+MESSAGE retourconnexion (STRING session SHORT ret)
+   
+MESSAGE demandesession (WORD session)
+   
+MESSAGE retoursession (SHORT ok)
+   
+MESSAGE finconnexion (STRING session)
+   
+MESSAGE retourfinconnexion (WORD ok STRING sdsds)
+
+END
+
+

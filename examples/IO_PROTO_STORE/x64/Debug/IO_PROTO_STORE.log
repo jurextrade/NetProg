@@ -1,0 +1,22 @@
+﻿  io_proto_store.c
+D:\PROJECTS\MT4-Progress\NetProg\examples\IO_PROTO_STORE\io_proto_store.c(15,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\examples\IO_PROTO_STORE\io_proto_store.c(17,57): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\examples\IO_PROTO_STORE\io_proto_store.c(36,56): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\examples\IO_PROTO_STORE\io_proto_store.c(50,55): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\examples\IO_PROTO_STORE\io_proto_store.c(52,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  LINK : D:\PROJECTS\MT4-Progress\NetProg\x64\Debug\IO_PROTO_STORE.exe not found or not built by the last incremental link; performing full link
+io_proto_store.obj : error LNK2019: unresolved external symbol MXInit referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXEnd referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXDispatchEvents referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXSetValue referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXGetValue referenced in function GetReply
+io_proto_store.obj : error LNK2019: unresolved external symbol MXOpenTCP referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXOpenFile referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXCloseCom referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXFlushCom referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXPutMessage referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXPutThisMessage referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXRecv referenced in function main
+io_proto_store.obj : error LNK2019: unresolved external symbol MXAddComCallBack referenced in function main
+D:\PROJECTS\MT4-Progress\NetProg\lib\Debug\NetProg.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\PROJECTS\MT4-Progress\NetProg\x64\Debug\IO_PROTO_STORE.exe : fatal error LNK1120: 13 unresolved externals

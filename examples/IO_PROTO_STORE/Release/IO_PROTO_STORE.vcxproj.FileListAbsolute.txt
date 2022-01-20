@@ -1,0 +1,2 @@
+D:\PROJECTS\MT4-Progress\NetProg\examples\IO_PROTO_STORE\Release\IO_PROTO_STORE.exe
+D:\PROJECTS\NetProg\examples\IO_PROTO_STORE\Release\IO_PROTO_STORE.exe

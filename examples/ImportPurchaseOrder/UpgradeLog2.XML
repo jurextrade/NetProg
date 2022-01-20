@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ImportPurchaseOrder">
+</Property><Property Name="Solution File" Value="D:\PROJECTS\MT4-Progress\NetProg\examples\ImportPurchaseOrder\ImportPurchaseOrder.sln">
+</Property><Property Name="Date" Value="mercredi 30 novembre 2016">
+</Property><Property Name="Time" Value="19:30">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="3" Project="ImportPurchaseOrder" Source="ImportPurchaseOrder.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="ImportMaterialReceipt" Source="..\ImportMaterialReceipt\ImportMaterialReceipt.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="ImportInventory" Source="..\ImportInventory\ImportInventory.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="ImportOrders" Source="..\ImportOrders\ImportOrders.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="ImportVendorInvoice" Source="..\ImportVendorInvoice\ImportVendorInvoice.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="SetDataBase" Source="..\SetDataBase\SetDataBase.vcproj" Description="Converting project file 'D:\PROJECTS\MT4-Progress\NetProg\examples\SetDataBase\SetDataBase.vcproj'.">
+</Event><Event ErrorLevel="2" Project="SetDataBase" Source="..\SetDataBase\SetDataBase.vcproj" Description="File 'D:\PROJECTS\MT4-Progress\NetProg\examples\SetDataBase\SetDataBase.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="SetDataBase" Source="..\SetDataBase\SetDataBase.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="SetDataBase" Source="..\SetDataBase\SetDataBase.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ImportPurchaseOrder.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="ImportPurchaseOrder.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

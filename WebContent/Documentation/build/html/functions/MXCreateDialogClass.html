@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MXCreateDialogClass &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Message functions" href="../Message_functions.html" />
+    <link rel="prev" title="MXEnd" href="MXEnd.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+            <img src="../_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Programming.html">Programming</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../API.html">API</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../Initialization.html">Initialization</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="MXInit.html">MXInit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXEnd.html">MXEnd</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">MXCreateDialogClass</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Message_functions.html">Message functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Connection_functions.html">Connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Send_Receive_functions.html">Sending Receiving</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Callbacks.html">Callbacks</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../CExamples.html">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../Programming.html">Programming</a> &raquo;</li>
+          <li><a href="../API.html">API</a> &raquo;</li>
+          <li><a href="../Initialization.html">Initialization</a> &raquo;</li>
+      <li>MXCreateDialogClass</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/functions/MXCreateDialogClass.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mxcreatedialogclass">
+<h1>MXCreateDialogClass<a class="headerlink" href="#mxcreatedialogclass" title="Permalink to this headline"></a></h1>
+<p>#include “mx.h”
+MXDialogClass* MXCreateDialogClass (MX* pmx, char* name, WORD code)</p>
+<p>Parameters      Description
+pmx     the MX manager
+name    the name of the dialog class to create
+code    the identifier of the dialog class</p>
+<p>Description :</p>
+<p>Creates a dialog class. This function is equivalent to the DIALOG section in the MX Resource File. The code and name must be unique in the application. Both sides of the communicating applications should have the same code and name to communicate messages belonging to this dialog</p>
+<p>Usually when two applications need to communicate, they define a dialog class that should be loaded on both sides. Connections that use a user defined Dialog have the protocol type IPPROTO_DG. An application connects to the other application with the MXOpenTCP function with IPPROTO_DG parameter, all messages belonging to these dialog classes will be understood by both sides.</p>
+<p>Predefined Dialog classes exist in the system. These classes are used for known protocols. It offers an elegant way to communicate with existing servers lihe FTP, HTTP, POP,…</p>
+<p>The following class in your program</p>
+<blockquote>
+<div><p>pclass = MXCreateDialogClass(pmx, “MyClass” , 3);</p>
+<p>MXCreateMessageClass(pmx, pclass, “ParseString”, 1, 3, “STRING”, 1, “String”, “LONG”, 1, “Identity”, “WORD”, 1, “Persistency”);
+MXCreateMessageClass(pmx, pclass, “ParseReply”, 2, 6, “LONG”, 1, “Identity”, “WORD”, 1, “Persistency”, “SHORT”, 1, “Type”,</p>
+<blockquote>
+<div><p>“WORD”, 1, “Defined”, “STRING”, 1, “Val”, “LONG”, 1, “Error”);</p>
+</div></blockquote>
+</div></blockquote>
+<p>is equivalent in the resource file to</p>
+<blockquote>
+<div><p>DIALOGCLASS 3 <em>MyClass</em>
+BEGIN</p>
+<blockquote>
+<div><p>MESSAGECLASS ParseStirng (STRING String LONG Identity WORD Persistency)
+MESSAGECLASS parseReply (LONG Identity WORD Persistency SHORT Type WORD Defined STRING Val LONG error)</p>
+</div></blockquote>
+<p>END</p>
+</div></blockquote>
+<p>Return Values : returns the dialog class pointer if succeeded else returns NULL</p>
+<p>See Also : MXCreateMessageClass, MXAddObjectToMessageClass</p>
+<dl>
+<dt>Example :</dt><dd><p>MXDialogClass * pclass;</p>
+<p>pclass = MXCreateDialogClass (pmx, DNS_SYS, DNS_SYS_CODE);</p>
+<dl class="simple">
+<dt>MXCreateMessageClass (pmx, pclass, “Query”, 1, 6, “LONG”, 1, “Identity”,</dt><dd><p>“WORD”, 1, “Operation”,
+“WORD”, 1, “QClass”,
+“WORD”, 1, “QType”,
+“STRING”, 1, “Domain”,
+“BUFFER”, 1, “RecordData”);</p>
+</dd>
+<dt>MXCreateMessageClass (pmx, pclass, “Reply”, 1, 13,”LONG”, 1, “Identity”,</dt><dd><p>“WORD”, 1, “Operation”,
+“WORD”, 1, “QClass”,
+“WORD”, 1, “QType”,
+“STRING”, 1, “Domain”,
+“WORD”, 1, “Code”,
+“WORD”, 1, “AnswerCount”,
+“WORD”, 1, “AuthorityCount”,
+“WORD”, 1, “AdditionalCount”,
+“WORD”, 60,”Section”,
+“STRING”, 60,”Name”,
+“WORD”, 60,”Type”,
+“STRING”, 60,”Value”);</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="MXEnd.html" class="btn btn-neutral float-left" title="MXEnd" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../Message_functions.html" class="btn btn-neutral float-right" title="Message functions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

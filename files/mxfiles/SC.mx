@@ -1,0 +1,31 @@
+DIALOG 30002 SC
+BEGIN
+   MESSAGE ParseString (STRING String LONG Identity WORD Persistency)
+   MESSAGE ParseReply (LONG Identity WORD Persistency SHORT Type WORD Defined STRING Val LONG Error)
+   MESSAGE ShareVariable (LONG Identity STRING Variable)
+   MESSAGE ShareReply (LONG Identity STRING Variable LONG Error)
+   MESSAGE GetEntityValue (STRING Variable LONG Identity)
+   MESSAGE GetEntityValueReply (STRING Variable LONG Identity SHORT Type WORD Defined STRING Val LONG Error)
+   MESSAGE SetEntityValue (STRING Variable LONG Identity SHORT Type WORD Defined STRING Val)
+   MESSAGE Login (STRING User STRING Password LONG Identity)
+   MESSAGE LoginReply (STRING User STRING Password LONG Identity LONG Error)
+   MESSAGE RemoteDebug (WORD Flag)
+   MESSAGE RemoteParse (STRING FileName BUFFER Content WORD Debug)
+   MESSAGE RemoteTraceAction (STRING Name STRING FileName WORD LineNumber)
+   MESSAGE RemoteTrace (STRING Content LONG LineNumber STRING FileName)
+   MESSAGE RemotePrint (STRING Content STRING FileName)
+   MESSAGE RemoteClear ()
+   MESSAGE RemoteSections ()
+   MESSAGE RemoteVariables ()
+   MESSAGE RemoteSendSection (STRING Name STRING FileName WORD LineNumber)
+   MESSAGE RemoteSendVariable (STRING Name)
+   MESSAGE RemoteStep ()
+   MESSAGE RemoteInStep ()
+   MESSAGE RemoteInsertBP (STRING FileName WORD LineNumber)
+   MESSAGE RemoteRemoveBP ()
+   MESSAGE BPReply (STRING FileName WORD LineNumber LONG Error)
+   MESSAGE RemoteContinue ()
+   MESSAGE RemoteBlocked (STRING FileName WORD LineNumber WORD Blocked)
+END
+
+

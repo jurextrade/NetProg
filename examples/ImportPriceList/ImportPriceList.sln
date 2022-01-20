@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportPriceList", "ImportPriceList.vcproj", "{65A1EABA-52C4-402C-A4E8-48D208D6550B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportCustomerInvoice", "..\ImportCustomerInvoice\ImportCustomerInvoice.vcproj", "{9BF11A49-9E12-4479-89C2-B865AB529141}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{65A1EABA-52C4-402C-A4E8-48D208D6550B}.Debug.ActiveCfg = Debug|Win32
+		{65A1EABA-52C4-402C-A4E8-48D208D6550B}.Debug.Build.0 = Debug|Win32
+		{65A1EABA-52C4-402C-A4E8-48D208D6550B}.Release.ActiveCfg = Release|Win32
+		{65A1EABA-52C4-402C-A4E8-48D208D6550B}.Release.Build.0 = Release|Win32
+		{9BF11A49-9E12-4479-89C2-B865AB529141}.Debug.ActiveCfg = Debug|Win32
+		{9BF11A49-9E12-4479-89C2-B865AB529141}.Debug.Build.0 = Debug|Win32
+		{9BF11A49-9E12-4479-89C2-B865AB529141}.Release.ActiveCfg = Release|Win32
+		{9BF11A49-9E12-4479-89C2-B865AB529141}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

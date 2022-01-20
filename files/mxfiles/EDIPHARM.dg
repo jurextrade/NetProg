@@ -1,0 +1,12 @@
+{1}EDIPHARM(
+{1}OpenConnection(STRING Name )
+{2}ReturnConnection(STRING Name )
+{3}OpenSession(STRING Name )
+{4}ReturnSession(SHORT OK )
+{5}SendFiles()
+{6}ReturnFiles()
+{7}CloseSession(STRING Session )
+{8}ReturnSession(SHORT OK LONG NOTOK )
+{9}ezredfdsfdfdfds(WORD dsfsdfsfsd )
+{10}fdfdfdfdfdf()
+)

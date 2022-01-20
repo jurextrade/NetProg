@@ -1,0 +1,20 @@
+DIALOG 30000 SYSTEM
+BEGIN
+   MESSAGE SendFile (STRING Command LONG Identity SHORT NbFiles SHORT NbFile FILE File)
+   MESSAGE GetFiles (STRING Command LONG Identity STRING FileNames STRING LocalRepertory CHAR FileType CHAR LocalFileLoc CHAR DistantFileLoc)
+   MESSAGE GetFile (STRING Command LONG Identity STRING FileName STRING DestName CHAR FileType CHAR LocalFileLoc CHAR DistantFileLoc)
+   MESSAGE RemoveFiles (STRING Command LONG Identity STRING FileNames CHAR FileLoc)
+   MESSAGE RenameFile (STRING Command LONG Identity STRING OldName STRING NewName CHAR FileLoc)
+   MESSAGE FileReply (STRING Command LONG Identity STRING FileName SHORT NbFiles SHORT NbFile LONG Error)
+   MESSAGE ChangeDir (STRING Command LONG Identity STRING NewDir CHAR FileLoc)
+   MESSAGE MakeDir (STRING Command LONG Identity STRING Dir CHAR FileLoc)
+   MESSAGE RemoveDir (STRING Command LONG Identity STRING Dir CHAR FileLoc)
+   MESSAGE GetDir (STRING Command LONG Identity CHAR FileLoc)
+   MESSAGE DirReply (STRING Command LONG Identity STRING Dir LONG Error)
+   MESSAGE PutError (STRING Param LONG Identity SHORT Stop LONG Error)
+   MESSAGE AckMessage (LONG Identity DWORD Date DWORD Hour LONG Error)
+   MESSAGE SendClassConnection (STRING Name WORD Port WORD Code STRING TableName BYTE FromTo)
+   MESSAGE ReplyClassConnection (STRING Name LONG Error)
+END
+
+

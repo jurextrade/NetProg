@@ -1,0 +1,31 @@
+19990124 15:50:08     ECONNREFUSED : Attempt to connect was forcefully rejected. $
+19990124 15:50:15     ECONNREFUSED : Attempt to connect was forcefully rejected. $
+19990124 15:52:09     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 15:52:09     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 15:52:09     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 15:57:52     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 15:57:52     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 16:00:35     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 16:00:35     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:14:06     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:20:58     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 5] Erreur (0) str (syntax error) $
+19990124 18:21:09     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 5] Erreur (0) str (syntax error) $
+19990124 18:22:36     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 5] Erreur (272) str (Ðô) $
+19990124 18:22:42     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 5] Erreur (272) str (Ðô) $
+19990124 18:22:53     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 5] Erreur (272) str (Ðô) $
+19990124 18:23:30     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:30:22     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 4] Erreur (272) str (Ðô) $
+19990124 18:33:10     Erreur Lex-Yacc [File : D:\PROJECTS\vnad\scfiles\dbaccess.sc][line : 4] Erreur (272) str (Ðô) $
+19990124 18:35:19     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:40:50     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:40:50     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:45:52     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:49:31     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:51:50     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:51:50     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 18:51:50     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990124 19:00:35     ECONNRESET : The virtual circuit was reset by the remote side. $
+19990125 12:47:43     ETIMEDOUT : Attempt to connect timed out without establishing a connection. $
+19990125 12:48:50     ETIMEDOUT : Attempt to connect timed out without establishing a connection. $
+19990125 12:49:42     ETIMEDOUT : Attempt to connect timed out without establishing a connection. $
+19990125 12:53:38     ETIMEDOUT : Attempt to connect timed out without establishing a connection. $

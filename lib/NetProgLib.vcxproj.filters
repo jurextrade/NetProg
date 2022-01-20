@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{61a058bb-49fe-4dfb-ab63-729c8bdb082b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{babf7381-58f6-42e1-ad02-fe17271dc36a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="SC Files">
+      <UniqueIdentifier>{c2ee4501-84c8-47d4-a20a-d60b4aa1386c}</UniqueIdentifier>
+      <Extensions>sc</Extensions>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{1e781946-f950-4249-9a9a-88e0f942a2b1}</UniqueIdentifier>
+      <Extensions>html</Extensions>
+    </Filter>
+    <Filter Include="LEXYACC">
+      <UniqueIdentifier>{1a454688-626a-4e38-bd79-fdf4c6b82165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{040e8196-eb3b-4f31-8bfb-67a9f89d42e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\scfiles\a.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\b.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\compile_lexyacc.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\compile_NetProg.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\db.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\db1.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\dbaccess.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\dbaccess1.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\dbaddcolumn.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\dblocalaccess.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\dbsybase.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\dns.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\envoi.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\envoi1.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\essai.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\ftp.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\gr.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\io.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\journal.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\mail.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\Make_NetProgLib32.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\msysobjects.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\mx.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\oracle.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\ov.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\ping.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\pm3.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\remote.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\runsc.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\sc.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\SC1.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\smtp.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\system.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\transfer.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\scfiles\vol.sc">
+      <Filter>SC Files</Filter>
+    </None>
+    <None Include="..\LEXYAC\OSRESLEX.L">
+      <Filter>LEXYACC</Filter>
+    </None>
+    <None Include="..\LEXYAC\OSRESYAC.Y">
+      <Filter>LEXYACC</Filter>
+    </None>
+    <None Include="..\LEXYAC\SCLEX.L">
+      <Filter>LEXYACC</Filter>
+    </None>
+    <None Include="..\LEXYAC\SCYACC.Y">
+      <Filter>LEXYACC</Filter>
+    </None>
+    <None Include="..\..\..\GnuWin32\bin\SCLEX.L">
+      <Filter>LEXYACC</Filter>
+    </None>
+    <None Include="..\system\WINDOWS\makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\cb2a.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cgi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\database.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dnscomp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fiop.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ftp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mail.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mime.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mxmanager.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mxutil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\oscom.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osdate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osdb.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osdraw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\oslist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osmatch.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osras.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osreslex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osresyac.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ostrace.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pop.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scaction.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sclex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scproc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scprocio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scprocmx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scprocop.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scsys.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scyacc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\smtp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sqlodbc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sqlora.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tcp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\u_xlat.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\xf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\cb2a.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cgi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\database.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dns.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fiop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ftp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\http.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ip_icmp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mail.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mxmanager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oscom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osdate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osdb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osdbsta.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osdraw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\oslist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osmatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osras.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osreslex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\osresyac.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ostrace.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ostypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sclex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\scly.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\scyacc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\smtp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\u_xlat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\xf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

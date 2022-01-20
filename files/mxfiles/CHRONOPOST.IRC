@@ -1,0 +1,20 @@
+DIALOGCLASS 7 *edipharm*
+BEGIN
+   MESSAGECLASS demandeconnexion (STRING session STRING passwd1)
+   MESSAGECLASS retourconnexion (STRING session SHORT ret)
+   MESSAGECLASS demandesession (WORD session)
+   MESSAGECLASS retoursession (SHORT ok)
+   MESSAGECLASS finconnexion (STRING session)
+   MESSAGECLASS retourfinconnexion (WORD ok STRING sdsds)
+END
+
+
+CONNECTIONCLASS 1 *ANT_ftp*
+BEGIN
+   FROM  *ds*
+   TABLE   *EbcdicEnglish-WindowsExtended*
+   PROTOCOL   FTP
+   TRANSFERFORMAT   TO
+   DESCRIPTION $dfdfdjkfj
+END
+

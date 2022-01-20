@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MXEnd &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="MXCreateDialogClass" href="MXCreateDialogClass.html" />
+    <link rel="prev" title="MXInit" href="MXInit.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+            <img src="../_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Programming.html">Programming</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../API.html">API</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../Initialization.html">Initialization</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="MXInit.html">MXInit</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">MXEnd</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXCreateDialogClass.html">MXCreateDialogClass</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXCreateMessageClass.html">MXCreateMessageClass</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXCreateMessage.html">MXCreateMessage</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Message_functions.html">Message functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Connection_functions.html">Connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Send_Receive_functions.html">Sending Receiving</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Callbacks.html">Callbacks</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../CExamples.html">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../Programming.html">Programming</a> &raquo;</li>
+          <li><a href="../API.html">API</a> &raquo;</li>
+          <li><a href="../Initialization.html">Initialization</a> &raquo;</li>
+      <li>MXEnd</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/functions/MXEnd.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mxend">
+<h1>MXEnd<a class="headerlink" href="#mxend" title="Permalink to this headline"></a></h1>
+<p><em>#include “mx.h”</em></p>
+<dl class="c function">
+<dt class="sig sig-object c" id="c.MXEnd">
+<span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">MXEnd</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">MX</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n"><span class="pre">pmx</span></span><span class="sig-paren">)</span><a class="headerlink" href="#c.MXEnd" title="Permalink to this definition"></a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pmx</strong> – the MX manager</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>no return value</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>This function terminates the MX session of an application. Usually it is called at the end of the program before exiting. It frees all resources, closes all the connections.</p>
+</dd>
+<dt class="field-even">See Also</dt>
+<dd class="field-even"><p><a class="reference internal" href="MXInit.html#c.MXInit" title="MXInit"><code class="xref c c-func docutils literal notranslate"><span class="pre">MXInit()</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Example</span><a class="headerlink" href="#id1" title="Permalink to this code"></a></div>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="w"> </span><span class="p">()</span><span class="w"></span>
+<span class="linenos"> 2</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="linenos"> 3</span><span class="w">   </span><span class="n">MX</span><span class="w"> </span><span class="n">mx</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="w">   </span><span class="n">MXInit</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">MXSERVER</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
+<span class="linenos"> 6</span><span class="w">   </span><span class="n">MXAddPort</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="mi">7080</span><span class="p">,</span><span class="w"> </span><span class="n">IPPROTO_TCP</span><span class="p">);</span><span class="w"></span>
+<span class="linenos"> 7</span><span class="w">   </span><span class="n">MXAddGeneralConnectCallBack</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">MXONCONNECT</span><span class="p">,</span><span class="w"> </span><span class="n">TCPOnConnect</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
+<span class="linenos"> 8</span><span class="w">   </span><span class="n">MXAddGeneralConnectCallBack</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">MXONCLOSE</span><span class="p">,</span><span class="w"> </span><span class="n">TCPOnClose</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="w">   </span><span class="n">MXDispatchEvents</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">11</span>
+<span class="hll"><span class="linenos">12</span><span class="w">   </span><span class="n">MXEnd</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">);</span><span class="w"></span>
+</span><span class="linenos">13</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="MXInit.html" class="btn btn-neutral float-left" title="MXInit" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="MXCreateDialogClass.html" class="btn btn-neutral float-right" title="MXCreateDialogClass" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

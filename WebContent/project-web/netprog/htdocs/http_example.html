@@ -1,0 +1,550 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>SMTP Example</title>
+</head>
+
+<SCRIPT language=javascript src="2nd_roll_en.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</SCRIPT>
+<body topmargin="0" leftmargin="0" link="#0000FF" vlink="#0099FF">
+
+
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td>
+
+      <img border="0" src="images/eagle.GIF" width="221" height="188">
+      </td>
+      <td width="100%" align="center" bgcolor="#FFFFE6">
+  <div align="left">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" bordercolorlight="#000080">
+    <tr>
+      <td width="100%" valign="baseline">
+        <p align="center"><b><font face="Arial" size="7" color="#000080">NetProg</font></b></td>
+    </tr>
+    <tr>
+      <td bgcolor="#000080" height="0">
+        <p style="text-indent: -4; margin-top: -17">&nbsp;</td>
+    </tr>
+  </table>
+      </div>
+      </td>
+    </tr>
+  </table>
+
+
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 width="100%" >
+
+<tr>
+<th valign=top width="175" bgcolor="#FFFFE6">
+
+      <FONT FACE='Arial,Geneva,Helvetica,san-serif' SIZE=-1>
+
+
+
+
+
+
+
+
+
+
+<table width="220" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111" bgcolor="#FFFFE6">
+  <tr>
+    <td width="220" colspan="4" height="100" align="center">
+
+      <FONT FACE='Arial,Geneva,Helvetica,san-serif' SIZE=-1>
+
+
+
+
+
+
+
+
+
+
+    <img src="images/blank.gif" width="18" height="1" border="0"><p>
+    <a href="http://sourceforge.net">
+    <img border="0" src="http://sourceforge.net/sflogo.php?group_id=144520&amp;type=4"></a><br>
+
+
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td width="14" valign="top">&nbsp;</td>
+    <td width="18" valign="top">&nbsp;</td>
+    <td colspan="2" width="188">
+      <p><font FACE="Arial,Geneva,Helvetica,san-serif" SIZE="-1" color="#000080"><b>
+      NETPROG&nbsp; PRESENTATION</b></font></p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="14" valign="top">&nbsp;</td>
+    <td width="18" valign="top"><img SRC="images/red_bullet.gif" BORDER="0" width="13" height="16"></td>
+    <td valign="top" colspan="2" width="188"><font FACE="Arial,Geneva,Helvetica,san-serif" SIZE="-1"><a href="index.html">
+    OverView</a></font></td>
+  </tr>
+  <tr>
+    <td width="14" valign="top">&nbsp;</td>
+    <td width="18" valign="top"><img SRC="images/red_bullet.gif" BORDER="0" width="13" height="16"></td>
+    <td valign="top" colspan="2" width="188"><font FACE="Arial,Geneva,Helvetica,san-serif" SIZE="-1"><a href="Functionalities.html">
+    Functionalities</a></font></td>
+  </tr>
+  <tr>
+    <td width="14" valign="top">&nbsp;</td>
+    <td width="18" valign="top"><img SRC="images/red_bullet.gif" BORDER="0" width="13" height="16"></td>
+    <td valign="top" colspan="2" width="188"><b><a href="Programming.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2">
+    Programming</font></a></b></td>
+  </tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+  <td width="14" valign="top"></td>
+  <td width="18" valign="top"></td>
+  <td valign="top" width="17"><FONT FACE='Arial,Geneva,Helvetica,san-serif' SIZE=-1>
+  <img SRC="images/red_bullet.gif" BORDER="0" width="13" height="16"></font></td>
+
+
+      </font>
+<td valign="top" width="171"><a href="Doc/API_index.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2">
+API</font></a></td>
+</tr>
+
+      <FONT FACE='Arial,Geneva,Helvetica,san-serif' SIZE=-1>
+
+
+
+
+
+
+
+
+
+
+<tr>
+  <td width="14" valign="top"></td>
+  <td width="18" valign="top"></td>
+  <td valign="top" width="17"><FONT FACE='Arial,Geneva,Helvetica,san-serif' SIZE=-1>
+  <img SRC="images/red_bullet.gif" BORDER="0" width="13" height="16"></font></td>
+
+
+      </font>
+<td valign="top" width="171"><b><a href="Prog_C_Examples.html">
+<font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#FF9900">C 
+Examples</font></a></b></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+<font FACE="Arial,Geneva,Helvetica,san-serif" SIZE="-1">
+<tr>
+  <td width="14" valign="top">&nbsp;</td>
+  <td width="18" valign="top"><img SRC="images/red_bullet.gif" BORDER="0" width="13" height="16"></td>
+  <td valign="top" colspan="2" width="188"><font face="Arial,Geneva,Helvetica,san-serif" size="2">
+  <a href="https://sourceforge.net/project/showfiles.php?group_id=144520">
+  Download</a></font></td>
+</tr>
+</table>
+</font>
+
+
+</th>
+
+<td VALIGN=top bgcolor="#FFFFFF">
+
+            <table width="100%" cellspacing="0" cellpadding="5" border=0>
+              <tr> 
+                <td colspan="3">
+                <font color="#000080" face="Arial" size="3"><b>HTTP example</b></font></td>
+              </tr>
+              <tr> 
+                <td colspan="3"><font face="Arial,Geneva,Helvetica,san-serif" size="2"><b><font color="#FF9900">C
+      NetProg Programming</font></b></font></td>
+              </tr>
+              <tr valign="top"> 
+                <td width="75"><font size="2" color="#000080"></font></td>
+                <td width="2"><font size="2" color="#000080"><img src="../images/blank.gif" width="2" height="10" border="0"></font></td>
+                <td valign=top align=left width=100%>
+
+<table border="1" cellpadding="0" cellspacing="0" width="90%">
+  <tr>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><b><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP </font></b></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#E9E9E9"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080"><b>client</b></font></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#E9E9E9"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080"><b>server</b></font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080"><b>Connection</b></font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080"><b>Dialog</b></font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2"><b>Examples</b></font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">TCP</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_TCP</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">TCP</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">FTP</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">no</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_FTP</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">FTP</font></td>
+    <td width="20%" valign="middle" align="center"><a href="ftp_example.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2">example</font></a></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center" bgcolor="#FFAE1F"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">HTTP</font></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#FFAE1F"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#FFAE1F"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">no</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#FFAE1F"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_HTTP</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#FFAE1F"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">HTTP</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#FFAE1F"><b><a href="http_example.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></a></b></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">SMTP</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">no</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_SMTP</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">SMTP</font></td>
+    <td width="20%" valign="middle" align="center"><a href="smtp_example.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></a></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">POP</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">no</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_POP</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">POP</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">DNS</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">no</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_DNS</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">DNS</font></td>
+    <td width="20%" valign="middle" align="center"><a href="dns_example.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></a></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">DG</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IP_PROTO_DG</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2"><i>USER_DEFINED</i></font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><b><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IO</font></b></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">STORE</font></td>
+    <td width="10%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">-</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IO_PROTO_STORE</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2"><i>ANY</i>&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center"><a href="store_example.html"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example</font></a></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">FIXED
+      SIZE</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">-</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">IO_PROTO_FIOP</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;<i>USER_DEFINED</i></font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">
+    <a href="fiop_example.html">example</a></font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font size="2" face="Arial,Geneva,Helvetica,san-serif" color="#000080"><b>DATABASE</b></font></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="10%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center" bgcolor="#E9E9E9"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font size="2" face="Arial,Geneva,Helvetica,san-serif" color="#000080">ODBC</font></td>
+    <td width="10%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">yes</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">-</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">DB_PROTO_ODBC</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;DB</font></td>
+    <td width="20%" valign="middle" align="center"><a href="db_example.html"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">example</font></a></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font size="2" face="Arial,Geneva,Helvetica,san-serif" color="#000080">ORACLE</font></td>
+    <td width="10%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">yes&nbsp;</font></td>
+    <td width="10%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">-</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;DB_PROTO_ORACLE</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;DB</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle" align="center"><font size="2" face="Arial,Geneva,Helvetica,san-serif" color="#000080">SQL/DS</font></td>
+    <td width="10%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="10%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;DB_PROTO_SQLDS</font></td>
+    <td width="20%" valign="middle" align="center"><font color="#000080" face="Arial,Geneva,Helvetica,san-serif" size="2">&nbsp;DB</font></td>
+    <td width="20%" valign="middle" align="center"><font face="Arial,Geneva,Helvetica,san-serif" size="2" color="#000080">example&nbsp;</font></td>
+  </tr>
+</table>
+                </td>
+              </tr>
+            </table>
+<p>&nbsp;</p>
+
+<table border="0" width="100%">
+  <tr>
+    <td valign="top" bgcolor="#FFAE1F" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="100%"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+  <tr>
+    <td bgcolor="#FFFFFF" valign="top">
+            <table width="100%" cellspacing="0" cellpadding="5" border=0>
+              <tr> 
+                <td colspan="2"><b><font color="#FF9900" size="2" face="Courier New">&nbsp;</font></b></td>
+              </tr>
+              <tr valign="top"> 
+                <td width="77">
+                  <p><font size="2" color="#000080" face="Courier New"><img src="../images/blank.gif" width="2" height="10" border="0"></font></p>
+                </td>
+                <td valign=top align=left width=100%>
+
+<div align="center">
+  <center>
+  <table border="0" cellspacing="0" width="100%" cellpadding="5">
+    <tr>
+      <td width="100%" valign="top" align="left">
+        <p style="margin: 0"><font face="Courier New" size="2" color="#000080">#include
+        &quot;mx.h&quot;&nbsp;<br>
+        #include &quot;http.h&quot;<br>
+        <br>
+        </font></p>
+        <p style="margin: 0"><font face="Courier New"><b><font color="#000080" size="2">int SendRequest
+        (MXMessage* pmessage, MXCom* pcom, void* AppField)</font><font size="2">
+        </font>
+        </b><font color="#000080" size="2"><br>
+        {<br>
+        &nbsp;&nbsp; char slength[10];<br>
+        &nbsp;&nbsp; char Request[250];<br>
+        &nbsp;&nbsp; char* NumeroLT;<br>
+        &nbsp;&nbsp; BUFFERPARM Buffer;<br>
+        &nbsp;</font></font></p>
+        <p style="margin: 0">&nbsp;</p>
+        <font SIZE="2">
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Request-Line&quot;, 1, </font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &quot;GET http://sourceforge.net/tracker/?group_id=29057&amp;atid=410216 
+        HTTP/1.0&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Host&quot;, 1, &quot;www.sourceforge.net&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Accept&quot; , 1, </font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &quot;image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-excel,\</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        application/msword, application/vnd.ms-powerpoint, */*&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1"></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Accept-Language&quot;,1, &quot;fr&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Accept-Encoding&quot;,1, &quot;gzip, deflate&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;User-Agent&quot;, 1, &quot;Mozilla/4.0 (compatible; MSIE 5.01; Windows NT)&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Proxy-Connection&quot;,1, &quot;Keep-Alive&quot;);</font></p>
+        <p style="margin-top: 1; margin-bottom: 1">
+        <font face="Courier New" color="#000080">&nbsp;&nbsp; MXSetValue (pmessage, 
+        &quot;Pragma&quot; , 1, &quot;no-cache&quot;);</font></p>
+        </font>
+        <p style="margin: 0"><font color="#000080" size="2" face="Courier New"><br>
+        &nbsp;&nbsp;&nbsp;<br>
+        &nbsp;&nbsp; return 1;<br>
+        }<br>
+        <br>
+        <b>
+        int RecvResponse (MXMessage* pmessage, MXCom* pcom, void* AppField)</b><br>
+        {<br>
+        &nbsp;&nbsp; BUFFERPARM* Buffer;<br>
+        &nbsp;&nbsp; STRING Response;<br>
+        &nbsp;&nbsp; int i = 0;<br>
+        &nbsp;&nbsp; int j = 0;<br>
+        &nbsp;&nbsp;&nbsp;</font></p>
+        <p style="margin: 0"><font face="Courier New" size="2" color="#000080">&nbsp;&nbsp;
+        Response =
+        (STRING)MXGetValue (pmessage, &quot;Status-Line&quot;, 1);<br>
+        &nbsp;&nbsp; Buffer = (BUFFERPARM*)MXGetValue (pmessage, "Content", 1);<br>
+        </font></p>
+        <p style="margin: 0">&nbsp;</p>
+        <p style="margin: 0"><b>
+        <font color="#008000" size="2" face="Courier New">/*
+        RETURN url is in Buffer-&gt;BufferContent */</font></b><font color="#000080" face="Courier New" size="2"><br>
+        &nbsp;</font></p>
+        <p style="margin: 0"><font color="#000080" face="Courier New" size="2">&nbsp;&nbsp; 
+        FILE*f = fopen (&quot;C:/response.html&quot;, &quot;wt&quot;);<br>
+&nbsp;&nbsp; fwrite (buffer-&gt;BufferContent, 1, buffer-&gt;BufferSize, f);<br>
+&nbsp;&nbsp; fclose (f);</font></p>
+        <p style="margin: 0">&nbsp;</p>
+        <p style="margin: 0"><font color="#000080" face="Courier New" size="2">
+        <br>
+        &nbsp;&nbsp; free (Buffer-&gt;BufferContent);<br>
+        &nbsp;&nbsp; free (Buffer);<br>
+        &nbsp;&nbsp; return 1;<br>
+        }<br>
+        <br>
+        <br>
+        <br>
+        </font></p>
+        <p style="margin: 0"><b>
+        <font face="Courier New" size="2" color="#000080">void main ()</font></b></p>
+        <p style="margin: 0"><font face="Courier New" size="2" color="#000080">{</font></p>
+        <p style="margin: 0"><font face="Courier New" size="2" color="#000080">&nbsp;&nbsp; MX
+        mx;<br>
+        &nbsp;&nbsp; MXMessage* pmessage;<br>
+        &nbsp;&nbsp; MXCom* HTTPCom;<br>
+        <br>
+        </font></p>
+        <p style="margin: 0"><b>
+        <font color="#008000" size="2" face="Courier New">/*
+        Initialize MX manager */</font></b><font size="2" face="Courier New"><br>
+        <br>
+        </font>
+        </p>
+        <p style="margin: 0">
+        <font size="2" color="#000080" face="Courier New">
+        &nbsp;&nbsp; MXInit (&amp;mx, MXSERVER, NULL, NULL, 0, NULL);<br>
+        <br>
+        </font>
+        <font face="Verdana">
+        <b><font face="Courier New" size="2" color="#008000">
+        /* Connect to http server */
+        </font></b>
+        </font><font face="Courier New" size="2">
+        <br>
+        <font color="#000080">
+        <br>
+        &nbsp;&nbsp; HTTPCom = MXOpenTCP (&amp;mx, &quot;www.sourceforge.net&quot;,  80,
+        IPPROTO_HTTP, NULL, NULL, TRUE);<br>
+        &nbsp;&nbsp; if (!HTTPCom) return;<br>
+        <br>
+        &nbsp;&nbsp; MXAddComCallBack (&amp;mx, HTTPCom, HTTP_SYS, &quot;Response&quot;,MXONRECV,
+        RecvResponse, NULL);&nbsp;<br>
+        &nbsp;&nbsp; MXAddComCallBack (&amp;mx, HTTPCom, HTTP_SYS, &quot;Request&quot;,
+        MXONSEND, SendRequest,&nbsp; NULL);&nbsp;</font><br>
+        </font><font face="Verdana">
+        <font face="Courier New" size="2" color="#000080">
+        <br>
+        </font>
+        <font size="2" face="Courier New">
+        <b><font size="2" color="#008000">
+        /*
+Put message in queue */
+        </font></b><font color="#000080">
+        <br>
+        <br>
+        &nbsp;&nbsp; pmessage = MXPutMessage (HTTPCom, HTTP_SYS, &quot;Request&quot;);<br>
+        <br>
+        </font>
+ </font>
+        </font></p>
+        <p style="margin: 0"><font face="Courier New" size="2" color="#000080">&nbsp;&nbsp;
+        MXDispatchEvents (&amp;mx, 0);<br>
+        <br>
+        &nbsp;&nbsp; MXEnd (&amp;mx);<br>
+        <br>
+        }<br>
+        </font></p>
+        <p>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="100%" valign="top" align="left">
+        &nbsp;</td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="left" style="margin: 0">&nbsp;</p>
+                </td>
+              </tr>
+            </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" valign="top">
+<p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+</td>
+
+</tr>
+
+</table>
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+
+<hr>
+
+
+
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

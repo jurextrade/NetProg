@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MXAddAddComCallBack &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="MXAddEndingProcedure.html" />
+    <link rel="prev" title="MXAddCallBack" href="MXAddCallBack.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+            <img src="../_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Programming.html">Programming</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../API.html">API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../Initialization.html">Initialization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Message_functions.html">Message functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Connection_functions.html">Connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Send_Receive_functions.html">Sending Receiving</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../Callbacks.html">Callbacks</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="MXAddApplicationProcedure.html">MXAddApplicationProcedure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXAddCallBack.html">MXAddCallBack</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">MXAddAddComCallBack</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../CExamples.html">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../Programming.html">Programming</a> &raquo;</li>
+          <li><a href="../API.html">API</a> &raquo;</li>
+          <li><a href="../Callbacks.html">Callbacks</a> &raquo;</li>
+      <li>MXAddAddComCallBack</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/functions/MXAddComCallBack.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mxaddaddcomcallback">
+<h1>MXAddAddComCallBack<a class="headerlink" href="#mxaddaddcomcallback" title="Permalink to this headline"></a></h1>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Example</span><a class="headerlink" href="#id1" title="Permalink to this code"></a></div>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="cp">&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML//EN&quot;&gt;</span>
+<span class="linenos">  2</span> <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="linenos">  3</span>
+<span class="linenos">  4</span> <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="linenos">  5</span> <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&quot;Content-Type&quot;</span>
+<span class="linenos">  6</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;text/html; charset=iso-8859-1&quot;</span><span class="p">&gt;</span>
+<span class="linenos">  7</span> <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;Version&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;8.0.3429&quot;</span><span class="p">&gt;</span>
+<span class="linenos">  8</span> <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;Date&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;11/28/96&quot;</span><span class="p">&gt;</span>
+<span class="linenos">  9</span> <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;Template&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;D:\Isaoff97\Office\HTML.DOT&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 10</span> <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;GENERATOR&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;Microsoft FrontPage 5.0&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 11</span> <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>C Netprog Library : MXAddComCallBack <span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="linenos"> 12</span> <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="linenos"> 13</span> <span class="p">&lt;</span><span class="nt">SCRIPT</span> <span class="na">language</span><span class="o">=</span><span class="s">javascript</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;2nd_roll_en.js&quot;</span>
+<span class="linenos"> 14</span> <span class="na">type</span><span class="o">=</span><span class="s">text/javascript</span><span class="p">&gt;&lt;/</span><span class="nt">SCRIPT</span><span class="p">&gt;</span>
+<span class="linenos"> 15</span>
+<span class="linenos"> 16</span><span class="p">&lt;</span><span class="nt">SCRIPT</span> <span class="na">language</span><span class="o">=</span><span class="s">JavaScript</span><span class="p">&gt;</span>
+<span class="linenos"> 17</span><span class="c">&lt;!--</span>
+<span class="linenos"> 18</span><span class="kd">function</span> <span class="nx">MM_jumpMenu</span><span class="p">(</span><span class="nx">targ</span><span class="p">,</span><span class="nx">selObj</span><span class="p">,</span><span class="nx">restore</span><span class="p">){</span> <span class="c1">//v3.0</span>
+<span class="linenos"> 19</span>  <span class="nb">eval</span><span class="p">(</span><span class="nx">targ</span><span class="o">+</span><span class="s2">&quot;.location=&#39;&quot;</span><span class="o">+</span><span class="nx">selObj</span><span class="p">.</span><span class="nx">options</span><span class="p">[</span><span class="nx">selObj</span><span class="p">.</span><span class="nx">selectedIndex</span><span class="p">].</span><span class="nx">value</span><span class="o">+</span><span class="s2">&quot;&#39;&quot;</span><span class="p">);</span>
+<span class="linenos"> 20</span>  <span class="k">if</span> <span class="p">(</span><span class="nx">restore</span><span class="p">)</span> <span class="nx">selObj</span><span class="p">.</span><span class="nx">selectedIndex</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
+<span class="linenos"> 21</span><span class="p">}</span>
+<span class="linenos"> 22</span><span class="c1">//--&gt;</span>
+<span class="linenos"> 23</span><span class="p">&lt;/</span><span class="nt">SCRIPT</span><span class="p">&gt;</span>
+<span class="linenos"> 24</span><span class="p">&lt;</span><span class="nt">body</span> <span class="na">topmargin</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">leftmargin</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">link</span><span class="o">=</span><span class="s">&quot;#0000FF&quot;</span> <span class="na">vlink</span><span class="o">=</span><span class="s">&quot;#0099FF&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 25</span>
+<span class="linenos"> 26</span>
+<span class="linenos"> 27</span>
+<span class="linenos"> 28</span>  <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bgcolor</span><span class="o">=</span><span class="s">&quot;#FFFFE6&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border-collapse: collapse&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#111111&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 29</span>    <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 30</span>      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 31</span>
+<span class="linenos"> 32</span>      <span class="p">&lt;</span><span class="nt">img</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;../images/eagle.GIF&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;221&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;188&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 33</span>      <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 34</span>      <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;center&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 35</span>  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 36</span>  <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 37</span>    <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 38</span>      <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;baseline&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 39</span>        <span class="p">&lt;</span><span class="nt">p</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;center&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Arial&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;7&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>NetProg<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 40</span>    <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 41</span>    <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 42</span>      <span class="p">&lt;</span><span class="nt">td</span> <span class="na">bgcolor</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;0&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 43</span>        <span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;text-indent: -4; margin-top: -17&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 44</span>    <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 45</span>  <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos"> 46</span>      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos"> 47</span>      <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 48</span>    <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 49</span>  <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos"> 50</span>
+<span class="linenos"> 51</span>
+<span class="linenos"> 52</span>
+<span class="linenos"> 53</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 54</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 55</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;175&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">bgcolor</span><span class="o">=</span><span class="s">&quot;#FFFFE6&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 56</span>
+<span class="linenos"> 57</span>      <span class="p">&lt;</span><span class="nt">FONT</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&#39;Arial,Geneva,Helvetica,san-serif&#39;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">-1</span><span class="p">&gt;</span>
+<span class="linenos"> 58</span>
+<span class="linenos"> 59</span>
+<span class="linenos"> 60</span>
+<span class="linenos"> 61</span>
+<span class="linenos"> 62</span>
+<span class="linenos"> 63</span>
+<span class="linenos"> 64</span>
+<span class="linenos"> 65</span>
+<span class="linenos"> 66</span>
+<span class="linenos"> 67</span>
+<span class="linenos"> 68</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;220&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border-collapse: collapse&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#111111&quot;</span> <span class="na">bgcolor</span><span class="o">=</span><span class="s">&quot;#FFFFE6&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 69</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 70</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;220&quot;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;4&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;100&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;center&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 71</span>
+<span class="linenos"> 72</span>      <span class="p">&lt;</span><span class="nt">FONT</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&#39;Arial,Geneva,Helvetica,san-serif&#39;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">-1</span><span class="p">&gt;</span>
+<span class="linenos"> 73</span>
+<span class="linenos"> 74</span>
+<span class="linenos"> 75</span>
+<span class="linenos"> 76</span>
+<span class="linenos"> 77</span>
+<span class="linenos"> 78</span>
+<span class="linenos"> 79</span>
+<span class="linenos"> 80</span>
+<span class="linenos"> 81</span>
+<span class="linenos"> 82</span>
+<span class="linenos"> 83</span>    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;../images/blank.gif&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;1&quot;</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span><span class="p">&gt;&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos"> 84</span>    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://sourceforge.net&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 85</span>    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://sourceforge.net/sflogo.php?group_id=144520&amp;amp;type=4&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos"> 86</span>
+<span class="linenos"> 87</span>
+<span class="linenos"> 88</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>
+<span class="linenos"> 89</span>    <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 90</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 91</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos"> 92</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 93</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 94</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;188&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 95</span>      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">&quot;-1&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span>
+<span class="linenos"> 96</span>      NETPROG<span class="ni">&amp;nbsp;</span> PRESENTATION<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos"> 97</span>      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos"> 98</span>    <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos"> 99</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">100</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">101</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">102</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">SRC</span><span class="o">=</span><span class="s">&quot;../images/red_bullet.gif&quot;</span> <span class="na">BORDER</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;13&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;16&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">103</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;188&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">&quot;-1&quot;</span><span class="p">&gt;</span>
+<span class="linenos">104</span>    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;../index.html&quot;</span><span class="p">&gt;</span>OverView<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">105</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">106</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">107</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">108</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">SRC</span><span class="o">=</span><span class="s">&quot;../images/red_bullet.gif&quot;</span> <span class="na">BORDER</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;13&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;16&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">109</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;188&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">&quot;-1&quot;</span><span class="p">&gt;</span>
+<span class="linenos">110</span>    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;../Functionalities.html&quot;</span><span class="p">&gt;</span>Functionalities<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">111</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">112</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">113</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">114</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">SRC</span><span class="o">=</span><span class="s">&quot;../images/red_bullet.gif&quot;</span> <span class="na">BORDER</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;13&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;16&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">115</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;188&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;../Programming.html&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;</span>
+<span class="linenos">116</span>    Programming<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">117</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">118</span>
+<span class="linenos">119</span>
+<span class="linenos">120</span>
+<span class="linenos">121</span>
+<span class="linenos">122</span>
+<span class="linenos">123</span>
+<span class="linenos">124</span>
+<span class="linenos">125</span>
+<span class="linenos">126</span>
+<span class="linenos">127</span>
+<span class="linenos">128</span><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">129</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">130</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">131</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;17&quot;</span><span class="p">&gt;&lt;</span><span class="nt">FONT</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&#39;Arial,Geneva,Helvetica,san-serif&#39;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">-1</span><span class="p">&gt;</span>
+<span class="linenos">132</span>  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">SRC</span><span class="o">=</span><span class="s">&quot;../images/red_bullet.gif&quot;</span> <span class="na">BORDER</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;13&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;16&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">133</span>
+<span class="linenos">134</span>
+<span class="linenos">135</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>
+<span class="linenos">136</span><span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;171&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;API_index.html&quot;</span><span class="p">&gt;</span>
+<span class="linenos">137</span><span class="p">&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#FF9900&quot;</span><span class="p">&gt;</span>API<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">138</span><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">139</span>
+<span class="linenos">140</span>      <span class="p">&lt;</span><span class="nt">FONT</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&#39;Arial,Geneva,Helvetica,san-serif&#39;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">-1</span><span class="p">&gt;</span>
+<span class="linenos">141</span>
+<span class="linenos">142</span>
+<span class="linenos">143</span>
+<span class="linenos">144</span>
+<span class="linenos">145</span>
+<span class="linenos">146</span>
+<span class="linenos">147</span>
+<span class="linenos">148</span>
+<span class="linenos">149</span>
+<span class="linenos">150</span>
+<span class="linenos">151</span><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">152</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">153</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">154</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;17&quot;</span><span class="p">&gt;&lt;</span><span class="nt">FONT</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&#39;Arial,Geneva,Helvetica,san-serif&#39;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">-1</span><span class="p">&gt;</span>
+<span class="linenos">155</span>  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">SRC</span><span class="o">=</span><span class="s">&quot;../images/red_bullet.gif&quot;</span> <span class="na">BORDER</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;13&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;16&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">156</span>
+<span class="linenos">157</span>
+<span class="linenos">158</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>
+<span class="linenos">159</span><span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;171&quot;</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;../Prog_C_Examples.html&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;</span>
+<span class="linenos">160</span>C Examples<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">161</span><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">162</span>
+<span class="linenos">163</span>
+<span class="linenos">164</span>
+<span class="linenos">165</span>
+<span class="linenos">166</span>
+<span class="linenos">167</span>
+<span class="linenos">168</span>
+<span class="linenos">169</span>
+<span class="linenos">170</span>
+<span class="linenos">171</span>
+<span class="linenos">172</span><span class="p">&lt;</span><span class="nt">font</span> <span class="na">FACE</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">SIZE</span><span class="o">=</span><span class="s">&quot;-1&quot;</span><span class="p">&gt;</span>
+<span class="linenos">173</span><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">174</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;14&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">175</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;18&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">SRC</span><span class="o">=</span><span class="s">&quot;../images/red_bullet.gif&quot;</span> <span class="na">BORDER</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;13&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;16&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">176</span>  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;188&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;</span>
+<span class="linenos">177</span>  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://sourceforge.net/project/showfiles.php?group_id=144520&quot;</span><span class="p">&gt;</span>
+<span class="linenos">178</span>  Download<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">179</span><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">180</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">181</span><span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>
+<span class="linenos">182</span>
+<span class="linenos">183</span>
+<span class="linenos">184</span>      <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">185</span>    <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">186</span>
+<span class="linenos">187</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;</span>
+<span class="linenos">188</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">189</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;4&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>MXAddComCallBack<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">190</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;baseline&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;right&quot;</span> <span class="na">nowrap</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Arial,Geneva,Helvetica,san-serif&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#FF9900&quot;</span><span class="p">&gt;</span>C
+<span class="linenos">191</span>      NetProg Library<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">192</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">193</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">194</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">bgcolor</span><span class="o">=</span><span class="s">&quot;#FFAE1F&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;</span>
+<span class="linenos">195</span>      <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;</span>
+<span class="linenos">196</span>        <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">197</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">198</span>        <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">199</span>      <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">200</span>    <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">201</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">202</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">203</span>
+<span class="linenos">204</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">205</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">206</span>
+<span class="linenos">207</span>
+<span class="linenos">208</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;8&quot;</span><span class="p">&gt;</span>
+<span class="linenos">209</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">210</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>#include
+<span class="linenos">211</span>      <span class="ni">&amp;quot;</span>mx.h<span class="ni">&amp;quot;</span><span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>
+<span class="linenos">212</span>      <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">cellspacing</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;</span>
+<span class="linenos">213</span>        <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">214</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;0%&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">215</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;50%&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">216</span>        <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">217</span>        <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">218</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;0%&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">219</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;50%&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;</span>int        MXAddComCallBack (MX* pmx, MXCom* pcom, char*
+<span class="linenos">220</span>            dialogclassname, char* messageclassname, BYTE mode, int (*funct)(MXMessage* pmessage, MXCom* pcom, void* applicationfield), void* applicationfield)<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">221</span>        <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">222</span>      <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">223</span>    <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">224</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">225</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">226</span>
+<span class="linenos">227</span>
+<span class="linenos">228</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span> <span class="na">clear</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;</span>
+<span class="linenos">229</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">230</span>
+<span class="linenos">231</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#000000&quot;</span> <span class="na">bordercolordark</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>
+<span class="linenos">232</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">233</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;21&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;</span>Parameters<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">234</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolordark</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;21&quot;</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;</span>Description<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">235</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">236</span>
+<span class="linenos">237</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">238</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>pmx<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">239</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>the
+<span class="linenos">240</span>            MX manager<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">241</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">242</span>
+<span class="linenos">243</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">244</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>pcom<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">245</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>the
+<span class="linenos">246</span>            connection instance<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">247</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">248</span>
+<span class="linenos">249</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">250</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>dialogclassname<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">251</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>the
+<span class="linenos">252</span>            dialog class name<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">253</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">254</span>
+<span class="linenos">255</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">256</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>messageclassname<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">257</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>the
+<span class="linenos">258</span>            message class name<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">259</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">260</span>
+<span class="linenos">261</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">262</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>mode<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">263</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>the
+<span class="linenos">264</span>            mode that triggers the callback<span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">265</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">266</span>
+<span class="linenos">267</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">268</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>funct<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">269</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>the
+<span class="linenos">270</span>            function to call when a message is received or sent<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">271</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">272</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">273</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>applicationfield<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">274</span>          <span class="p">&lt;</span><span class="nt">td</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>Programmer-specified
+<span class="linenos">275</span>            data sent to the callback function<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">276</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">277</span>
+<span class="linenos">278</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">279</span>
+<span class="linenos">280</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">281</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">282</span>
+<span class="linenos">283</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#000000&quot;</span> <span class="na">bordercolordark</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>
+<span class="linenos">284</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">285</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;</span>
+<span class="linenos">286</span>      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">align</span><span class="o">=</span><span class="s">&quot;left&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Description
+<span class="linenos">287</span>      :<span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">288</span>      <span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">289</span>    <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">290</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">291</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">292</span>
+<span class="linenos">293</span>      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span><span class="p">&gt;</span>This function adds a
+<span class="linenos">294</span>      callback
+<span class="linenos">295</span>to the specified message class callback list. The callback is triggered when a message
+<span class="linenos">296</span>      belonging to (dialogclassname, messageclassname) is received or sent on
+<span class="linenos">297</span>      the connection instance <span class="p">&lt;</span><span class="nt">i</span><span class="p">&gt;</span>pcom<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">298</span>      <span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">299</span>      The <span class="p">&lt;</span><span class="nt">i</span><span class="p">&gt;</span> mode<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> parameter can be : MXONRECV, MXONSEND, MXONRECEIVING, MXONSENDING<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">300</span>
+<span class="linenos">301</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;&lt;</span><span class="nt">i</span><span class="p">&gt;</span>applicationfield<span class="p">&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> specifies
+<span class="linenos">302</span>the argument that is to be passed to the specified procedure when it is invoked<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">303</span>
+<span class="linenos">304</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#000000&quot;</span> <span class="na">bordercolordark</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>
+<span class="linenos">305</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">306</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Return
+<span class="linenos">307</span>      Values :<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>if
+<span class="linenos">308</span>      error -1 else returns a value <span class="ni">&amp;gt;</span> 0<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">309</span>      <span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">310</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">311</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">312</span>
+<span class="linenos">313</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">314</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">315</span>
+<span class="linenos">316</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#000000&quot;</span> <span class="na">bordercolordark</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>
+<span class="linenos">317</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">318</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span>See Also
+<span class="linenos">319</span>      :<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;MXRemoveComCallBack.html&quot;</span><span class="p">&gt;</span>MXRemoveComCallBack<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>, <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;MXAddCallBack.html&quot;</span><span class="p">&gt;</span>MXAddCallBack<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>,
+<span class="linenos">320</span>      <span class="p">&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;MXRemoveCallBack.html&quot;</span><span class="p">&gt;</span>MXRemoveCallBack<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>,
+<span class="linenos">321</span>      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;MXAddGeneralCallBack.html&quot;</span><span class="p">&gt;</span>MXAddGeneralCallBack<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>, <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;MXRemoveGeneralCallBack.html&quot;</span><span class="p">&gt;</span>MXRemoveGeneralCallBack<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">322</span>      <span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
+<span class="linenos">323</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">324</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">325</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">326</span>
+<span class="linenos">327</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span> <span class="na">clear</span><span class="o">=</span><span class="s">&quot;all&quot;</span><span class="p">&gt;</span>
+<span class="linenos">328</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">329</span>
+<span class="linenos">330</span><span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span> <span class="na">bordercolor</span><span class="o">=</span><span class="s">&quot;#000000&quot;</span> <span class="na">bordercolordark</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">bordercolorlight</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;</span>
+<span class="linenos">331</span>  <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">332</span>    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">valign</span><span class="o">=</span><span class="s">&quot;top&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;100%&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Example
+<span class="linenos">333</span>      :<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>
+<span class="linenos">334</span>      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;MARGIN: 0px&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">335</span>      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;MARGIN: 0px&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;&amp;nbsp;</span>
+<span class="linenos">336</span>      MX mx;<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">337</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> MXMessage* pmessage;<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">338</span>      <span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">339</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> MXInit (<span class="ni">&amp;amp;</span>mx, MXSERVER, NULL, NULL, 0, NULL);<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">340</span>      <span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">341</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">342</span>      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;MARGIN: 0px&quot;</span><span class="p">&gt;&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#008000&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;</span>/*
+<span class="linenos">343</span>      Establish Connection with FTP Server */<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">344</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">345</span>      <span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">346</span>      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;MARGIN: 0px&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;&amp;nbsp;</span>
+<span class="linenos">347</span>      FTPCom = MXOpenCom (<span class="ni">&amp;amp;</span>mx, <span class="ni">&amp;quot;</span>194.214.200.8<span class="ni">&amp;quot;</span>, 21, IPPROTO_FTP,
+<span class="linenos">348</span>      NULL, NULL, TRUE);<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">349</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> if (!FTPCom) return 0;<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">350</span>      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;MARGIN: 0px&quot;</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">351</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> MXAddComCallBack (<span class="ni">&amp;amp;</span>mx, FTPCom, FTP_SYS,
+<span class="linenos">352</span>      <span class="ni">&amp;quot;</span>Command<span class="ni">&amp;quot;</span>, MXONSEND, Command, NULL);<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">353</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> MXAddComCallBack (<span class="ni">&amp;amp;</span>mx, FTPCom, FTP_SYS, <span class="ni">&amp;quot;</span>Command_Reply<span class="ni">&amp;quot;</span>,
+<span class="linenos">354</span>      MXONRECV, CommandReply, NULL);<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">355</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> MXAddComCallBack (<span class="ni">&amp;amp;</span>mx, FTPCom, FTP_SYS, <span class="ni">&amp;quot;</span>dir_reply<span class="ni">&amp;quot;</span>,
+<span class="linenos">356</span>      MXONRECV, DirReply, NULL);<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">357</span>      <span class="ni">&amp;nbsp;&amp;nbsp;</span> MXAddComCallBack (<span class="ni">&amp;amp;</span>mx, FTPCom, FTP_SYS, <span class="ni">&amp;quot;</span>get_reply<span class="ni">&amp;quot;</span>,
+<span class="linenos">358</span>      MXONRECV, GetReply, NULL);<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">359</span>      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>....<span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="linenos">360</span>      <span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;</span><span class="nt">font</span> <span class="na">face</span><span class="o">=</span><span class="s">&quot;Verdana&quot;</span> <span class="na">size</span><span class="o">=</span><span class="s">&quot;2&quot;</span> <span class="na">color</span><span class="o">=</span><span class="s">&quot;#000080&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="linenos">361</span>    <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">362</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">363</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">364</span>
+<span class="linenos">365</span>      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">366</span>    <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span><span class="ni">&amp;nbsp;</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+<span class="linenos">367</span>  <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+<span class="linenos">368</span><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="linenos">369</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="linenos">370</span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="MXAddCallBack.html" class="btn btn-neutral float-left" title="MXAddCallBack" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="MXAddEndingProcedure.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

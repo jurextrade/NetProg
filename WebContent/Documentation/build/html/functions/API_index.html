@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>&lt;no title&gt; &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+            <img src="../_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Programming.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>&lt;no title&gt;</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/functions/API_index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p>&lt;!DOCTYPE HTML PUBLIC “-//IETF//DTD HTML//EN”&gt;
+&lt;html&gt;</p>
+<p>&lt;head&gt;
+&lt;meta http-equiv=”Content-Type”
+content=”text/html; charset=iso-8859-1”&gt;
+&lt;meta name=”Version” content=”8.0.3429”&gt;
+&lt;meta name=”Date” content=”11/28/96”&gt;
+&lt;meta name=”Template” content=”D:Isaoff97OfficeHTML.DOT”&gt;
+&lt;meta name=”GENERATOR” content=”Microsoft FrontPage 5.0”&gt;
+&lt;title&gt;C NetProg Library : API Index&lt;/title&gt;
+&lt;/head&gt;
+&lt;SCRIPT language=javascript src=”../2nd_roll_en.js”
+type=text/javascript&gt;&lt;/SCRIPT&gt;</p>
+<p>&lt;SCRIPT language=JavaScript&gt;
+&lt;!–
+function MM_jumpMenu(targ,selObj,restore){ //v3.0</p>
+<blockquote>
+<div><p>eval(targ+”.location=’”+selObj.options[selObj.selectedIndex].value+”’”);
+if (restore) selObj.selectedIndex=0;</p>
+</div></blockquote>
+<p>}
+//–&gt;
+&lt;/SCRIPT&gt;
+&lt;body topmargin=”0” leftmargin=”0” link=”#0000FF” vlink=”#0099FF”&gt;</p>
+<blockquote>
+<div><dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%” bgcolor=”#FFFFE6” style=”border-collapse: collapse” bordercolor=”#111111”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td&gt;</p>
+<p>&lt;img border=”0” src=”../images/eagle.GIF” width=”221” height=”188”&gt;
+&lt;/td&gt;
+&lt;td width=”100%” align=”center”&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;div align=”left”&gt;
+&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%” bordercolorlight=”#000080”&gt;</p>
+<blockquote>
+<div><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td width=”100%” valign=”baseline”&gt;</dt><dd><p>&lt;p align=”center”&gt;&lt;b&gt;&lt;font face=”Arial” size=”7” color=”#000080”&gt;NetProg&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><dl class="simple">
+<dt>&lt;td bgcolor=”#000080” height=”0”&gt;</dt><dd><p>&lt;p style=”text-indent: -4; margin-top: -17”&gt;&amp;nbsp;&lt;/td&gt;</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;/table&gt;</dt><dd><blockquote>
+<div><p>&lt;/div&gt;
+&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”175” valign=”top” bgcolor=”#FFFFE6”&gt;</p>
+<blockquote>
+<div><p>&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+</dd>
+<dt>&lt;table width=”220” cellspacing=”0” cellpadding=”0” style=”border-collapse: collapse” bordercolor=”#111111” bgcolor=”#FFFFE6”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”220” colspan=”4” height=”100” align=”center”&gt;</p>
+<blockquote>
+<div><p>&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;</p>
+</div></blockquote>
+<p>&lt;img src=”../images/blank.gif” width=”18” height=”1” border=”0”&gt;&lt;p&gt;
+&lt;a href=”<a class="reference external" href="http://sourceforge.net">http://sourceforge.net</a>”&gt;
+&lt;img border=”0” src=”<a class="reference external" href="http://sourceforge.net/sflogo.php?group_id=144520&amp;amp;type=4">http://sourceforge.net/sflogo.php?group_id=144520&amp;amp;type=4</a>”&gt;&lt;/a&gt;&lt;br&gt;</p>
+<blockquote>
+<div><p>&lt;/font&gt;</p>
+</div></blockquote>
+<p>&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan=”2” width=”188”&gt;</p>
+<blockquote>
+<div><p>&lt;p&gt;&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1” color=”#000080”&gt;&lt;b&gt;
+NETPROG&amp;nbsp; PRESENTATION&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+</div></blockquote>
+<p>&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1”&gt;
+&lt;a href=”../index.html”&gt;OverView&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1”&gt;
+&lt;a href=”../Functionalities.html”&gt;Functionalities&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;b&gt;&lt;a href=”../Programming.html”&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;
+Programming&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”14” valign=”top”&gt;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;/td&gt;
+&lt;td valign=”top” width=”17”&gt;&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;
+&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+<blockquote>
+<div><p>&lt;/font&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;td valign=”top” width=”171”&gt;&lt;b&gt;&lt;a href=”API_index.html”&gt;
+&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2” color=”#FF9900”&gt;API&lt;/font&gt;&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;</p>
+<blockquote>
+<div><p>&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”14” valign=”top”&gt;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;/td&gt;
+&lt;td valign=”top” width=”17”&gt;&lt;FONT FACE=’Arial,Geneva,Helvetica,san-serif’ SIZE=-1&gt;
+&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/font&gt;&lt;/td&gt;</p>
+<blockquote>
+<div><p>&lt;/font&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;td valign=”top” width=”171”&gt;&lt;a href=”../Prog_C_Examples.html”&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;
+C Examples&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;</p>
+<p>&lt;font FACE=”Arial,Geneva,Helvetica,san-serif” SIZE=”-1”&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”14” valign=”top”&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width=”18” valign=”top”&gt;&lt;img SRC=”../images/red_bullet.gif” BORDER=”0” width=”13” height=”16”&gt;&lt;/td&gt;
+&lt;td valign=”top” colspan=”2” width=”188”&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;
+&lt;a href=”<a class="reference external" href="https://sourceforge.net/project/showfiles.php?group_id=144520">https://sourceforge.net/project/showfiles.php?group_id=144520</a>”&gt;
+Download&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/font&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><p>&lt;p&gt;&amp;nbsp;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;td&gt;</p>
+</div></blockquote>
+<dl>
+<dt>&lt;table border=”0” width=”100%”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td valign=”top” width=”100%”&gt;&lt;b&gt;&lt;font face=”Verdana” size=”4” color=”#000080”&gt;API</dt><dd><p>INDEX : sorry not finished yet’…..&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;</p>
+</dd>
+<dt>&lt;td valign=”baseline” align=”right” nowrap&gt;&lt;font face=”Arial,Geneva,Helvetica,san-serif” size=”2”&gt;&lt;b&gt;&lt;font color=”#FF9900”&gt;C</dt><dd><p>NetProg Library&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><dl>
+<dt>&lt;td valign=”top” colspan=”2” bgcolor=”#FFAE1F” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”0” width=”100%”&gt;</dt><dd><dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”100%”&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+</dd>
+</dl>
+<p>&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<dl>
+<dt>&lt;table border=”0” width=”100%” cellspacing=”0” cellpadding=”8”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><dl>
+<dt>&lt;td align=”left” valign=”top”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&lt;/font&gt;</dt><dd><dl>
+<dt>&lt;table border=”0” cellpadding=”4” cellspacing=”0” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><dl>
+<dt>&lt;td width=”50%” colspan=”2”&gt;&amp;nbsp;</dt><dd><dl>
+<dt>&lt;table border=”0” cellpadding=”0” cellspacing=”4” width=”100%”&gt;</dt><dd><dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”50%”&gt;&lt;font face=”Arial Black” size=”4”&gt;&lt;a href=”#initalization”&gt;
+&lt;font color=”#FF9900”&gt;Initialization&lt;/font&gt;&lt;/a&gt;&lt;font color=”#FF9900” face=”Arial Black”&gt;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td width=”50%”&gt;&lt;a href=”#Sending and receiving functions”&gt;
+&lt;font color=”#FF9900” size=”4” face=”Arial Black”&gt;Sending</p>
+<blockquote>
+<div><p>and Receiving functions&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”50%”&gt;&lt;a href=”#Connections functions”&gt;
+&lt;font color=”#FF9900” size=”4” face=”Arial Black”&gt;Connection</p>
+<blockquote>
+<div><p>functions&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;td width=”50%”&gt;&lt;a href=”#Callbacks and Procedures”&gt;
+&lt;font color=”#FF9900” size=”4” face=”Arial Black”&gt;Callbacks</p>
+<blockquote>
+<div><p>and Procedures&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”50%”&gt;&lt;a href=”#Message functions”&gt;
+&lt;font color=”#FF9900” size=”4” face=”Arial Black”&gt;Message</p>
+<blockquote>
+<div><p>functions&lt;/font&gt;&lt;/a&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;td width=”50%”&gt;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;
+&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”50%” colspan=”2”&gt;&lt;font size=”4” face=”Arial Black” color=”#000080”&gt;&lt;a name=”initalization”&gt;&lt;/a&gt;Initialization&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXInit.html”&gt;MXInit&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Initialize MX</p>
+<blockquote>
+<div><p>manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXEnd.html”&gt;MXEnd&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Close</p>
+<blockquote>
+<div><p>MX manager and free all resources&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”../Doc/MXCreateDialogClass.html”&gt;MXCreateDialogClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>a dialog class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeDialogClass.html”&gt;MXFreeDialogClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Free</p>
+<blockquote>
+<div><p>the dialog class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCreateMessageClass.html”&gt;MXCreateMessageClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>a message class in the dialog class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeMessageClass.html”&gt;MXFreeMessageClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Free</p>
+<blockquote>
+<div><p>the message class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCreateComClass.html”&gt;MXCreateComClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>a connection class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeComClassFromName.html”&gt;MXFreeComClassFromName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080” face=”Verdana” size=”2”&gt;Free a</p>
+<blockquote>
+<div><p>connection class&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeComClass.html”&gt;MXFreeComClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Free connection class&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCreateMessage.html”&gt;MXCreateMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>a message instance&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeMessage.html”&gt;MXFreeMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Free</p>
+<blockquote>
+<div><p>message instance&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCopyMessage.html”&gt;MXCopyMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Copy</p>
+<blockquote>
+<div><p>message instance&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddObjectToMessageClass.html”&gt;MXAddObjectToMessageClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add</p>
+<blockquote>
+<div><p>object to a message class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeObject.html”&gt;MXFreeObject&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Free</p>
+<blockquote>
+<div><p>object in a message class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeObjectsFromMessageClass.html”&gt;MXFreeObjectsFromMessageClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeCom.html”&gt;MXFreeCom&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Free connection instance&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddPort.html”&gt;MXAddPort&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>listening port to an application&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddPort.html”&gt;MXGetPort&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the connection port number&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXLoadResourceFile.html”&gt;MXLoadResourceFile&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Load a resource file in</p>
+<blockquote>
+<div><p>the MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXDispatchEvents.html”&gt;MXDispatchEvents&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Dispatch</p>
+<blockquote>
+<div><p>events (MX manager engine)&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td width=”125%” colspan=”2”&gt;&lt;font color=”#000080” size=”4” face=”Arial Black”&gt;&lt;a name=”Message functions”&gt;&lt;/a&gt;Message</dt><dd><p>functions&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetValue.html”&gt;MXSetValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Set</p>
+<blockquote>
+<div><p>object value&amp;nbsp; to a&amp;nbsp; message&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetValue.html”&gt;MXGetValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Return object value from its name&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetRangeValue.html”&gt;MXSetRangeValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Set</p>
+<blockquote>
+<div><p>object value from its name&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetRangeValue.html”&gt;MXGetRangeValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Return object value from its range</p>
+<blockquote>
+<div><p>in the message&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetName.html”&gt;MXGetName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Set</p>
+<blockquote>
+<div><p>object value from its range&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetType.html”&gt;MXGetType&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Get</p>
+<blockquote>
+<div><p>object type (STRING CHAR WORD …)&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetInternalType.html”&gt;MXGetInternalType&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetInternalLength.html”&gt;MXGetInternalLength&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetInternalScale.html”&gt;MXGetInternalScale&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetMessageStatut.html”&gt;MXSetMessageStatut&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Set</p>
+<blockquote>
+<div><p>message statut&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetMessageDateHour.html”&gt;MXSetMessageDateHour&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Set</p>
+<blockquote>
+<div><p>message output date and time&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td width=”25%”&gt;&lt;font size=”4” face=”Arial Black” color=”#000080”&gt;&lt;a name=”Connections functions”&gt;&lt;/a&gt;Connection</dt><dd><p>functions&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;td width=”100%”&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXOpenTCP.html”&gt;MXOpenTCP&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>a TCP connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXOpenBase.html”&gt;MXOpenBase&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>a database connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXOpenFile.html”&gt;MXOpenFile&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;create</p>
+<blockquote>
+<div><p>a file connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCloseCom.html”&gt;MXCloseCom&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Close</p>
+<blockquote>
+<div><p>connection and free all input/ouput messages&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFlushCom.html”&gt;MXFlushCom&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Flush</p>
+<blockquote>
+<div><p>all messages from the output queue of a connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td width=”125%” colspan=”2”&gt;&lt;font size=”4” face=”Arial Black” color=”#000080”&gt;&lt;a name=”Sending and receiving functions”&gt;&lt;/a&gt;Sending</dt><dd><p>and Receiving functions&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXPutMessage.html”&gt;MXPutMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Create</p>
+<blockquote>
+<div><p>and put a message in the ouput queue of a connection&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXPutThisMessage.html”&gt;MXPutThisMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Put a</p>
+<blockquote>
+<div><p>created message in the ouput queue&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXJoinCom.html”&gt;MXJoinCom&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Join&amp;nbsp;</p>
+<blockquote>
+<div><p>two connections&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetComFromClient.html”&gt;MXGetComFromClient&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Get the</p>
+<blockquote>
+<div><p>connection instance from its client&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddDGCommands.html”&gt;MXAddDGCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add DG</p>
+<blockquote>
+<div><p>Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddFTPCommands.html”&gt;MXAddFTPCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add FTP</p>
+<blockquote>
+<div><p>Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddPOPCommands.html”&gt;MXAddPOPCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add POP</p>
+<blockquote>
+<div><p>Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddSMTPCommands.html”&gt;MXAddSMTPCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add</p>
+<blockquote>
+<div><p>SMTP Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddTCPCommands.html”&gt;MXAddTCPCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add TCP</p>
+<blockquote>
+<div><p>Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddDBCommands.html”&gt;MXAddDBCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add DBG</p>
+<blockquote>
+<div><p>Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddFIOPCommands.html”&gt;MXAddFIOPCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add</p>
+<blockquote>
+<div><p>FIOP Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddHTTPCommands.html”&gt;MXAddHTTPCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add</p>
+<blockquote>
+<div><p>HTTP Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddDNSCommands.html”&gt;MXAddDNSCommands&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add DNS</p>
+<blockquote>
+<div><p>Dialog to MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXTranferOutputQueue.html”&gt;MXTranferOutputQueue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetComClassFromName.html”&gt;MXGetComClassFromName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the connection class from the name parameter&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetComClassFromCode.html”&gt;MXGetComClassFromCode&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the connection class from the code parameter&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetDialogClassFromName.html”&gt;MXGetDialogClassFromName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the dialog class from the name parameter&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetDialogClassFromCode.html”&gt;MXGetDialogClassFromCode&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the dialog class from the code parameter&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetMessageClassFromName.html”&gt;MXGetMessageClassFromName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the message code from the name parmeter&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetMessageClassFromCodes.html”&gt;MXGetMessageClassFromCodes&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetObjectFromName.html”&gt;MXGetObjectFromName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the object of a message from its name&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetProtocolFromName.html”&gt;MXGetProtocolFromName&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the protocol identifier from the char name parameter&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetComProtocol.html”&gt;MXSetComProtocol&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Set a</p>
+<blockquote>
+<div><p>protocol to a connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXReadyToSend.html”&gt;MXReadyToSend&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetReadyOutputMessage.html”&gt;MXGetReadyOutputMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the next message ready to send from the output queue of a connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetReadyInputMessage.html”&gt;MXGetReadyInputMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>the next message ready to read from the input queue of a connection&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFindIncompleteMessage.html”&gt;MXFindIncompleteMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;r&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCheckType2.html”&gt;MXCheckType2&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeContext.html”&gt;MXFreeContext&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAllocateContext.html”&gt;MXAllocateContext&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXExtendValueBuffer.html”&gt;MXExtendValueBuffer&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetMessageSize.html”&gt;MXGetMessageSize&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetMessageClassSize.html”&gt;MXGetMessageClassSize&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetIOMessageClass.html”&gt;MXSetIOMessageClass&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;Associate</p>
+<blockquote>
+<div><p>a message class to a file fixed format connection&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetIOSize.html”&gt;MXSetIOSize&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetFileSize.html”&gt;MXGetFileSize&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXGetBufferSize.html”&gt;MXGetBufferSize&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXEstablishConnectionOn.html”&gt;MXEstablishConnectionOn&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetCom.html”&gt;MXSetCom&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXExecuteApplicationProcedures.html”&gt;MXExecuteApplicationProcedures&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXReadMessageStatut.html”&gt;MXReadMessageStatut&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXWriteBufferContent.html”&gt;MXWriteBufferContent&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFindMessage.html”&gt;MXFindMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXReadFileContent.html”&gt;MXReadFileContent&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXReadBufferContent.html”&gt;MXReadBufferContent&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXWriteFileContent.html”&gt;MXWriteFileContent&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXCreateMessageFromCodes.html”&gt;MXCreateMessageFromCodes&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAllocMessage.html”&gt;MXAllocMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Allocate</p>
+<blockquote>
+<div><p>a message instance&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXInitValues.html”&gt;MXInitValues&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Reset</p>
+<blockquote>
+<div><p>all message values&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetMode.html”&gt;MXSetMode&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSend.html”&gt;MXSend&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Send a</p>
+<blockquote>
+<div><p>message in a synchronous mode&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRecv.html”&gt;MXRecv&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Recv</p>
+<blockquote>
+<div><p>message in a synchronous mode&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXInitMessage.html”&gt;MXInitMessage&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Initialize</p>
+<blockquote>
+<div><p>a message instance&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFreeAndMoveComIn.html”&gt;MXFreeAndMoveComIn&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetFileValue.html”&gt;MXSetFileValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetBufferValue.html”&gt;MXSetBufferValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetStringValue.html”&gt;MXSetStringValue&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><dl class="simple">
+<dt>&lt;td width=”25%”&gt;&lt;font size=”4” face=”Arial Black” color=”#000080”&gt;&lt;a name=”Callbacks and Procedures”&gt;&lt;/a&gt;Callbacks</dt><dd><p>and Procedures&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;td width=”100%”&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFindApplicationProcedure.html”&gt;MXFindApplicationProcedure&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>an application procedure&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFindCallBack.html”&gt;MXFindCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>a callback associated to a messsage class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFindGeneralCallBack.html”&gt;MXFindGeneralCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Returns</p>
+<blockquote>
+<div><p>a callback associated to&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXFindComCallBack.html”&gt;MXFindComCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddGeneralCallBack.html”&gt;MXAddGeneralCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>callback on receiving or sending a message belonging to a message
+class&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddApplicationProcedure.html”&gt;MXAddApplicationProcedure&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add an</p>
+<blockquote>
+<div><p>application procedure that will be&amp;nbsp; executed by MX manager
+during the events dispatching&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddGeneralConnectCallBack.html”&gt;MXAddGeneralConnectCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>callback that will be triggered on connecting or disconnecting any connection&amp;nbsp;in
+the MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddConnectCallBack.html”&gt;MXAddConnectCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>callback on connecting or disconnecting only connections belonging
+to a connection class&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddCallBack.html”&gt;MXAddCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>callback on sending or receiving a message belonging to a message
+class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddComCallBack.html”&gt;MXAddComCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>callback on receiving or sending a message belonging to a message
+class on a&amp;nbsp; connection instance&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXAddEndingProcedure.html”&gt;MXAddEndingProcedure&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Add a</p>
+<blockquote>
+<div><p>callback on closing a connection instance&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveGeneralCallBack.html”&gt;MXRemoveGeneralCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Remove</p>
+<blockquote>
+<div><p>a callback&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveApplicationProcedure.html”&gt;MXRemoveApplicationProcedure&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&lt;font face=”Verdana” size=”2”&gt;Remove</p>
+<blockquote>
+<div><p>an application procedure &lt;/font&gt;from the MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveConnectCallBack.html”&gt;MXRemoveConnectCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Remove</p>
+<blockquote>
+<div><p>callback associated to a connection class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveGeneralConnectCallBack.html”&gt;MXRemoveGeneralConnectCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Remove</p>
+<blockquote>
+<div><p>a general callback from the MX manager&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/tr&gt;
+&lt;tr&gt;</p>
+<blockquote>
+<div><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveCallBack.html”&gt;MXRemoveCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Remove</p>
+<blockquote>
+<div><p>callback associated to a message class&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveComCallBack.html”&gt;MXRemoveComCallBack&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Remove</p>
+<blockquote>
+<div><p>Callback&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl>
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXRemoveEndingProcedure.html”&gt;MXRemoveEndingProcedure&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;Remove</p>
+<blockquote>
+<div><p>Ending callback&lt;/font&gt;&lt;/td&gt;</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+<dl class="simple">
+<dt>&lt;tr&gt;</dt><dd><p>&lt;td width=”25%”&gt;&lt;b&gt;&lt;font face=”Verdana” color=”#000080” size=”2”&gt;&lt;a href=”MXSetCGIFile.html”&gt;MXSetCGIFile&lt;/a&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td width=”100%”&gt;&lt;font color=”#000080”&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;
+&lt;p&gt;&lt;font face=”Verdana” size=”2” color=”#000080”&gt;&lt;b&gt;&lt;/b&gt;&lt;/font&gt;</p>
+</dd>
+</dl>
+<p>&lt;/td&gt;</p>
+</dd>
+</dl>
+<p>&lt;/tr&gt;</p>
+</dd>
+</dl>
+<p>&lt;/table&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><p>&lt;p&gt;&amp;nbsp;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;td&gt;&amp;nbsp;&lt;/td&gt;</p>
+</div></blockquote>
+<p>&lt;/tr&gt;</p>
+</div></blockquote>
+<p>&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</p>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

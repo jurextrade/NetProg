@@ -1,0 +1,9 @@
+;ceci est un test
+
+DIALOG 100 A
+BEGIN
+  MESSAGE essai (STRING a STRING b)
+  MESSAGE essai1 (DWORD a DWORD b STRING c)
+END
+
+

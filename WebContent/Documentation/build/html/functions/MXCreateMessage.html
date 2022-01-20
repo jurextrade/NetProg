@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MXCreateMessage &mdash; NetProg 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="MXFreeMessage.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="MXFreeComClass.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> NetProg
+            <img src="../_static/eagle.gif" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Functionalities.html">Functionalities</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Programming.html">Programming</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../API.html">API</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../Initialization.html">Initialization</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="MXInit.html">MXInit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXEnd.html">MXEnd</a></li>
+<li class="toctree-l4"><a class="reference internal" href="MXCreateDialogClass.html">MXCreateDialogClass</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">MXCreateMessage</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Message_functions.html">Message functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Connection_functions.html">Connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Send_Receive_functions.html">Sending Receiving</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Callbacks.html">Callbacks</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../CExamples.html">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">NetProg</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../Programming.html">Programming</a> &raquo;</li>
+          <li><a href="../API.html">API</a> &raquo;</li>
+          <li><a href="../Initialization.html">Initialization</a> &raquo;</li>
+      <li>MXCreateMessage</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/functions/MXCreateMessage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mxcreatemessage">
+<h1>MXCreateMessage<a class="headerlink" href="#mxcreatemessage" title="Permalink to this headline"></a></h1>
+<p><em>include “mx.h”</em></p>
+<dl class="c function">
+<dt class="sig sig-object c" id="c.MXCreateMessage">
+<span class="n"><span class="pre">MXMessage</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">MXCreateMessage</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">MX</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n"><span class="pre">pmx</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n"><span class="pre">dialogclassname</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n"><span class="pre">messageclassname</span></span><span class="sig-paren">)</span><a class="headerlink" href="#c.MXCreateMessage" title="Permalink to this definition"></a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pmx</strong> – the MX manager</p></li>
+<li><p><strong>dialogclassname</strong> – the dialog class name</p></li>
+<li><p><strong>messageclassname</strong> – the message class name</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>if error returns NULL else returns a message instance</p>
+</dd>
+<dt class="field-odd">Description</dt>
+<dd class="field-odd"><p>This function creates a message instance belonging to (dialogclassname, messageclassname). The message instance created is usually used as a parameter to the synchronous function MXSend</p>
+</dd>
+<dt class="field-even">See Also</dt>
+<dd class="field-even"><p><code class="xref c c-func docutils literal notranslate"><span class="pre">MXSend()</span></code>, <code class="xref c c-func docutils literal notranslate"><span class="pre">MXFreeMessage()</span></code>, <code class="xref c c-func docutils literal notranslate"><span class="pre">MXRecv()</span></code>, <code class="xref c c-func docutils literal notranslate"><span class="pre">MXCopyMessage()</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Example</span><a class="headerlink" href="#id1" title="Permalink to this code"></a></div>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="n">MX</span><span class="w"> </span><span class="n">mx</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 2</span><span class="n">MXMessage</span><span class="o">*</span><span class="w"> </span><span class="n">pmessage</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 3</span>
+<span class="linenos"> 4</span><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">Buf</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="n">BUFFERPARM</span><span class="w"> </span><span class="n">Buffer</span><span class="p">;</span><span class="w"></span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span>
+<span class="linenos"> 9</span><span class="n">MXInit</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">MXSERVER</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">10</span>
+<span class="linenos">11</span>
+<span class="linenos">12</span><span class="cm">/* Establish Connection with a Server and send a TCP message*/</span><span class="w"></span>
+<span class="linenos">13</span>
+<span class="linenos">14</span>
+<span class="linenos">15</span><span class="n">TCPCom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MXOpenTCP</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;194.204.200.8&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">21</span><span class="p">,</span><span class="w"> </span><span class="n">IPPROTO_TCP</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">TRUE</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">16</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">TCPCom</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">17</span>
+<span class="hll"><span class="linenos">18</span><span class="n">pmessage</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="n">MXCreateMessage</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">TCP_SYS</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Stream&quot;</span><span class="p">);</span><span class="w"></span>
+</span><span class="linenos">19</span>
+<span class="linenos">20</span>
+<span class="linenos">21</span><span class="n">Buffer</span><span class="p">.</span><span class="n">BufferType</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sc">&#39;T&#39;</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">22</span><span class="n">Buffer</span><span class="p">.</span><span class="n">BufferSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strlen</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;This is a text message&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">23</span><span class="n">Buffer</span><span class="p">.</span><span class="n">BufferContent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;This is a text message&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="linenos">24</span>
+<span class="linenos">25</span>
+<span class="linenos">26</span><span class="n">MXSetValue</span><span class="w"> </span><span class="p">(</span><span class="n">pmessage</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Stream&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">Buffer</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">27</span>
+<span class="linenos">28</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">MXSend</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">TCPCom</span><span class="p">,</span><span class="w"> </span><span class="n">message</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w">  </span><span class="mi">0</span><span class="p">)</span><span class="w"></span>
+<span class="linenos">29</span>
+<span class="linenos">30</span><span class="w">  </span><span class="n">printf</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Error sending buffer</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="linenos">31</span>
+<span class="linenos">32</span>
+<span class="linenos">33</span><span class="n">MXFreeMessage</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">mx</span><span class="p">,</span><span class="w"> </span><span class="n">pmessage</span><span class="p">);</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="MXFreeComClass.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="MXFreeMessage.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Gaby Jureidini.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

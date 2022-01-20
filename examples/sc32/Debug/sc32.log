@@ -1,0 +1,89 @@
+﻿Build started 7/10/2016 7:19:20 AM.
+     1>Project "C:\PROJECTS\MT4-Progress\NetProg\examples\sc32\sc32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\sc32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\projects\mt4-progress\NetProg\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sc32.cpp
+         sc32.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(48): warning C4005: 'EBADF' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(190) : see previous definition of 'EBADF'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(71): warning C4005: 'ENAMETOOLONG' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(163) : see previous definition of 'ENAMETOOLONG'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(74): warning C4005: 'ENOTEMPTY' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(172) : see previous definition of 'ENOTEMPTY'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92): warning C4005: 'EADDRINUSE' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(118) : see previous definition of 'EADDRINUSE'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(121) : see previous definition of 'EADDRNOTAVAIL'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(94): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(115) : see previous definition of 'EAFNOSUPPORT'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(95): warning C4005: 'EALREADY' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(85) : see previous definition of 'EALREADY'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(98): warning C4005: 'ECONNABORTED' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(133) : see previous definition of 'ECONNABORTED'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(99): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(157) : see previous definition of 'ECONNREFUSED'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(100): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(136) : see previous definition of 'ECONNRESET'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(101): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(91) : see previous definition of 'EDESTADDRREQ'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(102): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(169) : see previous definition of 'EHOSTUNREACH'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104): warning C4005: 'EINPROGRESS' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(82) : see previous definition of 'EINPROGRESS'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(105): warning C4005: 'EISCONN' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(142) : see previous definition of 'EISCONN'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(106): warning C4005: 'ELOOP' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(160) : see previous definition of 'ELOOP'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(107): warning C4005: 'EMSGSIZE' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(94) : see previous definition of 'EMSGSIZE'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(108): warning C4005: 'ENETDOWN' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(124) : see previous definition of 'ENETDOWN'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(109): warning C4005: 'ENETRESET' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(130) : see previous definition of 'ENETRESET'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(110): warning C4005: 'ENETUNREACH' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(127) : see previous definition of 'ENETUNREACH'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111): warning C4005: 'ENOBUFS' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(139) : see previous definition of 'ENOBUFS'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(115): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(100) : see previous definition of 'ENOPROTOOPT'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118): warning C4005: 'ENOTCONN' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(145) : see previous definition of 'ENOTCONN'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(120): warning C4005: 'ENOTSOCK' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(88) : see previous definition of 'ENOTSOCK'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(122): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(109) : see previous definition of 'EOPNOTSUPP'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(127): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(103) : see previous definition of 'EPROTONOSUPPORT'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(128): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(97) : see previous definition of 'EPROTOTYPE'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(130): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(154) : see previous definition of 'ETIMEDOUT'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(132): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 c:\projects\mt4-progress\netprog\include\oscom.h(79) : see previous definition of 'EWOULDBLOCK'
+     1>c:\projects\mt4-progress\netprog\examples\sc32\sc32.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\projects\mt4-progress\netprog\examples\sc32\sc32.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\projects\mt4-progress\netprog\examples\sc32\sc32.cpp(106): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\projects\mt4-progress\netprog\examples\sc32\sc32.cpp(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\projects\mt4-progress\netprog\examples\sc32\sc32.cpp(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\projects\mt4-progress\netprog\examples\sc32\sc32.cpp(220): warning C4101: 'bcd' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PROJECTS\MT4-Progress\Debug\sc32.exe" /INCREMENTAL:NO /NOLOGO "C:\projects\mt4-progress\NetProg\lib\Debug\NetProg.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sc32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\PROJECTS\MT4-Progress\Debug\sc32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\sc32.obj
+     1>sc32.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         sc32.vcxproj -> C:\PROJECTS\MT4-Progress\Debug\sc32.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\PROJECTS\MT4-Progress\Debug\sc32.exe;#1" /manifest Debug\sc32.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\sc32.unsuccessfulbuild".
+         Touching "Debug\sc32.lastbuildstate".
+     1>Done Building Project "C:\PROJECTS\MT4-Progress\NetProg\examples\sc32\sc32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.12

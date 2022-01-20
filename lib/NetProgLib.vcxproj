@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>NetProg</ProjectName>
+    <ProjectGuid>{BE426C0B-E3A1-4ADB-9F9E-123306FDD499}</ProjectGuid>
+    <RootNamespace>NetProg</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>../include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>YY_USE_PROTOS;WINDOWS;</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/NetProgLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Release\NetProg.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>odbc32.lib;wsock32.lib;</AdditionalDependencies>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v5.0\Include;../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>YY_USE_PROTOS;WIN32;</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/NetProgLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Release\NetProg.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>odbc32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>YY_USE_PROTOS;WINDOWS;</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug/NetProgLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>odbc32.lib;wsock32.lib;</AdditionalDependencies>
+      <OutputFile>.\Debug\NetProg.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v5.0\Include;../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>YY_USE_PROTOS;WIN32;</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug/NetProgLib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040c</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>odbc32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug\NetProg.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\GnuWin32\bin\SCLEX.L" />
+    <None Include="..\scfiles\a.sc" />
+    <None Include="..\scfiles\b.sc" />
+    <None Include="..\scfiles\compile_lexyacc.sc" />
+    <None Include="..\scfiles\compile_NetProg.sc" />
+    <None Include="..\scfiles\db.sc" />
+    <None Include="..\scfiles\db1.sc" />
+    <None Include="..\scfiles\dbaccess.sc" />
+    <None Include="..\scfiles\dbaccess1.sc" />
+    <None Include="..\scfiles\dbaddcolumn.sc" />
+    <None Include="..\scfiles\dblocalaccess.sc" />
+    <None Include="..\scfiles\dbsybase.sc" />
+    <None Include="..\scfiles\dns.sc" />
+    <None Include="..\scfiles\envoi.sc" />
+    <None Include="..\scfiles\envoi1.sc" />
+    <None Include="..\scfiles\essai.sc" />
+    <None Include="..\scfiles\ftp.sc" />
+    <None Include="..\scfiles\gr.sc" />
+    <None Include="..\scfiles\io.sc" />
+    <None Include="..\scfiles\journal.sc" />
+    <None Include="..\scfiles\mail.sc" />
+    <None Include="..\scfiles\Make_NetProgLib32.sc" />
+    <None Include="..\scfiles\msysobjects.sc" />
+    <None Include="..\scfiles\mx.sc" />
+    <None Include="..\scfiles\oracle.sc" />
+    <None Include="..\scfiles\ov.sc" />
+    <None Include="..\scfiles\ping.sc" />
+    <None Include="..\scfiles\pm3.sc" />
+    <None Include="..\scfiles\remote.sc" />
+    <None Include="..\scfiles\runsc.sc" />
+    <None Include="..\scfiles\sc.sc" />
+    <None Include="..\scfiles\SC1.sc" />
+    <None Include="..\scfiles\smtp.sc" />
+    <None Include="..\scfiles\system.sc" />
+    <None Include="..\scfiles\transfer.sc" />
+    <None Include="..\scfiles\vol.sc" />
+    <None Include="..\LEXYAC\OSRESLEX.L" />
+    <None Include="..\LEXYAC\OSRESYAC.Y" />
+    <None Include="..\LEXYAC\SCLEX.L" />
+    <None Include="..\LEXYAC\SCYACC.Y" />
+    <None Include="..\system\WINDOWS\makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\cb2a.c" />
+    <ClCompile Include="..\src\cgi.c" />
+    <ClCompile Include="..\src\database.c" />
+    <ClCompile Include="..\src\dg.c" />
+    <ClCompile Include="..\src\dns.c" />
+    <ClCompile Include="..\src\dnscomp.c" />
+    <ClCompile Include="..\src\fiop.c" />
+    <ClCompile Include="..\src\ftp.c" />
+    <ClCompile Include="..\src\gse.c" />
+    <ClCompile Include="..\src\http.c" />
+    <ClCompile Include="..\src\mail.c" />
+    <ClCompile Include="..\src\mime.c" />
+    <ClCompile Include="..\src\mt.c" />
+    <ClCompile Include="..\src\mx.c" />
+    <ClCompile Include="..\src\mxmanager.c" />
+    <ClCompile Include="..\src\mxutil.c" />
+    <ClCompile Include="..\src\oscom.c" />
+    <ClCompile Include="..\src\osdate.c" />
+    <ClCompile Include="..\src\osdb.c" />
+    <ClCompile Include="..\src\osdraw.c" />
+    <ClCompile Include="..\src\osio.c" />
+    <ClCompile Include="..\src\oslist.c" />
+    <ClCompile Include="..\src\osmatch.c" />
+    <ClCompile Include="..\src\osras.c" />
+    <ClCompile Include="..\src\osreslex.c" />
+    <ClCompile Include="..\src\osresyac.c" />
+    <ClCompile Include="..\src\ostrace.c" />
+    <ClCompile Include="..\src\pop.c" />
+    <ClCompile Include="..\src\sc.c" />
+    <ClCompile Include="..\src\scaction.c" />
+    <ClCompile Include="..\src\sclex.c" />
+    <ClCompile Include="..\src\scparse.c" />
+    <ClCompile Include="..\src\scproc.c" />
+    <ClCompile Include="..\src\scprocio.c" />
+    <ClCompile Include="..\src\scprocmx.c" />
+    <ClCompile Include="..\src\scprocop.c" />
+    <ClCompile Include="..\src\scsys.c" />
+    <ClCompile Include="..\src\scyacc.c" />
+    <ClCompile Include="..\src\smtp.c" />
+    <ClCompile Include="..\src\sqlodbc.c" />
+    <ClCompile Include="..\src\sqlora.c" />
+    <ClCompile Include="..\src\tcp.c" />
+    <ClCompile Include="..\src\tp.c" />
+    <ClCompile Include="..\src\u_xlat.c" />
+    <ClCompile Include="..\src\xf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\cb2a.h" />
+    <ClInclude Include="..\include\cgi.h" />
+    <ClInclude Include="..\include\database.h" />
+    <ClInclude Include="..\include\dg.h" />
+    <ClInclude Include="..\include\dns.h" />
+    <ClInclude Include="..\include\fiop.h" />
+    <ClInclude Include="..\include\ftp.h" />
+    <ClInclude Include="..\include\gse.h" />
+    <ClInclude Include="..\include\http.h" />
+    <ClInclude Include="..\include\ip_icmp.h" />
+    <ClInclude Include="..\include\mail.h" />
+    <ClInclude Include="..\include\mt.h" />
+    <ClInclude Include="..\include\mx.h" />
+    <ClInclude Include="..\include\mxmanager.h" />
+    <ClInclude Include="..\include\oscom.h" />
+    <ClInclude Include="..\include\osdate.h" />
+    <ClInclude Include="..\include\osdb.h" />
+    <ClInclude Include="..\include\osdbsta.h" />
+    <ClInclude Include="..\include\osdraw.h" />
+    <ClInclude Include="..\include\osio.h" />
+    <ClInclude Include="..\include\osip.h" />
+    <ClInclude Include="..\include\oslist.h" />
+    <ClInclude Include="..\include\osmatch.h" />
+    <ClInclude Include="..\include\osras.h" />
+    <ClInclude Include="..\include\osreslex.h" />
+    <ClInclude Include="..\include\osresyac.h" />
+    <ClInclude Include="..\include\ostrace.h" />
+    <ClInclude Include="..\include\ostypes.h" />
+    <ClInclude Include="..\include\pop.h" />
+    <ClInclude Include="..\include\sc.h" />
+    <ClInclude Include="..\include\sclex.h" />
+    <ClInclude Include="..\include\scly.h" />
+    <ClInclude Include="..\include\scyacc.h" />
+    <ClInclude Include="..\include\smtp.h" />
+    <ClInclude Include="..\include\tcp.h" />
+    <ClInclude Include="..\include\tp.h" />
+    <ClInclude Include="..\include\u_xlat.h" />
+    <ClInclude Include="..\include\xf.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

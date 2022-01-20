@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportPurchaseOrder", "ImportPurchaseOrder.vcproj", "{FF554893-E133-4EE6-91DB-FFC7F7C5E575}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportMaterialReceipt", "..\ImportMaterialReceipt\ImportMaterialReceipt.vcproj", "{D3A3E65F-5AD2-4D9E-B7AB-F23DD6B441B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportInventory", "..\ImportInventory\ImportInventory.vcproj", "{C936279F-371E-4D4F-8A6B-7F716EE37E9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportOrders", "..\ImportOrders\ImportOrders.vcproj", "{5D52A0A7-7749-4A77-B057-5FA7CA9D8B9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportVendorInvoice", "..\ImportVendorInvoice\ImportVendorInvoice.vcproj", "{48FB0FF1-CFA8-4C13-9A2E-CE2842B4FB2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetDataBase", "..\SetDataBase\SetDataBase.vcproj", "{6F5BB88A-7A4A-4AE1-91B1-F003E150E58C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FF554893-E133-4EE6-91DB-FFC7F7C5E575}.Debug.ActiveCfg = Debug|Win32
+		{FF554893-E133-4EE6-91DB-FFC7F7C5E575}.Debug.Build.0 = Debug|Win32
+		{FF554893-E133-4EE6-91DB-FFC7F7C5E575}.Release.ActiveCfg = Release|Win32
+		{FF554893-E133-4EE6-91DB-FFC7F7C5E575}.Release.Build.0 = Release|Win32
+		{D3A3E65F-5AD2-4D9E-B7AB-F23DD6B441B1}.Debug.ActiveCfg = Debug|Win32
+		{D3A3E65F-5AD2-4D9E-B7AB-F23DD6B441B1}.Debug.Build.0 = Debug|Win32
+		{D3A3E65F-5AD2-4D9E-B7AB-F23DD6B441B1}.Release.ActiveCfg = Release|Win32
+		{D3A3E65F-5AD2-4D9E-B7AB-F23DD6B441B1}.Release.Build.0 = Release|Win32
+		{C936279F-371E-4D4F-8A6B-7F716EE37E9C}.Debug.ActiveCfg = Debug|Win32
+		{C936279F-371E-4D4F-8A6B-7F716EE37E9C}.Debug.Build.0 = Debug|Win32
+		{C936279F-371E-4D4F-8A6B-7F716EE37E9C}.Release.ActiveCfg = Release|Win32
+		{C936279F-371E-4D4F-8A6B-7F716EE37E9C}.Release.Build.0 = Release|Win32
+		{5D52A0A7-7749-4A77-B057-5FA7CA9D8B9C}.Debug.ActiveCfg = Debug|Win32
+		{5D52A0A7-7749-4A77-B057-5FA7CA9D8B9C}.Debug.Build.0 = Debug|Win32
+		{5D52A0A7-7749-4A77-B057-5FA7CA9D8B9C}.Release.ActiveCfg = Release|Win32
+		{5D52A0A7-7749-4A77-B057-5FA7CA9D8B9C}.Release.Build.0 = Release|Win32
+		{48FB0FF1-CFA8-4C13-9A2E-CE2842B4FB2E}.Debug.ActiveCfg = Debug|Win32
+		{48FB0FF1-CFA8-4C13-9A2E-CE2842B4FB2E}.Debug.Build.0 = Debug|Win32
+		{48FB0FF1-CFA8-4C13-9A2E-CE2842B4FB2E}.Release.ActiveCfg = Release|Win32
+		{48FB0FF1-CFA8-4C13-9A2E-CE2842B4FB2E}.Release.Build.0 = Release|Win32
+		{6F5BB88A-7A4A-4AE1-91B1-F003E150E58C}.Debug.ActiveCfg = Debug|Win32
+		{6F5BB88A-7A4A-4AE1-91B1-F003E150E58C}.Debug.Build.0 = Debug|Win32
+		{6F5BB88A-7A4A-4AE1-91B1-F003E150E58C}.Release.ActiveCfg = Release|Win32
+		{6F5BB88A-7A4A-4AE1-91B1-F003E150E58C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

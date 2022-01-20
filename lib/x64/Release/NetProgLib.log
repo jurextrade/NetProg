@@ -1,0 +1,579 @@
+﻿  cb2a.c
+  CGI.C
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(174,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(215,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(674,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(757,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(758,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(1164,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(1485,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(1536,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(1569,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\CGI.C(1769,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DATABASE.C
+D:\PROJECTS\MT4-Progress\NetProg\src\DATABASE.C(350,84): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\DATABASE.C(351,84): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+  dg.c
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1689,59): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1690,56): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1706,59): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1707,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1708,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1709,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1741,66): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1873,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1958,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(1999,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2018,66): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2049,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2103,68): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2129,27): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2161,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2193,72): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2222,72): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\dg.c(2250,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  DNS.C
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(227,61): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(351,59): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(352,60): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(770,75): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(771,75): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(773,76): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(774,75): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(878,22): warning C4244: 'return': conversion from '__int64' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNS.C(964,70): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  DNSCOMP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(258,16): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(291,35): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(296,36): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(301,26): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(312,29): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(344,21): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(415,34): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(437,20): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(514,30): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(540,18): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(640,36): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(744,32): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\DNSCOMP.C(808,17): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  FIOP.C
+  FTP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(93,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(112,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(132,66): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(153,70): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(499,58): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(499,74): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1168,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1267,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1744,54): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1952,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1954,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1983,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(1985,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(2012,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(2013,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(2081,61): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(2083,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\FTP.C(2104,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  GSE.C
+  HTTP.C
+  lex.yy.c
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(824,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(840,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1003,29): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1009,29): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(821,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(825,24): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(837,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(841,24): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(853,24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(865,46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(877,24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(889,46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(911,46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(923,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(934,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(945,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(958,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(971,44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(984,48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(996,47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(780,10): warning C4102: 'find_rule': unreferenced label
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1261,1): warning C4013: 'my_yyinput' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1424,28): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1613,41): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1934,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1959,7): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1965,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1980,7): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PROJECTS\MT4-Progress\NetProg\src\lex.yy.c(1997,7): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MAIL.C
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(60,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(79,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(138,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(151,27): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(159,33): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(222,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(352,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(380,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(545,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(552,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MAIL.C(755,17): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  MIME.C
+  MT.C
+D:\PROJECTS\MT4-Progress\NetProg\src\MT.C(308,46): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\MT.C(308,62): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+  MX.C
+D:\PROJECTS\MT4-Progress\NetProg\src\MX.C(405,28): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  MXMANAGER.C
+  MXUTIL.C
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(126,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(128,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(137,20): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(137,20): warning C4313: 'sprintf': '%d' in format string conflicts with argument 2 of type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(139,73): warning C4474: 'sprintf' : too many arguments passed for format string
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(139,73): message : placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(148,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(150,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(158,20): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(158,20): warning C4313: 'sprintf': '%d' in format string conflicts with argument 2 of type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4313: 'sprintf': '%d' in format string conflicts with argument 1 of type 'char *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4313: 'sprintf': '%s' in format string conflicts with argument 2 of type 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4313: 'sprintf': '%d' in format string conflicts with argument 3 of type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): warning C4473: 'sprintf' : not enough arguments passed for format string
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): message : placeholders and their parameters expect 4 variadic arguments, but 3 were provided
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(160,20): message : the missing variadic argument 4 is required by format string '%d'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(168,20): warning C4477: 'sprintf' : format string '%c' requires an argument of type 'int', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(168,20): warning C4313: 'sprintf': '%c' in format string conflicts with argument 2 of type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(170,20): warning C4477: 'sprintf' : format string '%c' requires an argument of type 'int', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(170,20): warning C4313: 'sprintf': '%c' in format string conflicts with argument 3 of type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(175,18): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(203,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(205,20): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(424,28): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(406,45): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(567,55): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1259,68): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1259,85): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1261,59): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1261,76): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1314,67): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1314,84): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1316,50): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1316,66): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\MXUTIL.C(1894,32): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  OSCOM.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(136,52): warning C4244: 'function': conversion from 'SOCKET' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(273,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(398,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(406,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(413,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(472,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSCOM.C(809,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+  OSDATE.C
+  OSDB.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(602,29): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(668,29): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(785,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(785,28): message : this argument is used by a conversion specifier
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(899,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(899,28): message : this argument is used by a conversion specifier
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(918,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDB.C(918,28): message : this argument is used by a conversion specifier
+  Generating Code...
+  Compiling...
+  OSDRAW.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(60,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(136,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(145,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(154,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(166,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(180,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(195,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(204,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(227,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\OSDRAW.C(232,54): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  OSIO.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(473,27): warning C4477: 'sprintf' : format string '%*s' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(473,27): message : this argument is used as a field width
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(473,27): warning C4477: 'sprintf' : format string '%*s' requires an argument of type 'int', but variadic argument 3 has type 'size_t'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(473,27): message : this argument is used as a field width
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(498,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(586,18): warning C4267: 'return': conversion from 'size_t' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(597,19): warning C4267: 'return': conversion from 'size_t' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(1091,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(1148,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(1458,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSIO.C(1661,27): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+  OSLIST.C
+  OSMATCH.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSMATCH.C(905,22): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSMATCH.C(990,54): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSMATCH.C(1007,55): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  OSRAS.C
+  OSRESLEX.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(90,25): warning C4013: 'zzlook' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(91,8): warning C4102: 'zzfussy': unreferenced label
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(434,34): warning C4013: 'main' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(447,17): warning C4018: '<': signed/unsigned mismatch
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(511,17): warning C4018: '<': signed/unsigned mismatch
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9336,27): warning C4311: 'type cast': pointer truncation from 'zzwork *' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9336,42): warning C4311: 'type cast': pointer truncation from 'zzwork [23745]' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9348,31): warning C4311: 'type cast': pointer truncation from 'zzwork *' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9348,46): warning C4311: 'type cast': pointer truncation from 'zzwork [23745]' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9407,33): warning C4013: 'zzback' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9421,41): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9282,35): warning C4101: 'third': unreferenced local variable
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9282,30): warning C4101: 'sec': unreferenced local variable
+D:\PROJECTS\MT4-Progress\NetProg\src\OSRESLEX.C(9282,42): warning C4101: 'fourth': unreferenced local variable
+  OSRESYAC.C
+osresyac.y(2459,50): warning C4013: 'zzlex' undefined; assuming extern returning int
+osresyac.y(2370,11): warning C4102: 'zznewstate': unreferenced label
+  OSTRACE.C
+D:\PROJECTS\MT4-Progress\NetProg\src\OSTRACE.C(271,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSTRACE.C(325,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSTRACE.C(479,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSTRACE.C(531,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\OSTRACE.C(584,17): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  POP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(56,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(227,25): warning C4244: '=': conversion from '__int64' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(273,25): warning C4244: '=': conversion from '__int64' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(314,58): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(604,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(723,70): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(947,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(950,61): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(980,51): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(987,51): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1003,47): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1020,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1036,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1063,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1080,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1096,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\POP.C(1110,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  SC.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(531,22): warning C4013: 'gets' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(798,26): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'MXCom *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(798,26): warning C4313: 'sprintf': '%d' in format string conflicts with argument 2 of type 'MXCom *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(821,93): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(825,92): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(834,37): warning C4477: 'sprintf' : format string '%.*c' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(834,37): message : this argument is used by a conversion specifier
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(834,37): warning C4313: 'sprintf': '%c' in format string conflicts with argument 2 of type 'char *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(843,37): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(843,37): warning C4313: 'sprintf': '%d' in format string conflicts with argument 1 of type 'void *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(1085,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(1091,66): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(1517,48): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(1530,35): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(1543,48): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(1615,48): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(2074,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(2080,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(2139,88): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(2139,89): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(2142,89): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SC.C(2142,90): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  SCACTION.C
+  SCPARSE.C
+  SCPROC.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(206,43): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(257,43): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(355,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(416,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(428,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(428,97): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(442,56): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(812,22): warning C4244: '=': conversion from 'intptr_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(815,44): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(853,18): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(879,33): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(902,28): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(903,17): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(912,88): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(1144,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(1230,56): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(1255,56): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROC.C(1282,56): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  SCPROCIO.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(657,81): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(685,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(687,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(715,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(722,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(814,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCIO.C(868,81): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  SCPROCMX.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(316,40): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(353,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(384,57): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(419,87): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(427,108): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(427,124): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(431,115): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(431,131): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(435,116): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(435,132): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(439,116): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(439,132): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(439,133): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(439,134): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(443,115): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(443,131): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(443,132): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(443,133): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(447,115): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(447,131): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(447,132): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(447,133): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(454,123): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(454,139): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(461,106): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(461,122): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(512,121): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(516,128): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(520,129): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(524,129): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(524,130): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(524,131): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(528,128): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(528,129): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(528,130): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(532,128): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(532,129): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(532,130): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(539,136): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(546,119): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(593,87): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(601,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(601,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(607,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(607,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(612,46): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(613,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(613,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(618,44): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(619,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(619,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(625,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(625,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(632,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(632,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(639,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(639,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(645,59): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(654,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(698,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(704,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(709,46): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(710,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(715,44): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(716,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(722,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(729,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(736,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(752,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(789,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(825,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(928,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(928,85): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(932,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1040,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1077,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1209,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1305,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1375,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1433,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1464,60): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1502,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1752,54): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1758,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1773,52): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1868,25): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'MXCom *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1868,25): warning C4313: 'sprintf': '%d' in format string conflicts with argument 2 of type 'MXCom *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1869,20): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1902,25): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'MXCom *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1902,25): warning C4313: 'sprintf': '%d' in format string conflicts with argument 2 of type 'MXCom *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1902,25): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 3 has type 'MXMessage *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1902,25): warning C4313: 'sprintf': '%d' in format string conflicts with argument 3 of type 'MXMessage *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1903,20): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(1954,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(2018,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(2108,57): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(2193,56): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(2735,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(2819,64): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCMX.C(2839,62): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+  SCPROCOP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(177,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(178,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(179,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(250,76): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(261,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(261,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(261,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(267,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(267,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(267,72): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(328,46): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(335,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(335,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(335,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(341,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(341,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(341,72): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(401,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(401,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(401,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(407,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(407,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(407,72): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(459,34): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(460,55): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(460,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(460,74): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(467,34): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(468,56): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(468,75): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(468,76): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(502,114): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(504,113): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(688,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(688,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(700,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(700,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(745,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(745,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(757,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(757,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(803,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(803,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(815,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(815,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(860,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(860,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(872,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(872,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(917,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(917,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(929,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(929,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(974,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(974,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(986,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCPROCOP.C(986,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  SCSYS.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(57,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(93,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(94,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(164,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(167,55): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(170,54): warning C4311: 'type cast': pointer truncation from 'void *' to 'UINT'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(170,31): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(204,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(258,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(259,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(368,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(414,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(415,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(463,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(464,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(495,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(496,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(529,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(531,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(562,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(565,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(612,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(615,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(647,68): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(877,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(901,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(904,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(907,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(907,27): warning C4477: 'sprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(907,27): warning C4313: 'sprintf': '%p' in format string conflicts with argument 1 of type 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(945,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(946,64): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1016,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1019,54): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1022,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'UINT'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1022,31): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1082,56): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1085,58): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1088,57): warning C4311: 'type cast': pointer truncation from 'void *' to 'UINT'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1088,35): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1134,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1137,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1140,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1140,27): warning C4477: 'sprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1140,27): warning C4313: 'sprintf': '%p' in format string conflicts with argument 1 of type 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1170,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SCSYS.C(1603,42): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+  SCYACC.C
+scyacc.y(899,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'char *'
+scyacc.y(899,24): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'char *'
+scyacc.y(902,24): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 3 has type 'char *'
+scyacc.y(902,24): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'char *'
+scyacc.y(905,24): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 3 has type 'char *'
+scyacc.y(911,74): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+scyacc.y(1325,11): warning C4102: 'yynewstate': unreferenced label
+scyacc.y(1539,9): warning C4102: 'yyerrlab': unreferenced label
+  SMTP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(58,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(438,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(548,74): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(764,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(767,61): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(882,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(896,47): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(912,47): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(928,47): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(946,47): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(955,55): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(958,53): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SMTP.C(961,51): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  SQLODBC.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(129,23): warning C4311: 'type cast': pointer truncation from 'HDBC' to 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(204,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(281,85): warning C4133: 'function': incompatible types - from 'LONG *' to 'SQLLEN *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(309,89): warning C4133: 'function': incompatible types - from 'DWORD *' to 'SQLULEN *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(410,124): warning C4133: 'function': incompatible types - from 'SDWORD *' to 'SQLLEN *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(412,126): warning C4133: 'function': incompatible types - from 'SDWORD *' to 'SQLLEN *'
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLODBC.C(475,69): warning C4133: 'function': incompatible types - from 'UDWORD *' to 'SQLULEN *'
+  Generating Code...
+  Compiling...
+  SQLORA.C
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(323,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(324,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(325,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(494,29): warning C4013: 'sqlald' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(494,69): warning C4047: '=': 'SQLDA *' differs in levels of indirection from 'int'
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(606,16): warning C4013: 'sqlnul' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(612,20): warning C4013: 'sqlprc' undefined; assuming extern returning int
+D:\PROJECTS\MT4-Progress\NetProg\src\SQLORA.C(742,43): warning C4013: 'oracle_send_sqlda' undefined; assuming extern returning int
+  TCP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\TCP.C(278,58): warning C4311: 'type cast': pointer truncation from 'char *' to 'DWORD'
+D:\PROJECTS\MT4-Progress\NetProg\src\TCP.C(278,74): warning C4312: 'type cast': conversion from 'DWORD' to 'char *' of greater size
+  TP.C
+D:\PROJECTS\MT4-Progress\NetProg\src\TP.C(277,40): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+D:\PROJECTS\MT4-Progress\NetProg\src\TP.C(285,50): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+  U_XLAT.C
+D:\PROJECTS\MT4-Progress\NetProg\src\U_XLAT.C(467,28): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\U_XLAT.C(463,31): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  XF.C
+D:\PROJECTS\MT4-Progress\NetProg\src\XF.C(378,45): warning C4267: '+=': conversion from 'size_t' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\XF.C(379,38): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\XF.C(397,45): warning C4267: '+=': conversion from 'size_t' to 'LONG', possible loss of data
+D:\PROJECTS\MT4-Progress\NetProg\src\XF.C(398,38): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1543,5): warning MSB8012: TargetPath(D:\PROJECTS\MT4-Progress\NetProg\x64\Release\NetProg.lib) does not match the Library's OutputFile property value (D:\PROJECTS\MT4-Progress\NetProg\lib\Release\NetProg.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+wsock32.lib(WSOCK32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in odbc32.lib(ODBC32.dll); second definition ignored
+OSCOM.obj : warning LNK4006: __WSAFDIsSet already defined in wsock32.lib(WSOCK32.dll); second definition ignored
+  NetProgLib.vcxproj -> D:\PROJECTS\MT4-Progress\NetProg\x64\Release\NetProg.lib

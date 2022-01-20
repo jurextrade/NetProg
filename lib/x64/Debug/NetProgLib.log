@@ -1,0 +1,45 @@
+﻿  cb2a.c
+  mx.c
+D:\GITHUB\NetProg\src\mx.c(438,28): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  mxmanager.c
+  osdraw.c
+D:\GITHUB\NetProg\src\osdraw.c(41,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(117,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(126,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(135,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(147,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(161,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(176,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(185,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+D:\GITHUB\NetProg\src\osdraw.c(208,22): warning C4312: 'type cast': conversion from 'LONG' to 'HDC' of greater size
+D:\GITHUB\NetProg\src\osdraw.c(213,54): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  osio.c
+D:\GITHUB\NetProg\src\osio.c(454,27): warning C4477: 'sprintf' : format string '%*s' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\GITHUB\NetProg\src\osio.c(454,27): message : this argument is used as a field width
+D:\GITHUB\NetProg\src\osio.c(454,27): warning C4477: 'sprintf' : format string '%*s' requires an argument of type 'int', but variadic argument 3 has type 'size_t'
+D:\GITHUB\NetProg\src\osio.c(454,27): message : this argument is used as a field width
+D:\GITHUB\NetProg\src\osio.c(479,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\GITHUB\NetProg\src\osio.c(567,18): warning C4267: 'return': conversion from 'size_t' to 'LONG', possible loss of data
+D:\GITHUB\NetProg\src\osio.c(578,19): warning C4267: 'return': conversion from 'size_t' to 'LONG', possible loss of data
+D:\GITHUB\NetProg\src\osio.c(1072,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\GITHUB\NetProg\src\osio.c(1129,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\GITHUB\NetProg\src\osio.c(1439,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\GITHUB\NetProg\src\osio.c(1642,27): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+  sqlodbc.c
+D:\GITHUB\NetProg\src\sqlodbc.c(111,23): warning C4311: 'type cast': pointer truncation from 'HDBC' to 'int'
+D:\GITHUB\NetProg\src\sqlodbc.c(186,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\GITHUB\NetProg\src\sqlodbc.c(263,85): warning C4133: 'function': incompatible types - from 'LONG *' to 'SQLLEN *'
+D:\GITHUB\NetProg\src\sqlodbc.c(291,89): warning C4133: 'function': incompatible types - from 'DWORD *' to 'SQLULEN *'
+D:\GITHUB\NetProg\src\sqlodbc.c(392,124): warning C4133: 'function': incompatible types - from 'SDWORD *' to 'SQLLEN *'
+D:\GITHUB\NetProg\src\sqlodbc.c(394,126): warning C4133: 'function': incompatible types - from 'SDWORD *' to 'SQLLEN *'
+D:\GITHUB\NetProg\src\sqlodbc.c(457,69): warning C4133: 'function': incompatible types - from 'UDWORD *' to 'SQLULEN *'
+  xf.c
+D:\GITHUB\NetProg\src\xf.c(359,45): warning C4267: '+=': conversion from 'size_t' to 'LONG', possible loss of data
+D:\GITHUB\NetProg\src\xf.c(360,38): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\GITHUB\NetProg\src\xf.c(378,45): warning C4267: '+=': conversion from 'size_t' to 'LONG', possible loss of data
+D:\GITHUB\NetProg\src\xf.c(379,38): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1543,5): warning MSB8012: TargetPath(D:\GITHUB\NetProg\x64\Debug\NetProg.lib) does not match the Library's OutputFile property value (D:\GITHUB\NetProg\lib\Debug\NetProg.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+wsock32.lib(WSOCK32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in odbc32.lib(ODBC32.dll); second definition ignored
+oscom.obj : warning LNK4006: __WSAFDIsSet already defined in wsock32.lib(WSOCK32.dll); second definition ignored
+  NetProgLib.vcxproj -> D:\GITHUB\NetProg\x64\Debug\NetProg.lib
