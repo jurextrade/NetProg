@@ -1,0 +1,54 @@
+;******************************************************************************
+;******************************************************************************
+;*
+;*  Licensed Materials - Property of IBM
+;*
+;*  IBM TCP/IP for DOS.
+;*  Copyright (c) IBM Corp. 1992.  All rights reserved.
+;*  US Government Users Restricted Rights - Use, duplication or
+;*  disclosure restricted by GSA ADP Schedule contract with IBM Corp.
+;*
+;******************************************************************************
+;******************************************************************************
+;
+; DEF3270.XLT
+;
+; ASCII-to-EBCDIC table for English (US) CECP Code Page 037
+; 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+;
+  40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40     ; 00 ;
+  40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40     ; 10 ;
+  40 5A 7F 7B 5B 6C 50 7D 4D 5D 5C 4E 6B 60 4B 61     ; 20 ;
+  F0 F1 F2 F3 F4 F5 F6 F7 F8 F9 7A 5E 4C 7E 6E 6F     ; 30 ;
+  7C C1 C2 C3 C4 C5 C6 C7 C8 C9 D1 D2 D3 D4 D5 D6     ; 40 ;
+  D7 D8 D9 E2 E3 E4 E5 E6 E7 E8 E9 AD E0 BD 5F 6D     ; 50 ;
+  79 81 82 83 84 85 86 87 88 89 91 92 93 94 95 96     ; 60 ;
+  97 98 99 A2 A3 A4 A5 A6 A7 A8 A9 C0 4F D0 A1 40     ; 70 ;
+  68 DC 51 42 43 44 47 48 52 53 54 57 56 58 63 67     ; 80 ;
+  71 9C 9E CB CC CD DB DD DF EC FC 70 B1 80 BF 40     ; 90 ;
+  45 55 CE DE 49 69 9A 9B AB AF 5F B8 B7 AA 8A 8B     ; A0 ;
+  40 40 40 40 40 65 62 64 B4 40 40 40 40 4A B2 40     ; B0 ;
+  40 40 40 40 40 40 46 66 40 40 40 40 40 40 40 9F     ; C0 ;
+  8C AC 72 73 74 40 75 76 77 40 40 40 40 6A 78 40     ; D0 ;
+  EE 59 EB ED CF EF A0 8E AE FE FB FD 8D AD BC BE     ; E0 ;
+  CA 8F 40 B9 B6 B5 E1 9D 90 BD B3 DA FA EA 40 41     ; F0 ;
+;
+; EBCDIC-to-ASCII table for English (US) CECP Code Page 037
+; 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+;
+  00 01 02 03 1A 09 1A 1A 1A 1A 1A 0B 0C 0D 0E 0F     ; 00 ;
+  10 11 12 13 1A 1A 08 1A 18 19 1A 1A 1C 1D 1E 1F     ; 10 ;
+  1A 1A 1A 1A 1A 0A 17 1B 1A 1A 1A 1A 1A 05 06 07     ; 20 ;
+  1A 1A 16 1A 1A 1A 1A 04 1A 1A 1A 1A 14 15 1A 1A     ; 30 ;
+  20 FF 83 84 85 A0 C6 86 87 A4 BD 2E 3C 28 2B 7C     ; 40 ;
+  26 82 88 89 8A A1 8C 8B 8D E1 21 24 2A 29 3B AA     ; 50 ;
+  2D 2F B6 8E B7 B5 C7 8F 80 A5 DD 2C 25 5F 3E 3F     ; 60 ;
+  9B 90 D2 D3 D4 D6 D7 D8 DE 60 3A 23 40 27 3D 22     ; 70 ;
+  9D 61 62 63 64 65 66 67 68 69 AE AF D0 EC E7 F1     ; 80 ;
+  F8 6A 6B 6C 6D 6E 6F 70 71 72 A6 A7 91 F7 92 CF     ; 90 ;
+  E6 7E 73 74 75 76 77 78 79 7A AD A8 D1 5B E8 A9     ; A0 ;
+  5E 9C BE FA B8 F5 F4 AC AB F3 5B 5D EE 5D EF 9E     ; B0 ;
+  7B 41 42 43 44 45 46 47 48 49 F0 93 94 95 A2 E4     ; C0 ;
+  7D 4A 4B 4C 4D 4E 4F 50 51 52 FB 96 81 97 A3 98     ; D0 ;
+  5C F6 53 54 55 56 57 58 59 5A FD E2 99 E3 E0 E5     ; E0 ;
+  30 31 32 33 34 35 36 37 38 39 FC EA 9A EB E9 1A     ; F0 ;

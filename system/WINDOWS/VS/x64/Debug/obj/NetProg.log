@@ -1,0 +1,354 @@
+﻿  cb2a.c
+  cgi.c
+C:\PROJECTS\NetProg\src\cgi.c(174,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(215,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(674,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(757,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(758,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(1164,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(1485,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(1536,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(1569,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\cgi.c(1769,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  database.c
+  dg.c
+  dns.c
+  dnscomp.c
+C:\PROJECTS\NetProg\src\dnscomp.c(299,35): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(304,36): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(309,26): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(320,29): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(352,21): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(423,34): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(445,20): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(522,30): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(548,18): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(648,36): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\dnscomp.c(752,32): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  fiop.c
+  ftp.c
+  http.c
+  json.c
+  mail.c
+C:\PROJECTS\NetProg\src\mail.c(41,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\mail.c(60,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\mail.c(132,27): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\mail.c(140,33): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\mail.c(736,17): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  mime.c
+  mt.c
+  mx.c
+  mxmanager.c
+  mxutil.c
+  oscom.c
+C:\PROJECTS\NetProg\src\oscom.c(115,52): warning C4244: 'function': conversion from 'SOCKET' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\oscom.c(244,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\oscom.c(373,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\oscom.c(381,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\oscom.c(388,31): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\oscom.c(447,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\oscom.c(784,27): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+  osdate.c
+  osdb.c
+C:\PROJECTS\NetProg\src\osdb.c(767,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+C:\PROJECTS\NetProg\src\osdb.c(767,28): message : this argument is used by a conversion specifier
+C:\PROJECTS\NetProg\src\osdb.c(881,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+C:\PROJECTS\NetProg\src\osdb.c(881,28): message : this argument is used by a conversion specifier
+C:\PROJECTS\NetProg\src\osdb.c(900,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+C:\PROJECTS\NetProg\src\osdb.c(900,28): message : this argument is used by a conversion specifier
+  osio.c
+C:\PROJECTS\NetProg\src\osio.c(454,27): warning C4477: 'sprintf' : format string '%*s' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\PROJECTS\NetProg\src\osio.c(454,27): message : this argument is used as a field width
+  Generating Code...
+  Compiling...
+  oslist.c
+  osmatch.c
+C:\PROJECTS\NetProg\src\osmatch.c(887,22): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\osmatch.c(972,54): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\osmatch.c(989,55): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  osreslex.c
+C:\PROJECTS\NetProg\src\osreslex.c(90,25): warning C4013: 'zzlook' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\osreslex.c(91,8): warning C4102: 'zzfussy': unreferenced label
+C:\PROJECTS\NetProg\src\osreslex.c(434,34): warning C4013: 'main' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\osreslex.c(447,17): warning C4018: '<': signed/unsigned mismatch
+C:\PROJECTS\NetProg\src\osreslex.c(511,17): warning C4018: '<': signed/unsigned mismatch
+C:\PROJECTS\NetProg\src\osreslex.c(9336,27): warning C4311: 'type cast': pointer truncation from 'zzwork *' to 'long'
+C:\PROJECTS\NetProg\src\osreslex.c(9336,42): warning C4311: 'type cast': pointer truncation from 'zzwork [23745]' to 'long'
+C:\PROJECTS\NetProg\src\osreslex.c(9348,31): warning C4311: 'type cast': pointer truncation from 'zzwork *' to 'long'
+C:\PROJECTS\NetProg\src\osreslex.c(9348,46): warning C4311: 'type cast': pointer truncation from 'zzwork [23745]' to 'long'
+C:\PROJECTS\NetProg\src\osreslex.c(9407,33): warning C4013: 'zzback' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\osreslex.c(9421,41): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+C:\PROJECTS\NetProg\src\osreslex.c(9282,35): warning C4101: 'third': unreferenced local variable
+C:\PROJECTS\NetProg\src\osreslex.c(9282,30): warning C4101: 'sec': unreferenced local variable
+C:\PROJECTS\NetProg\src\osreslex.c(9282,42): warning C4101: 'fourth': unreferenced local variable
+  osresyac.c
+osresyac.y(2460,50): warning C4013: 'zzlex' undefined; assuming extern returning int
+osresyac.y(2371,11): warning C4102: 'zznewstate': unreferenced label
+  ostrace.c
+  pop.c
+C:\PROJECTS\NetProg\src\pop.c(209,25): warning C4244: '=': conversion from '__int64' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\pop.c(255,25): warning C4244: '=': conversion from '__int64' to 'LONG', possible loss of data
+  sc.c
+C:\PROJECTS\NetProg\src\sc.c(513,22): warning C4013: 'gets' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sc.c(780,26): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'MXCom *'
+C:\PROJECTS\NetProg\src\sc.c(780,26): warning C4313: 'sprintf': '%d' in format string conflicts with argument 2 of type 'MXCom *'
+C:\PROJECTS\NetProg\src\sc.c(816,37): warning C4477: 'sprintf' : format string '%.*c' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+C:\PROJECTS\NetProg\src\sc.c(816,37): message : this argument is used by a conversion specifier
+C:\PROJECTS\NetProg\src\sc.c(816,37): warning C4313: 'sprintf': '%c' in format string conflicts with argument 2 of type 'char *'
+C:\PROJECTS\NetProg\src\sc.c(825,37): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'void *'
+C:\PROJECTS\NetProg\src\sc.c(825,37): warning C4313: 'sprintf': '%d' in format string conflicts with argument 1 of type 'void *'
+C:\PROJECTS\NetProg\src\sc.c(1067,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\sc.c(1073,66): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+C:\PROJECTS\NetProg\src\sc.c(1499,48): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\sc.c(1512,35): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\sc.c(1525,48): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\sc.c(1597,48): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+  scaction.c
+  sclex.c
+C:\PROJECTS\NetProg\src\sclex.c(116,25): warning C4013: 'yylook' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sclex.c(131,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sclex.c(146,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sclex.c(117,8): warning C4102: 'yyfussy': unreferenced label
+C:\PROJECTS\NetProg\src\sclex.c(1039,27): warning C4311: 'type cast': pointer truncation from 'yywork *' to 'int'
+C:\PROJECTS\NetProg\src\sclex.c(1039,41): warning C4311: 'type cast': pointer truncation from 'yywork [622]' to 'int'
+C:\PROJECTS\NetProg\src\sclex.c(1072,31): warning C4311: 'type cast': pointer truncation from 'yywork *' to 'int'
+C:\PROJECTS\NetProg\src\sclex.c(1072,45): warning C4311: 'type cast': pointer truncation from 'yywork [622]' to 'int'
+C:\PROJECTS\NetProg\src\sclex.c(1242,44): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sclex.c(976,37): warning C4101: 'yyw': unreferenced local variable
+C:\PROJECTS\NetProg\src\sclex.c(1421,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  scparse.c
+  scproc.c
+C:\PROJECTS\NetProg\src\scproc.c(188,43): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scproc.c(239,43): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scproc.c(337,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scproc.c(398,62): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scproc.c(410,63): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scproc.c(410,97): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scproc.c(424,56): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scproc.c(794,22): warning C4244: '=': conversion from 'intptr_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scproc.c(797,44): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scproc.c(835,18): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scproc.c(861,33): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\PROJECTS\NetProg\src\scproc.c(884,28): warning C4311: 'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\PROJECTS\NetProg\src\scproc.c(885,17): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scproc.c(894,88): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scproc.c(1126,65): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  scprocio.c
+C:\PROJECTS\NetProg\src\scprocio.c(639,81): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocio.c(667,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scprocio.c(669,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocio.c(697,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scprocio.c(704,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scprocio.c(796,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocio.c(850,81): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  scprocmx.c
+C:\PROJECTS\NetProg\src\scprocmx.c(64,47): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(140,68): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(298,40): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(335,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(366,57): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(401,87): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(409,101): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(409,117): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(413,101): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(413,117): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(417,101): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(417,117): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(421,101): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(421,117): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(425,101): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(425,117): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(429,101): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(429,117): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(436,123): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(436,139): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(443,106): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(443,122): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(494,114): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(498,114): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(502,114): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(506,114): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(510,114): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(514,114): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(521,136): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(528,119): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(575,87): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(583,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(583,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(589,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(589,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(595,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(595,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(601,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(601,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(607,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(607,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(614,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(614,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(621,67): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(621,83): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(627,59): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(636,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(680,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(686,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(692,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(698,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(704,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(711,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(718,77): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(734,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(771,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(807,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(910,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(910,85): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocmx.c(914,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1022,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1059,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1191,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1287,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1357,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1415,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1446,60): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1484,51): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(1755,52): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scprocmx.c(1851,20): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scprocmx.c(1885,20): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scprocmx.c(1936,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(2000,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(2090,57): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(2175,56): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(2717,52): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(2801,64): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocmx.c(2821,62): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+  scprocop.c
+C:\PROJECTS\NetProg\src\scprocop.c(159,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scprocop.c(160,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scprocop.c(161,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\scprocop.c(232,76): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scprocop.c(243,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(243,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(243,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(249,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(249,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(249,72): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(310,46): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scprocop.c(317,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(317,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(317,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(323,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(323,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(323,72): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(383,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(383,69): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(383,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(389,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(389,71): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(389,72): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(441,34): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(442,55): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(442,73): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(442,74): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(449,34): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(450,56): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(450,75): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(450,76): warning C4312: 'type cast': conversion from 'LONG' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(484,114): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(486,113): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\scprocop.c(670,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(670,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(682,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(682,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(727,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(727,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(739,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(739,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(785,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(785,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(797,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(797,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(842,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(842,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(854,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(854,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(899,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(899,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(911,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(911,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(956,30): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(956,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scprocop.c(968,31): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scprocop.c(968,51): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+  scsys.c
+C:\PROJECTS\NetProg\src\scsys.c(889,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scsys.c(889,27): warning C4477: 'sprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+C:\PROJECTS\NetProg\src\scsys.c(889,27): warning C4313: 'sprintf': '%p' in format string conflicts with argument 1 of type 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1004,53): warning C4311: 'type cast': pointer truncation from 'void *' to 'UINT'
+C:\PROJECTS\NetProg\src\scsys.c(1004,31): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+C:\PROJECTS\NetProg\src\scsys.c(1064,56): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1067,58): warning C4311: 'type cast': pointer truncation from 'void *' to 'long'
+C:\PROJECTS\NetProg\src\scsys.c(1070,57): warning C4311: 'type cast': pointer truncation from 'void *' to 'UINT'
+C:\PROJECTS\NetProg\src\scsys.c(1070,35): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+C:\PROJECTS\NetProg\src\scsys.c(1116,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1119,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'LONG'
+C:\PROJECTS\NetProg\src\scsys.c(1122,49): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1122,27): warning C4477: 'sprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1122,27): warning C4313: 'sprintf': '%p' in format string conflicts with argument 1 of type 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1585,42): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+  scyacc.c
+scyacc.y(899,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'char *'
+scyacc.y(899,24): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'char *'
+scyacc.y(902,24): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 3 has type 'char *'
+scyacc.y(902,24): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'char *'
+scyacc.y(905,24): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 3 has type 'char *'
+scyacc.y(911,74): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+scyacc.y(1325,11): warning C4102: 'yynewstate': unreferenced label
+scyacc.y(1539,9): warning C4102: 'yyerrlab': unreferenced label
+  sha256.c
+  smtp.c
+  sqlodbc.c
+C:\PROJECTS\NetProg\src\sqlodbc.c(112,23): warning C4311: 'type cast': pointer truncation from 'HDBC' to 'int'
+C:\PROJECTS\NetProg\src\sqlodbc.c(316,62): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(317,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(321,62): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(322,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(326,62): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(327,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(332,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(333,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(337,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(338,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(342,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(343,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(347,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(348,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(352,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(353,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(357,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(358,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(362,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(363,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(367,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(368,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(372,60): warning C4244: '=': conversion from 'SQLLEN' to 'LONG', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(373,33): warning C4244: '+=': conversion from 'SQLLEN' to 'int', possible loss of data
+C:\PROJECTS\NetProg\src\sqlodbc.c(416,124): warning C4133: 'function': incompatible types - from 'SDWORD *' to 'SQLLEN *'
+C:\PROJECTS\NetProg\src\sqlodbc.c(418,126): warning C4133: 'function': incompatible types - from 'SDWORD *' to 'SQLLEN *'
+C:\PROJECTS\NetProg\src\sqlodbc.c(481,69): warning C4133: 'function': incompatible types - from 'UDWORD *' to 'SQLULEN *'
+  sqlora.c
+C:\PROJECTS\NetProg\src\sqlora.c(331,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\PROJECTS\NetProg\src\sqlora.c(332,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\PROJECTS\NetProg\src\sqlora.c(333,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\PROJECTS\NetProg\src\sqlora.c(502,29): warning C4013: 'sqlald' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sqlora.c(502,69): warning C4047: '=': 'SQLDA *' differs in levels of indirection from 'int'
+C:\PROJECTS\NetProg\src\sqlora.c(614,16): warning C4013: 'sqlnul' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sqlora.c(620,20): warning C4013: 'sqlprc' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sqlora.c(750,43): warning C4013: 'oracle_send_sqlda' undefined; assuming extern returning int
+  Generating Code...
+  Compiling...
+  tcp.c
+  tp.c
+C:\PROJECTS\NetProg\src\tp.c(259,40): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\PROJECTS\NetProg\src\tp.c(267,50): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+  xf.c
+  Generating Code...
+  NetProg.vcxproj -> C:\PROJECTS\NetProg\system\WINDOWS\VS\x64\Debug\lib\NetProg64.lib

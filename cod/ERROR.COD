@@ -1,0 +1,116 @@
+IV00000                    *** Localisation du repertoire d'emission dans le fichier inventaire
+IV00001                    *** Localisation du repertoire de reception dans le fichier inventaire
+IV00002                    *** Localisation du repertoire inventaire dans le fichier de configuration
+IV00003                    *** Localisation du numero de la base dans le fichier inventaire
+IV00004                    *** Mauvais format du fichier inventaire
+IV00005                    *** Numero de la base incorrect
+IV00006                    *** Probleme memoire. Allocation impossible
+IV00007                    *** Parametre est NULL
+IV00008                    *** Type de donnee inconnu dans la ligne du fichier inventaire
+IV00009                    *** Ligne d'inventaire non trouvee dans le fichier inventaire
+IV00010                    *** Fichier inventaire ancien format non trouve
+IV00011                    *** Fichier inventaire non trouve
+IV00015                    *** EMISSION DU MICRO     : (PERTES DE DONNEES) Fichier a emettre du micro n'existant plus
+IV00029                    *** RECEPTION SUR MICRO   : (PERTES DE DONNEES)  Fichier a emettre du host n'existant plus
+IV00030                    *** INTEGRATION SUR MICRO : Probleme d'integration sur micro
+IV00018                    *** INTEGRATION SUR HOST  : Probleme d'integration sur le host
+IV00020                    *** INTEGRATION SUR HOST  : Fichier manquant sur le host
+IV00016                    EMISSION DU MICRO     : Fichier a retransmettre
+IV00017                    EMISSION DU MICRO     : Fichier bien transfere et bien integre
+IV00019                    INTEGRATION SUR HOST  : Fichier bien emis et bien integre sur le host
+IV00021                    EMISSION DU MICRO     : Fichier mal transfere
+IV00022                    INTEGRATION SUR HOST  : Fichier non existant sur le host
+IV00023                    EMISSION DU MICRO     : Fichier mal transfere
+IV00024                    EMISSION DU MICRO     : Nouveau fichier a transferer
+IV00025                    RECEPTION SUR MICRO   : Fichier bien recu et bien integre
+IV00026                    RECEPTION SUR MICRO   : Fichier a retransmettre vers micro
+IV00027                    INTEGRATION SUR MICRO : Fichier a integrer
+IV00028                    INTEGRATION SUR MICRO : Fichier non existant sur le micro
+IV00031                    RECEPTION SUR MICRO   : Fichier n'existant plus sur le host
+IV00032                    RECEPTION SUR MICRO   : Fichier mal transfere vers le micro
+IV00033                    RECEPTION SUR MICRO   : Nouveau fichier a recevoir sur micro
+IV00034                    RECEPTION SUR MICRO   : Fichier disquette bien lu sur micro 
+MX00300                    *** Probleme lors de la connexion
+MX00301                    *** Erreur inconnu
+MX00302                    *** Probleme d'initialisation du dialogue
+MX00303                    *** Probleme d'initialisation de l'utilisateur
+MX00304                    *** Probleme d'initialisation des messages
+MX00305                    *** Probleme d'initialisation des fonctions
+MX00306                    *** Probleme de connection
+MX00307                    *** Fermeture de la Communication par le serveur
+MX00308                    *** Etat du dialogue incoherent
+MX00309                    *** Un fichier de type disquette tente d'etre transfere
+MX00310                    *** Incoherence des inventaires : On a deja EMIS tous les fichiers
+MX00311                    *** Incoherence des inventaires : On a deja RECU tous les fichiers
+MX00312                    *** Incoherence des inventaires : Le fichier n'a pas ete trouve dans l'inventaire
+MX00313                    *** Fichier mal recu
+MX00314                    *** Le fichier ne correspondant pas au dernier nom emi
+MX00315                    *** Le fichier ne correspondant pas au dernier nom recu
+MX00316                    *** Acquittement correspond a un autre fichier que le fichier courant
+MX00318                    *** Take TCP/IP : Impossible de verifier le nom de la machine GESMACH
+MX00319                    *** Utilisateur inconnu. Mauvais matricule
+MX00320                    *** Probleme SQL lors du controle du matricule
+MX00322                    *** Connexion impossible, verifiez le cablage
+MX00323                    *** Liaison physique interrompue
+MX00324                    *** Systeme sature : Plus de machines disponibles
+MX00325                    *** Probleme TCP/IP : Give non reussi
+MX00326                    *** Type de connexion inconnu
+MX00327                    *** Probleme TCP/IP : Take non reussi
+MX00328                    *** Probleme douverture du fichier script
+MX00329                    *** Repertoire n'existe pas :
+MX00350                    Debut de la communication
+MX00351                    Fin de la communication
+MX00352                    Transfert des fichiers clos par l'utilisateur lors de la connexion physique
+MX00353                    Purge de l'inventaire
+MX00354                    Information inventaire
+MX00355                    Changement de version de l'inventaire MICRO
+MX00356                    Message systeme :
+MX00357                    Message Societe :
+MX00358                    Message Personnel :
+MX00359                    Bonjour 
+MX00360                    Fichier emis du host est bien recu sur micro
+MX00361                    Fichier emis du micro est bien recu sur host
+MX00362                    Fichier a recevoir
+MX00363                    Fichier a emettre
+MX00364                    Nombre d'octets transferes
+MX00365                    Nombre de fichiers transferes
+MX00366                    Changement de votre numero d'installation
+MX00367                    Vous etes en cours d'installation. Vous ne recevrez pas les mis ` jour des donnies durant cette session
+MX00368                    Un probleme est apparu lors de la communication !                           
+MX00369                    Deux lignes d'inventaire font rifirence ` un mjme fichier
+MX00370                    Dibut du controle de l'inventaire
+MX00371                    Controle de l'inventaire en cours
+MX00372                    Communication interrompue volontairement par le systeme
+MX00373                    Version :
+MX00374                    Envoi fichier :
+MX00375                    Reception fichier :
+MX00376                    COMMANDE A EXECUTER :
+MX00377                    COMMANDE 
+MX00378                    Repertoire Courant :
+OS10000                    *** SFS : (10000 DMSREAD DMSWRITE) Fichier non ouvert
+OS02102                    *** SFS : (02102) Conflit Lock sur le disque SFS
+OS02200                    *** SFS : (02200) Conflit d'acces du repertoire ou du fichier
+OS30700                    *** SFS : (30700 DMSWRITE) Erreur systeme. 
+OS51000                    *** SFS : (51000 DMSREAD DMSWRITE) Espace disque depasse
+OS90105                    *** SFS : (90105 DMSREAD DMSWRITE) Format d'enregistrement incorrect
+OS90106                    *** SFS : (90106 DMSREAD DMSWRITE) nombre d'enregistrement est zero
+OS90107                    *** SFS : (90107 DMSREAD DMSWRITE) nombre d'enregistrement ne correspond pas pour un fichier variable
+OS90108                    *** SFS : (90108 DMSREAD DMSWRITE) La taille du buffer est zero
+OS90111                    *** SFS : (90111 DMSREAD DMSWRITE) mauvais parametre correspondnat au buffer
+OS90112                    *** SFS : (90112 DMSREAD DMSWRITE) Nombre d'enregistrement est negatif
+OS90120                    *** SFS : (90120 DMSWRITE) Fichier de format fixe avec ecriture enregistrement qui n'a pas la bonne taille
+OS90121                    *** SFS : (90121 DMSWRITE) Fichier de format fixe avec remplacement enregistrement qui n'a pas la bonne taille
+OS02000                    *** SFS : (02000 DMSOPEN) Conflit d'ouverture de fichier 
+OS44000                    *** SFS : (44000 DMSOPEN) Non autorise a ouvrir ou a creer le fichier
+OS44200                    *** SFS : (44200 DMSOPEN) Fichier deja ouvert en ecriture
+OS63700                    *** SFS : (63700 DMSOPEN) Repertoire verouille
+OS90590                    *** SFS : (90590 DMSOPEN) FilePool non defini
+OS44000                    *** SFS : (44000 DMSOPEN) fichier acces impossible, deja ouvert.
+OS90600                    *** SFS : (90600 DMSGETFM)Tous les modes d'acces sont epuises.
+OS97500                    *** SFS : (97500 DMSOPEN) FilePool n'est pas disponible !.
+OS10001                    *** Erreur d'ouveture du fichier
+OS10002                    *** Erreur CMS : LINKEX
+OS10003                    *** Erreur CMS : ACCESS
+OS10004                    *** Erreur CMS : format du fichier incorrect
+OS10005                    *** Disque plein
+                                  

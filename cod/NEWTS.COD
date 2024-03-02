@@ -1,0 +1,169 @@
+TETCP001FTCP             EBADF : The descriptor is not a socket.
+TETCP002FTCP             EWOULDBLOCK : The socket is marked as non blocking, and process cannot be completed immediatly.
+TETCP003FTCP             EINPROGRESS : A blocking socket is in progress.
+TETCP004FTCP             EDESTADDRREQ : A destination adress is required.
+TETCP005FTCP             EMSGSIZE : The datagram was too large to fit in the specified buffer and was truncated.
+TETCP006FTCP             EPROTOTYPE : The specified protocol is the wrong type for this socket.
+TETCP007FTCP             ENOPROTOOPT : The option is unknown or not supported.
+TETCP008FTCP             EPROTONOSUPPORT : The specified protocol is not supported.
+TETCP009FTCP             ESOCKTNOSUPPORT : The specified socket type is not supported in this address family.
+TETCP010FTCP             EOPNOTSUPP : The referenced socket is not of a type that supports this operation.
+TETCP011FTCP             EAFNOSUPPORT : Addresses in the specified family cannot be used with this socket.
+TETCP012FTCP             EADDRINUSE : The specified address is already in use.
+TETCP013FTCP             EADDRNOTAVAIL : The specified address is not available from the local machine.
+TETCP014FTCP             ENETDOWN : Sockets Implementation has detected that the network subsystem has failed.
+TETCP015FTCP             ENETUNREACH : The network cannot be reached from this host at this time.
+TETCP016FTCP             ENETRESET : The connection must be reset because the system sockets implementation has dropped it.
+TETCP017FTCP             ECONNABORTED : The virtual circuit was aborted due to timeout or other failure.
+TETCP018FTCP             ECONNRESET : The virtual circuit was reset by the remote side.
+TETCP019FTCP             ENOBUFS : No buffer space is available.
+TETCP020FTCP             EISCONN : The socket is already connected.
+TETCP021FTCP             ENOTCONN : The socket is not connected.
+TETCP022FTCP             ESHUTDOWN : The socket is shutdown. No operation is possible when a shutdown is invoked.
+TETCP023FTCP             ETIMEDOUT : Attempt to connect timed out without establishing a connection.
+TETCP024FTCP             ECONNREFUSED : Attempt to connect was forcefully rejected.
+TETCP025FTCP             EHOSTUNREACH : The host cannot be reached from the local machine.
+TETCP026FTCP             EPFNOSUPPORT :
+TETCP027FTCP             ELOOP :
+TETCP028FTCP             ENAMETOOLONG :
+TETCP029FTCP             EHOSTDOWN :
+TETCP030FTCP             ETOOMANYREFS :
+TETCP031FTCP             EALREADY : The socket is nonblocking and a connection attempt would block.
+TETCP032FTCP             ENOTEMPTY :
+TETCP033FTCP             EPROCLIM :
+TETCP034FTCP             EUSERS :
+TETCP035FTCP             EDQUOT :
+TETCP036FTCP             ESTALE :
+TETCP037FTCP             EREMOTE :
+TETCP038FTCP             WSAEMFILE : No more file descriptors are available.
+TETCP039FTCP             TCP/IP Error!
+TETCP040FTCP             ENOTSOCK : The argument does not specify a socket descriptor.
+TETCP041FTCP             EFAULT : attempt to copy the address in caller's address into which information can't be written.
+TEBAS001FBC              TPTakeConnection()  Error Can not take the connection.
+TEBAS002FBC              TPNextAvailableClient() Error Max Clients is reached.
+TEBAS003FBC              TPNextAvailableClient() Error Can not alloc memory !
+TEBAS004FBC              TPWaitForSomething()  Fatal Error
+TEBAS005FBC              TPAllocateCommunication() Error Can not alloc memory !
+TEBAS006FBC              TPAllocateConnection() Error Can not alloc memory !
+TEBAS007FBC              TPReadRequestFromClient() Error Request too long.
+TEBAS008FBC              TPReadRequestFromClient() Error Can not realloc.
+TEBAS009FBC              TPWriteClient() Error Can not realloc
+TEDAG001FDG              MXInit() Error Can not allocate Stx table.
+TEDAG002FDG              MXInit() Error Initialisation in Syntax.
+TEDAG003FDG              MXExtendValueBuffer() Error Can not Realloc
+TEDAG004FDG              MXSetBufferValue () Error Buffer too long.
+TEDAG005FDG              MXGetFileSize() Not existing file to send.
+TEDAG006FDG              MXGetSize() Error Unknown type in message !
+TEDAG007FDG              MXSetFunction() Error Unknown message class name.
+TEDAG008FDG              MXSetFunction() Error Unknown message name.
+TEDAG009FDG              MXSetFunction() Error Unknown attribute in message!
+TEDAG010FDG              MXSetMode() Error Unknown message class name.
+TEDAG011FDG              MXSetMode() Error Unknown message name.
+TEDAG012FDG              MXSetMode() Error Unknown attribute in message!
+TEDAG013FDG              MXSetValue() Error in Attribute ,not in message
+TEDAG014FDG              MXSetValue() Error Out of Range.
+TEDAG015FDG              MXSetValue() Error Unknown type in message!
+TEDAG016FDG              MXGetValue() Error in Attribute , not in message.
+TEDAG017FDG              MXGetValue() Error Out of Range.
+TEDAG018FDG              MXCreateMessage() Error Unknown message class name.
+TEDAG019FDG              MXCreateMessage() Error Not enough memory.
+TEDAG020FDG              MXCheckAndReturnMessage() Error Incorrect Message Format.
+TEDAG021FDG              MXSetCom() Error can not allocate memory.
+TEDAG022FDG              MXReceiveMessage() Error during appli function execution.
+TEDAG023FDG              MXSendMessage() Error during appli function execution.
+TEDAG024FDG              MXRead() Error during appli function execution.
+TEDAG025FDG              MXWrite() Error during appli function execution.
+TEDAG026FDG              MXAllocateContext() Error Can not alloc memory!
+TEDAG027FDG              MXReadFileContent() Error Can not open file for writing.
+TEDAG028FDG              MXReadFileContent() Error during writing in file.
+TEDAG029FDG              MXReadFileContent() Error Can not allocate buffer.
+TEDAG030FDG              MXWriteFileContent() Error Can not open file.
+TEDAG031FDG              MXWriteFileContent() Error Can not allocate buffer.
+TEDAG032FDG              MXReadMessage() Error, Unknown type in message!.
+TEDAG033FDG              MXReadmessage() Error Bad Message Information !.
+TEDAG034FDG              MXWriteMessage() Error Incorrect buffer size.
+TEDAG035FDG              MXWriteMessage() Error Unknown type in message!
+TEDAG036FDG              MXWriteMessage() Error Bad Message Size Information!
+TEDAG037FDG              MXWaitChar() Error in file Format.
+TEDAG038FDG              MXReadName() Error Expecting  { for message name or ) for end class.
+TEDAG039FDG              MXReadName() Error in message code.
+TEDAG040FDG              MXReadName() Message Name is missing.
+TEDAG041FDG              MXReadName() Error Message Format Expecting (.
+TEDAG042FDG              MXReadName() Error Message Name too long.
+TEDAG043FDG              MXReadName() Expecting  { for message name or ) for end class.
+TEDAG044FDG              MXReadAttributes() Error in type.
+TEDAG045FDG              MXReadAttributes() Error in size.
+TEDAG046FDG              MXReadAttributes() Error Attribute Name too long.
+TEDAG047FDG              MXReadMessageClass() Error Message Name.
+TEDAG048FDG              MXReadClass() Error in Class Name.
+TEDAG049FDG              MXLoadLibrary() Error Can not Load Library.
+TEDAG050FDG              MXLoadLibrary() Error Dynamic load Not supported by the system.
+TEDAG051FDG              MXLoadClass() Error Can not alloc memory.
+TEDAG052FDG              MXLoadClass() Error Can not open dialog file.
+TEDAG053FDG              MXLoadClass() Error Too Many messages in file.
+TEDAG054FDG              MXReadFileContent() Error Disk Is Full During Writing.
+TEDAG055FDG              MXCreateClass() Error Can not alloc memory.º
+TEDAG056FDG              MXDeleteMessageClass() Error Unknown message class name.º
+TEDAG057FDG              MXCreateMessageClass() Error Class message max number reached.º
+TEDAG058FDG              MXAddAttributeToMessage() Error Bad attribute type.º
+TEDAG059FDG              MXAddAttributeToMessage() Error Attribute max number reached.º
+TEDAG060FDG              MXSetMessageDateHour() Error in format.
+TEDAG061FDG              MXConnect() Invalid Connection Class Name
+TESYS001FOS              OSInit() TCP/IP WSAStarup error.
+TESYS002FOS              OSGetPeerName() TCP/IP getpeername error.
+TESYS003FOS              OSGetPeerName () TCP/IP getpeername not yet supported on unix.
+TESYS004FOS              OSGetPeerName() getpeername No local sockets supported.
+TESYS005FOS              OsAccept() TCP/IP Error in accept function.
+TESYS006FOS              OSAccept() TCP/IP Error Setting SO_LINGER.
+TESYS007FOS              OSAccept() Error Setting IOCTL error.
+TESYS008FOS              OsOpenTcpSocket() TCP/IP Error Creating TCP socket.
+TESYS009FOS              OsOpenTcpSocket() TCP/IP Error Setting SO_REUSEADDR.
+TESYS010FOS              OsOpenTcpSocket() TCP/IP Error Binding TCP socket.
+TESYS011FOS              OSOpenTcpSocket() TCP/IP Error Setting SO_LINGER.
+TESYS012FOS              OsOpenTcpSocket() TCP/IP Error TCP Listening.
+TESYS013Fopen            open_unix_socket() TCP/IP Error Creating Unix socket.
+TESYS014Fopen            open_unix_socket() TCP/IP Error Binding Unix socket.
+TESYS015Fopen            open_unix_socket() TCP/IP Error Unix listening.
+TESYS016Fopen            open_iucv_socket() TCP/IP Error Creating Iucv socket.
+TESYS017Fopen            open_iucv_socket() TCP/IP Error Binding IUCV socket.
+TESYS018Fopen            open_iucv_socket() TCP/IP Error Iucv listening.
+TESYS019Fconnect         connect_iucv_socket() TCP/IP Error Creating Iucv socket.
+TESYS020Fconnect         connect_iucv_socket() TCP/IP Error Connecting to  IUCV socket.
+TESYS021Fconnect         connect_iucv_socket() TCP/IP Error Setting SO_LINGER.
+TESYS022Fconnect         connect_iucv_socket() TCP/IP Error Setting IOCTL error.
+TESYS023FOS              OsOpenLocalSocket () TCP/IP Warning No local socket supported.
+TESYS024FOS              OsLocalConnect () TCP/IP warning No local socket supported.
+TESYS025FOS              OsLocalConnect () TCP/IP Error Not yet supported on UNIX.
+TESYS026FOS              OsTcpConnect () TCP/IP Error Creating TCP socket.
+TESYS027FOS              OsTcpConnect () TCP/IP Error Connecting to  TCP socket.
+TESYS028FOS              OsTcpConnect () TCP/IP Error Setting SO_LINGER.
+TESYS029FOS              OSTcpConnect() TCP/IP Error Setting IOCTL error.
+TESYS030FOS              OsGiveSocket () TCP/IP Error give Socket not supported.
+TESYS031FOS              OsTakeSocket () TCP/IP Error take Socket not supported.
+TESYS032FOS              OSTakeSocket() TCP/IP Error Setting IOCTL.
+TESYS033FOS              OSGetFileSize() Error can not open file.
+TESYS034FOS              OSGetFileSize() Error can not allocate buffer.
+TESYS035FOS              OsRawConnect () TCP/IP Error Creating TCP socket.
+TESYS036FOS              OsRawConnect () TCP/IP Error MaxSocks Exceeded.
+TESYS037FOS              OsTcpConnect () TCP/IP Error MaxSocks Exceeded.
+TESTX001FSTX             STXInit ()  Error in Loading Xlt file.
+TESTX002FSTX             STXInit ()  Error in Table Initialisation.
+
+TESC0000FSC              SCAllocParam() Probleme memoire. Allocation impossible. 
+TESC0001FSC              SCAllocAction() Probleme memoire. Allocation impossible. 
+TESC0002FSC              Probleme de syntaxe dans le fichier de commandes
+TESC0003FSC              SCAllocSection() Probleme memoire. Allocation impossible. 
+TESC0004FSC              Probleme douverture du fichier script
+TESC0005FSC              SCAllocChapter() Probleme memoire. Allocation impossible. 
+TESC0006FSC              Probleme action systeme inconnue
+TESC0007FSC              Erreur dinitialisation 
+TESC0008FSC              Erreur chaine vide          
+TESC0009FSC              Erreur d'ouverture fichier          
+TESC0010FSC              Erreur initialisation chaine Lex-Yacc
+TESC0011FSC              Erreur initialisation fichier Lex-Yacc 
+TESC0012FSC              Erreur syntaxique
+TESC0013FSC              Erreur Action 
+TESC0014FSC              Invalidate Parameters
+TESC0015FSC              Undefined Function
+
+TEOS0001LEX				 Erreur Lex-Yacc Ressource  

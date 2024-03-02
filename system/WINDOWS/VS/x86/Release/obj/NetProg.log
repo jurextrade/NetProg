@@ -1,0 +1,90 @@
+﻿  cb2a.c
+  cgi.c
+  database.c
+  dg.c
+  dns.c
+  dnscomp.c
+  fiop.c
+  ftp.c
+  http.c
+  json.c
+  mail.c
+  mime.c
+  mt.c
+  mx.c
+  mxmanager.c
+  mxutil.c
+  oscom.c
+  osdate.c
+  osdb.c
+C:\PROJECTS\NetProg\src\osdb.c(767,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+C:\PROJECTS\NetProg\src\osdb.c(767,28): message : this argument is used by a conversion specifier
+C:\PROJECTS\NetProg\src\osdb.c(881,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+C:\PROJECTS\NetProg\src\osdb.c(881,28): message : this argument is used by a conversion specifier
+C:\PROJECTS\NetProg\src\osdb.c(900,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+C:\PROJECTS\NetProg\src\osdb.c(900,28): message : this argument is used by a conversion specifier
+  osio.c
+  Compiling...
+  oslist.c
+  osmatch.c
+  osreslex.c
+C:\PROJECTS\NetProg\src\osreslex.c(90,25): warning C4013: 'zzlook' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\osreslex.c(91,8): warning C4102: 'zzfussy': unreferenced label
+C:\PROJECTS\NetProg\src\osreslex.c(434,34): warning C4013: 'main' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\osreslex.c(447,17): warning C4018: '<': signed/unsigned mismatch
+C:\PROJECTS\NetProg\src\osreslex.c(511,17): warning C4018: '<': signed/unsigned mismatch
+C:\PROJECTS\NetProg\src\osreslex.c(9407,33): warning C4013: 'zzback' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\osreslex.c(9282,35): warning C4101: 'third': unreferenced local variable
+C:\PROJECTS\NetProg\src\osreslex.c(9282,30): warning C4101: 'sec': unreferenced local variable
+C:\PROJECTS\NetProg\src\osreslex.c(9282,42): warning C4101: 'fourth': unreferenced local variable
+  osresyac.c
+osresyac.y(2460,50): warning C4013: 'zzlex' undefined; assuming extern returning int
+osresyac.y(2371,11): warning C4102: 'zznewstate': unreferenced label
+  ostrace.c
+  pop.c
+  sc.c
+C:\PROJECTS\NetProg\src\sc.c(513,22): warning C4013: 'gets' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sc.c(780,26): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'MXCom *'
+C:\PROJECTS\NetProg\src\sc.c(816,37): warning C4477: 'sprintf' : format string '%.*c' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+C:\PROJECTS\NetProg\src\sc.c(816,37): message : this argument is used by a conversion specifier
+C:\PROJECTS\NetProg\src\sc.c(825,37): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'void *'
+  scaction.c
+  sclex.c
+C:\PROJECTS\NetProg\src\sclex.c(116,25): warning C4013: 'yylook' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sclex.c(117,8): warning C4102: 'yyfussy': unreferenced label
+C:\PROJECTS\NetProg\src\sclex.c(976,37): warning C4101: 'yyw': unreferenced local variable
+  scparse.c
+  scproc.c
+C:\PROJECTS\NetProg\src\scproc.c(835,18): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+C:\PROJECTS\NetProg\src\scproc.c(885,17): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+  scprocio.c
+  scprocmx.c
+  scprocop.c
+  scsys.c
+C:\PROJECTS\NetProg\src\scsys.c(889,27): warning C4477: 'sprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+C:\PROJECTS\NetProg\src\scsys.c(1004,31): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+C:\PROJECTS\NetProg\src\scsys.c(1070,35): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'UINT'
+C:\PROJECTS\NetProg\src\scsys.c(1122,27): warning C4477: 'sprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+  scyacc.c
+scyacc.y(899,24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'char *'
+scyacc.y(902,24): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 3 has type 'char *'
+scyacc.y(905,24): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 3 has type 'char *'
+scyacc.y(1325,11): warning C4102: 'yynewstate': unreferenced label
+scyacc.y(1539,9): warning C4102: 'yyerrlab': unreferenced label
+  sha256.c
+  smtp.c
+  sqlodbc.c
+  sqlora.c
+C:\PROJECTS\NetProg\src\sqlora.c(331,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\PROJECTS\NetProg\src\sqlora.c(332,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\PROJECTS\NetProg\src\sqlora.c(333,31): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\PROJECTS\NetProg\src\sqlora.c(502,29): warning C4013: 'sqlald' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sqlora.c(502,69): warning C4047: '=': 'SQLDA *' differs in levels of indirection from 'int'
+C:\PROJECTS\NetProg\src\sqlora.c(614,16): warning C4013: 'sqlnul' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sqlora.c(620,20): warning C4013: 'sqlprc' undefined; assuming extern returning int
+C:\PROJECTS\NetProg\src\sqlora.c(750,43): warning C4013: 'oracle_send_sqlda' undefined; assuming extern returning int
+  Compiling...
+  tcp.c
+  tp.c
+  xf.c
+  NetProg.vcxproj -> C:\PROJECTS\NetProg\system\WINDOWS\VS\x86\Release\lib\NetProg32.lib
