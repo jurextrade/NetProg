@@ -72,26 +72,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\..\x86\$(Configuration)\lib\</OutDir>
-    <IntDir>$(SolutionDir)\..\x86\$(Configuration)\obj\</IntDir>
+    <OutDir>..\x86\$(Configuration)\lib\</OutDir>
+    <IntDir>..\x86\$(Configuration)\obj\</IntDir>
     <TargetName>$(ProjectName)32</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)\..\x86\$(Configuration)\lib\</OutDir>
-    <IntDir>$(SolutionDir)\..\x86\$(Configuration)\obj\</IntDir>
+    <OutDir>..\x86\$(Configuration)\lib\</OutDir>
+    <IntDir>..\x86\$(Configuration)\obj\</IntDir>
     <TargetName>$(ProjectName)32</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\..\$(Platform)\$(Configuration)\lib\</OutDir>
-    <IntDir>$(SolutionDir)\..\$(Platform)\$(Configuration)\obj\</IntDir>
+    <OutDir>..\$(Platform)\$(Configuration)\lib\</OutDir>
+    <IntDir>..\$(Platform)\$(Configuration)\obj\</IntDir>
     <TargetName>$(ProjectName)64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)\..\$(Platform)\$(Configuration)\lib\</OutDir>
-    <IntDir>$(SolutionDir)\..\$(Platform)\$(Configuration)\obj\</IntDir>
+    <OutDir>..\$(Platform)\$(Configuration)\lib\</OutDir>
+    <IntDir>..\$(Platform)\$(Configuration)\obj\</IntDir>
     <TargetName>$(ProjectName)64</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -112,7 +112,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>$(SolutionDir)\..\x86\$(Configuration)\lib\NetProg32.lib</OutputFile>
+      <OutputFile>..\x86\$(Configuration)\lib\$(ProjectName)32.lib</OutputFile>
+      <AdditionalDependencies>wsock32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -135,7 +137,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>$(SolutionDir)\..\x86\$(Configuration)\lib\NetProg32.lib</OutputFile>
+      <OutputFile>..\x86\$(Configuration)\lib\$(ProjectName)32.lib</OutputFile>
+      <AdditionalDependencies>wsock32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -154,7 +158,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>$(SolutionDir)\..\$(Platform)\$(Configuration)\lib\NetProg64.lib</OutputFile>
+      <OutputFile>..\$(Platform)\$(Configuration)\lib\$(ProjectName)64.lib</OutputFile>
+      <AdditionalDependencies>wsock32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -177,7 +182,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <OutputFile>$(SolutionDir)\..\$(Platform)\$(Configuration)\lib\NetProg64.lib</OutputFile>
+      <OutputFile>..\$(Platform)\$(Configuration)\lib\$(ProjectName)64.lib</OutputFile>
+      <AdditionalDependencies>wsock32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>

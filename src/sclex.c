@@ -157,7 +157,7 @@ yyfussy: switch(nstr){
                 yylval.val_i = atoi(buf);
                 sprintf(str_tmp,"%d",yylval.val_i);
                 Trace("--- Lex --- yytext (%s) val_i (%d) str_tmp (%s)", buf, yylval.val_i, str_tmp);
-                /* on verifie que l'on n'a pas dépassé la taille max d'un 'int' */
+                /* on verifie que l'on n'a pas depasse la taille max d'un 'int' */
                 if (strcmp(buf, str_tmp) != 0)
                 {
                     Err(ERR_INT, NULL);
@@ -180,7 +180,7 @@ yyfussy: switch(nstr){
                 yylval.val_l = atol(buf);
                 sprintf(str_tmp,"%ld",yylval.val_l);
                 Trace("--- Lex --- yytext (%s) val_l (%ld) str_tmp (%s)", buf, yylval.val_l, str_tmp);
-                /* on vérifie que l'on n'a pas dépassé la taille max d'un 'long' */
+                /* on verifie que l'on n'a pas depasse la taille max d'un 'long' */
                 if (strcmp(buf, str_tmp) != 0)
                 {
                     Err(ERR_LONG, NULL);

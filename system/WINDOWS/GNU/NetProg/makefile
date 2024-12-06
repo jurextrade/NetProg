@@ -10,8 +10,6 @@ OBJ64=  ../x64/obj/cb2a.o ../x64/obj/cgi.o ../x64/obj/database.o ../x64/obj/dg.o
 OBJ32=  ../x86/obj/cb2a.o ../x86/obj/cgi.o ../x86/obj/database.o ../x86/obj/dg.o ../x86/obj/dns.o ../x86/obj/dnscomp.o ../x86/obj/fiop.o ../x86/obj/ftp.o ../x86/obj/http.o ../x86/obj/mail.o ../x86/obj/mime.o ../x86/obj/mt.o ../x86/obj/mx.o ../x86/obj/mxmanager.o ../x86/obj/mxutil.o ../x86/obj/oscom.o ../x86/obj/osdate.o ../x86/obj/osdb.o ../x86/obj/osio.o ../x86/obj/oslist.o ../x86/obj/osmatch.o  ../x86/obj/osreslex.o ../x86/obj/osresyac.o \
 	  ../x86/obj/ostrace.o ../x86/obj/pop.o ../x86/obj/sc.o ../x86/obj/scaction.o ../x86/obj/sclex.o ../x86/obj/scparse.o ../x86/obj/scproc.o ../x86/obj/scprocio.o ../x86/obj/scprocmx.o ../x86/obj/scprocop.o ../x86/obj/scsys.o ../x86/obj/scyacc.o ../x86/obj/smtp.o ../x86/obj/sqlodbc.o ../x86/obj/sqlora.o ../x86/obj/tcp.o ../x86/obj/tp.o ../x86/obj/xf.o 
 
-EXEC= libNetProg.a
-
 ../x64/obj/%.o: ../../../../src/%.c
 	gcc -c  $< -DYY_USE_PROTOS -DWINDOWS -I$(INC_REP)  -o  $@
 
@@ -43,10 +41,8 @@ router.o: ../../examples/router/router.c
 router:	router.o $(OBJ)
 	gcc -o router router.o -L. -lNetProg -lws2_32  -lodbc32
 
+clean32:
+	del $(OBJ32) 
 
-clean:
-	del $(OBJ) $(EXEC) io_proto_store.o
-
-
-
-
+clean64:
+	del $(OBJ64) 

@@ -73,7 +73,7 @@ SCEntity* SCCopySections(SC* psc, List** listsections)
         }
         else
         {
-            /* on supprime la section si elle existe avant d'insérer l'autre de meme nom */
+            /* on supprime la section si elle existe avant d'inserer l'autre de meme nom */
             psection_temp = SCIsSectionDefinedInList(psc->ListSections, psection->Name);
             if (psection_temp)
             {

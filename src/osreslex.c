@@ -547,13 +547,13 @@ int ErrorOccurs(int Type)
         sprintf(OSStrErr, "[File : %s][line : %d] Caractère Inconnu\n", Name, zzlineno);
         break;
     case ALLOCATION:
-        sprintf(OSStrErr, "[File : %s][line : %d] Mémoire Insuffisante...\n", Name, zzlineno);
+        sprintf(OSStrErr, "[File : %s][line : %d] Memoire Insuffisante...\n", Name, zzlineno);
         break;
     case XLTCAPTION:
         sprintf(OSStrErr, "[File : %s][line : %d] Table de Translation incorrecte\n", Name, zzlineno);
         break;
     default:
-        sprintf(OSStrErr, "[File : %s][line : %d] Une erreur non référencée vient de se produire\n", Name, zzlineno);
+        sprintf(OSStrErr, "[File : %s][line : %d] Une erreur non referencee vient de se produire\n", Name, zzlineno);
         break;
     }
     return(1);

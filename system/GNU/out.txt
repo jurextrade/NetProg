@@ -1,2 +1,0 @@
-cc -o  osreslex.o -c -DWINDOWS -I../../include ../../src/osreslex.c 
-makefile:10: recipe for target 'osreslex.o' failed

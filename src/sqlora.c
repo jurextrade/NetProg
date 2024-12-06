@@ -269,9 +269,9 @@ void oracle_ack (OSAck* pack)
     /*  pack->Type = 1;     erreur SQL */
     pack->SqlCode = sqlca.sqlcode;
     strncpy (pack->SqlErrMsg, sqlca.sqlerrm.sqlerrmc, 70);
-    sqlca.sqlerrm.sqlerrmc[0] = 0;               /* on réinitialise */
+    sqlca.sqlerrm.sqlerrmc[0] = 0;               /* on reinitialise */
     pack->RowsProcessed = sqlca.sqlerrd[3];
-    sqlca.sqlerrd[3] = 0;                           /* on réinitialise */
+    sqlca.sqlerrd[3] = 0;                           /* on reinitialise */
     pack->Print = 1;
     pack->Stop  = 0;
     if (pack->AckProcedure)

@@ -497,8 +497,8 @@ IDENTFICH* OSReturnFicTrace(IDENTFICH* ptIdent, char typloc, char* localis, char
 /*============================================================================*/
 /* fgetline(LPSTR, FILE *) -> LPSTR                                           */
 /* Fonction de lecture d'une ligne dans un fichier ouvert, gràce à la         */
-/* structure ptFic. Le caractère retour chariot est eliminé si il est         */
-/* présent.                                                                   */
+/* structure ptFic. Le caractère retour chariot est elimine si il est         */
+/* present.                                                                   */
 /*============================================================================*/
 
 char* fgetline(char * chChaine, int iNbr, FILE * ptFic)

@@ -1,2 +1,2 @@
-PlatformToolSet=v143:VCToolArchitecture=Native32Bit:VCToolsVersion=14.31.31103:TargetPlatformVersion=10.0.19041.0:
-Release|Win32|C:\PROJECTS\NetProg\system\WINDOWS\VS\NetProg\|
+PlatformToolSet=v143:VCToolArchitecture=Native32Bit:VCToolsVersion=14.39.33519:TargetPlatformVersion=10.0.19041.0:VcpkgTriplet=x86-windows:
+Release|Win32|C:\PROJECTS_CROSS\EMV\libemv-master\|

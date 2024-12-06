@@ -215,7 +215,7 @@ SCPROCRESULT SCOpeAddProc (SC* psc,  SCAction* thisaction)
         Value2 = SCGetParamValue (psc, thisaction, i);
         SCASSERTDEFINEDVALUE(Value2);
 
-        /* types non gérés actuellement */
+        /* types non geres actuellement */
         if ((Value1.Type == SCNULL)    ||
                 (Value1.Type == SCFLOAT)   ||
                 (Value1.Type == SCBOOLEAN) ||
@@ -291,7 +291,7 @@ SCPROCRESULT SCOpeMinusProc (SC* psc,  SCAction* thisaction)
         Value2 = SCGetParamValue (psc, thisaction, i);
         SCASSERTDEFINEDVALUE(Value2);
 
-        /* types non gérés actuellement */
+        /* types non geres actuellement */
         if ((Value1.Type == SCNULL)    ||
                 (Value1.Type == SCFLOAT)   ||
                 (Value1.Type == SCPOINTER) ||
@@ -365,7 +365,7 @@ SCPROCRESULT SCOpeMultProc (SC* psc,  SCAction* thisaction)
         Value2 = SCGetParamValue (psc, thisaction, i);
         SCASSERTDEFINEDVALUE(Value2);
 
-        /* types non gérés actuellement */
+        /* types non geres actuellement */
         if ((Value1.Type == SCNULL)    ||
                 (Value1.Type == SCFLOAT)   ||
                 (Value1.Type == SCPOINTER) ||
@@ -423,7 +423,7 @@ SCPROCRESULT SCOpeDivProc (SC* psc,  SCAction* thisaction)
         Value2 = SCGetParamValue (psc, thisaction, i);
         SCASSERTDEFINEDVALUE(Value2);
 
-        /* types non gérés actuellement */
+        /* types non geres actuellement */
         if ((Value1.Type == SCNULL)    ||
                 (Value1.Type == SCFLOAT)   ||
                 (Value1.Type == SCPOINTER) ||

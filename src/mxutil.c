@@ -622,7 +622,8 @@ MXApplicationProcedure* MXFindApplicationProcedure (List* ExecuteList, int (*fun
         else plist = plist->cdr;
     }
 
-    return pexecuteprocedure;
+	if (found == 1) return pexecuteprocedure;
+	else return NULL;
 }
 
 MXComCallBack* MXFindComCallBack (List* ExecuteList, int (*funct)(MXCom*, void*), void* appfield)
@@ -642,7 +643,8 @@ MXComCallBack* MXFindComCallBack (List* ExecuteList, int (*funct)(MXCom*, void*)
         else plist = plist->cdr;
     }
 
-    return pexecuteprocedure;
+	if (found == 1) return pexecuteprocedure;
+	else return NULL;
 
 }
 
@@ -662,7 +664,8 @@ MXCallBack* MXFindGeneralCallBack (List* ExecuteList, int (*funct)(MXMessage*, M
             found = 1;
         else plist = plist->cdr;
     }
-    return pexecuteprocedure;
+	if (found == 1) return pexecuteprocedure;
+	else return NULL;
 }
 
 MXCallBack* MXFindCallBack (MXMessageClass* pmessclass, List* ExecuteList, int (*funct)(MXMessage*,MXCom* pcom, void*), void* appfield)
@@ -682,7 +685,9 @@ MXCallBack* MXFindCallBack (MXMessageClass* pmessclass, List* ExecuteList, int (
             found = 1;
         else plist = plist->cdr;
     }
-    return pexecuteprocedure;
+	if (found == 1) return pexecuteprocedure;
+	else return NULL;
+
 }
 
 int MXGetProtocolFromName (char* Name)
