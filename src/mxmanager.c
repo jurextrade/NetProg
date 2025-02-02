@@ -379,6 +379,7 @@ void MXFreeCom (MX* pmx, MXCom* pcom)
     }
 
     free (pcom);
+
 }
 
 

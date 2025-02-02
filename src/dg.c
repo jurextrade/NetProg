@@ -671,6 +671,7 @@ LONG DGReadMessage (MX* pmx, MXMessage* pmessage, char* stream, int streamsize, 
     from = 0;
     FromObjectOffset = pcontext->ObjectOffset;
     FromSizeOffset = pcontext->SizeOffset;
+	j = FromSizeOffset;
     NbObjects = ListNbElt (pclassmess->Objects);
 
     for (i = FromObjectOffset; i < NbObjects; i++)
@@ -796,16 +797,19 @@ LONG DGReadMessage (MX* pmx, MXMessage* pmessage, char* stream, int streamsize, 
             if (pmessage->StreamSize < pmessage->Offset + from + pobject->Size)
                 if (MXExtendValueBuffer (pmessage, MXBUFVALUESIZE) == 0) return -1;
             Stream = pmessage->Stream + pmessage->Offset;
-            pmessage->Values[(int)pobject->Offset] = pmessage->Offset + from;
-            size = XFCharRead (pxf, Stream, &from, fromstream, pobject->Size);
-            fromstream += size;
-            isread += size;
-            pcontext->StillToRead -= size;
-            if (isread == PartMessageSize )
-            {
-                State = 1;
-                break;
-            }
+			for (j = FromSizeOffset; j < pobject->Size; j++)
+			{
+				pmessage->Values[(int)pobject->Offset] = pmessage->Offset + from;
+				size = XFCharRead(pxf, Stream, &from, fromstream, pobject->Size);
+				fromstream += size;
+				isread += size;
+				pcontext->StillToRead -= size;
+				if (isread == PartMessageSize)
+				{
+					State = 1;
+					break;
+				}
+			}
             break;
         case MXFILE :
             for (j = FromSizeOffset; j < pobject->Size; j++)

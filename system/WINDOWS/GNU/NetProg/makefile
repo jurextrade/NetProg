@@ -11,10 +11,10 @@ OBJ32=  ../x86/obj/cb2a.o ../x86/obj/cgi.o ../x86/obj/database.o ../x86/obj/dg.o
 	  ../x86/obj/ostrace.o ../x86/obj/pop.o ../x86/obj/sc.o ../x86/obj/scaction.o ../x86/obj/sclex.o ../x86/obj/scparse.o ../x86/obj/scproc.o ../x86/obj/scprocio.o ../x86/obj/scprocmx.o ../x86/obj/scprocop.o ../x86/obj/scsys.o ../x86/obj/scyacc.o ../x86/obj/smtp.o ../x86/obj/sqlodbc.o ../x86/obj/sqlora.o ../x86/obj/tcp.o ../x86/obj/tp.o ../x86/obj/xf.o 
 
 ../x64/obj/%.o: ../../../../src/%.c
-	gcc -c  $< -DYY_USE_PROTOS -DWINDOWS -I$(INC_REP)  -o  $@
+	gcc -c  $< -DYY_USE_PROTOS -DWINDOWS -I$(INC_REP) -Wno-implicit-function-declaration -Wno-implicit-int -Wno-int-conversion -o  $@
 
 ../x86/obj/%.o: ../../../../src/%.c
-	gcc -c  $< -DYY_USE_PROTOS -DWINDOWS -I$(INC_REP)  -o  $@
+	gcc -c  $< -DYY_USE_PROTOS -DWINDOWS -I$(INC_REP) -Wno-implicit-function-declaration -Wno-implicit-int -Wno-int-conversion -o  $@
 
 lib64: $(OBJ64)
 	ar rcs ../x64/lib/libNetProg64.a $(OBJ64)
@@ -42,7 +42,7 @@ router:	router.o $(OBJ)
 	gcc -o router router.o -L. -lNetProg -lws2_32  -lodbc32
 
 clean32:
-	del $(OBJ32) 
+	del ..\x86\obj\*.o 
 
 clean64:
-	del $(OBJ64) 
+	del ..\x64\obj\*.o 
