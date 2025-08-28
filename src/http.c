@@ -135,13 +135,13 @@ LONG HTTPWriteMessage (MX* pmx, MXMessage* pmessage, char* stream, int maxcount,
                     else
                     {
                         if ((strcmp (pobject->Name, "Request-Line")  != 0) &&
-                                (strcmp (pobject->Name, "Status-Line") != 0))
+                            (strcmp (pobject->Name, "Status-Line") != 0))
                         {
                             size = XFStringWrite (pxf, pobject->Name, &fromzero, tostream, 1);
                             tostream +=size - 1;
                             written += size - 1;
                             fromzero = 0;
-                            size = XFStringWrite   (pxf,  ": ",  &fromzero, tostream, 1);
+                            size = XFStringWrite   (pxf,  ":",  &fromzero, tostream, 1);
                             tostream += size - 1;
                             written += size - 1;
                         }
@@ -165,14 +165,18 @@ LONG HTTPWriteMessage (MX* pmx, MXMessage* pmessage, char* stream, int maxcount,
         case MXBUFFER :
             for (j = FromSizeOffset; j < pobject->Size; j++, from = 0)
             {
+				LONG fromzero = 0;
+
                 if (!MXBufferProcessing (pmessage))
                 {
-                    /* add final \r\n */
-                    LONG fromzero = 0;
-                    XFStringWrite (pxf, "\r\n", &fromzero, tostream, 1);
-                    written += 2;
-                    tostream += 2;
-                    pcontext->StillToRead -= sizeof(DWORD) + sizeof(CHAR);
+					if ((strcmp(pobject->Name, "Content") == 0))
+					{
+						fromzero = 0;
+						XFStringWrite(pxf, "\r\n", &fromzero, tostream, 1);
+						written += 2;
+						tostream += 2;
+					}
+					pcontext->StillToRead -= sizeof(DWORD) + sizeof(CHAR);
                 }
 
                 bufferattributes = (char*) (pmessage->Stream + pmessage->Values[(WORD)pobject->Offset + j]);
@@ -182,11 +186,19 @@ LONG HTTPWriteMessage (MX* pmx, MXMessage* pmessage, char* stream, int maxcount,
                     /*We should stop the message */
                     return -1;
                 }
+
                 /* if I am here it means I can't write anymore  or buffer is read completely*/
                 tostream += size;
                 pcontext->StillToRead -= size;
                 written += size;
-                if (MXBufferProcessing(pmessage))    /* still to read in buffer */
+
+
+				fromzero = 0;
+				XFStringWrite(pxf, "\r\n", &fromzero, tostream, 1);
+				written += 2;
+				tostream += 2;
+				
+				if (MXBufferProcessing(pmessage))    /* still to read in buffer */
                 {
                     State = 1;
                     break;
@@ -612,7 +624,11 @@ LONG HTTPReadMessage (MX* pmx, MXMessage* pmessage, char* stream, int streamsize
                     c = strtok (linevalues[i], ":");
                     v = strtok (NULL, "\r\n");
                     if (MXSetValue (pmessage, c, 1, v+1) < 0)
-                        printf ("Unrecognized Tag : %s\n", c);
+                        printf ("Unrecognized Tag : %s value : %s \n", c, v);
+					else
+					{
+						printf("Tag : %s value : %s \n", c, v);
+					}
                 }
                 i++;
                 j = 0;

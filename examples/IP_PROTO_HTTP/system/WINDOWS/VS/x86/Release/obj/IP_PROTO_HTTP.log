@@ -1,0 +1,5 @@
+﻿  ip_proto_http.c
+  Netprog32.lib(mx.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  IP_PROTO_HTTP.vcxproj -> C:\PROJECTS_CROSS\NetProg\examples\IP_PROTO_HTTP\system\WINDOWS\VS\x86\Release\exe\IP_PROTO_HTTP32.exe

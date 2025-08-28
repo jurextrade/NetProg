@@ -1,4 +1,4 @@
-﻿  dg.c
+﻿  http.c
 odbc32.lib(ODBC32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in wsock32.lib(WSOCK32.dll); second definition ignored
 oscom.obj : warning LNK4006: ___WSAFDIsSet@8 already defined in wsock32.lib(WSOCK32.dll); second definition ignored
   NetProg.vcxproj -> C:\PROJECTS_CROSS\NetProg\system\WINDOWS\VS\x86\Debug\lib\NetProg32.lib

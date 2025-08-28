@@ -187,7 +187,43 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
+    <ClInclude Include="..\..\..\..\include\cb2a.h" />
+    <ClInclude Include="..\..\..\..\include\cgi.h" />
+    <ClInclude Include="..\..\..\..\include\database.h" />
+    <ClInclude Include="..\..\..\..\include\dg.h" />
+    <ClInclude Include="..\..\..\..\include\dns.h" />
+    <ClInclude Include="..\..\..\..\include\fiop.h" />
+    <ClInclude Include="..\..\..\..\include\ftp.h" />
+    <ClInclude Include="..\..\..\..\include\http.h" />
+    <ClInclude Include="..\..\..\..\include\ip_icmp.h" />
+    <ClInclude Include="..\..\..\..\include\json.h" />
+    <ClInclude Include="..\..\..\..\include\mail.h" />
+    <ClInclude Include="..\..\..\..\include\mt.h" />
+    <ClInclude Include="..\..\..\..\include\mx.h" />
+    <ClInclude Include="..\..\..\..\include\mxmanager.h" />
+    <ClInclude Include="..\..\..\..\include\oscom.h" />
+    <ClInclude Include="..\..\..\..\include\osdate.h" />
+    <ClInclude Include="..\..\..\..\include\osdb.h" />
+    <ClInclude Include="..\..\..\..\include\osdbsta.h" />
+    <ClInclude Include="..\..\..\..\include\osdraw.h" />
+    <ClInclude Include="..\..\..\..\include\osio.h" />
+    <ClInclude Include="..\..\..\..\include\osip.h" />
+    <ClInclude Include="..\..\..\..\include\oslist.h" />
+    <ClInclude Include="..\..\..\..\include\osmatch.h" />
+    <ClInclude Include="..\..\..\..\include\osreslex.h" />
+    <ClInclude Include="..\..\..\..\include\osresyac.h" />
+    <ClInclude Include="..\..\..\..\include\ostrace.h" />
+    <ClInclude Include="..\..\..\..\include\ostypes.h" />
+    <ClInclude Include="..\..\..\..\include\pop.h" />
+    <ClInclude Include="..\..\..\..\include\sc.h" />
+    <ClInclude Include="..\..\..\..\include\sclex.h" />
+    <ClInclude Include="..\..\..\..\include\scly.h" />
+    <ClInclude Include="..\..\..\..\include\scyacc.h" />
+    <ClInclude Include="..\..\..\..\include\sha256.h" />
+    <ClInclude Include="..\..\..\..\include\smtp.h" />
+    <ClInclude Include="..\..\..\..\include\tcp.h" />
+    <ClInclude Include="..\..\..\..\include\tp.h" />
+    <ClInclude Include="..\..\..\..\include\xf.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
