@@ -1,12 +1,31 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "mx.h" 
 
+
+char FileName[500] = { 0 };
+
+int SendRequest1(MXMessage* pmessage, MXCom* pcom, void* AppField)
+{
+	char url[500] = { 0 };
+	char userid[] = "1";
+	char projectname[] = "DemoProject";
+	
+	char* filename = (char*)AppField;
+
+	sprintf(url, "GET /members/%s/EMV/%s/Files/%s HTTP/1.1", userid, projectname, filename);
+
+	MXSetValue(pmessage, "Request-Line", 1, url);
+	MXSetValue(pmessage, "Host", 1, "localhost");
+
+	return 1;
+}
+
+
 int SendRequest (MXMessage* pmessage, MXCom* pcom, void* AppField) 
 {
-   MXSetValue (pmessage, "Request-Line", 1, 
-                      "POST /php/solution_dialog.php HTTP/1.1");
-
+   MXSetValue (pmessage, "Request-Line", 1, "POST /php/solution_dialog.php HTTP/1.1");
    MXSetValue(pmessage, "Host", 1, "localhost");
+
    MXSetValue(pmessage, "Content-Type", 1, "application/x-www-form-urlencoded");
 
 
@@ -44,12 +63,17 @@ int RecvResponse (MXMessage* pmessage, MXCom* pcom, void* AppField)
    int i = 0;
    int j = 0;
    
+   char* filename = (char*)AppField;
+   char repertory[] = "C:/";
+   char pathfile[500] = { 0 };
+   sprintf(pathfile, "%s/%s", repertory, filename);
+
 
    Response = (STRING)MXGetValue (pmessage, "Status-Line", 1);
    buffer = MXGetValue (pmessage, "Content", 1);
    
    
-   f = fopen ("C:/response.html", "wt");
+   f = fopen (pathfile, "wt");
    fwrite (buffer->BufferContent,   1, buffer->BufferSize, f);
    fclose (f);
 
@@ -73,7 +97,6 @@ void main ()
 {
 
    MX mx;
-   MXMessage* pmessage;
    MXCom* HTTPCom;
 
 
@@ -87,13 +110,40 @@ void main ()
    if (!HTTPCom) return;
 
    MXSetTraceProcedure(HTTPCom, tradeprocedure);
-   MXAddComCallBack (&mx, HTTPCom, HTTP_SYS, "Response",MXONRECV, RecvResponse, NULL); 
-   MXAddComCallBack (&mx, HTTPCom, HTTP_SYS, "Request", MXONSEND, SendRequest,  NULL); 
+   MXAddComCallBack (&mx, HTTPCom, HTTP_SYS, "Response",MXONRECV, RecvResponse, FileName);
+   MXAddComCallBack (&mx, HTTPCom, HTTP_SYS, "Request", MXONSEND, SendRequest1,  FileName); 
 
 /* Put message in queue */ 
 
-   pmessage = MXPutMessage (HTTPCom, HTTP_SYS, "Request");
 
+   MXMessage* psend_message;
+   MXMessage* precv_message;
+
+
+ //  psend_message = MXPutMessage (HTTPCom, HTTP_SYS, "Request");
+
+
+
+   psend_message = MXCreateMessage(HTTPCom->MX, HTTP_SYS, "Request");
+
+   strcpy(FileName, "emv_applications.conf");
+   MXSend(HTTPCom->MX, HTTPCom, psend_message);
+   precv_message = MXRecv(HTTPCom->MX, HTTPCom);
+   MXFreeMessage(HTTPCom->MX, precv_message);
+
+
+
+   strcpy(FileName, "emv_acceptor.conf");
+   MXSend(HTTPCom->MX, HTTPCom, psend_message);
+   precv_message = MXRecv(HTTPCom->MX, HTTPCom);
+   MXFreeMessage(HTTPCom->MX, precv_message);
+
+   strcpy(FileName, "emv_currencies.conf");
+   MXSend(HTTPCom->MX, HTTPCom, psend_message);
+   precv_message = MXRecv(HTTPCom->MX, HTTPCom);
+   MXFreeMessage(HTTPCom->MX, precv_message);
+
+   MXFreeMessage(HTTPCom->MX, psend_message);
    MXDispatchEvents (&mx, 0);
 
    MXEnd (&mx);

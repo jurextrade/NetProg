@@ -627,7 +627,7 @@ LONG HTTPReadMessage (MX* pmx, MXMessage* pmessage, char* stream, int streamsize
                         printf ("Unrecognized Tag : %s value : %s \n", c, v);
 					else
 					{
-						printf("Tag : %s value : %s \n", c, v);
+						//printf("Tag : %s value : %s \n", c, v);
 					}
                 }
                 i++;

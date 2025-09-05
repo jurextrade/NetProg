@@ -1,3 +1,3 @@
 ﻿  ip_proto_http.c
-C:\PROJECTS_CROSS\NetProg\examples\IP_PROTO_HTTP\src\ip_proto_http.c(89,4): warning C4133: '=': incompatible types - from 'void (__cdecl *)(void *,BYTE,char *,int)' to 'int (__cdecl *)(void *,BYTE,char *,int)'
+C:\PROJECTS_CROSS\NetProg\examples\IP_PROTO_HTTP\src\ip_proto_http.c(112,4): warning C4133: '=': incompatible types - from 'void (__cdecl *)(void *,BYTE,char *,int)' to 'int (__cdecl *)(void *,BYTE,char *,int)'
   IP_PROTO_HTTP.vcxproj -> C:\PROJECTS_CROSS\NetProg\examples\IP_PROTO_HTTP\system\WINDOWS\VS\x86\Debug\exe\IP_PROTO_HTTP32.exe

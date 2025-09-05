@@ -802,28 +802,26 @@ void TPCloseDownClient (TP* ptp, TPClient* pclient)
         plist = plist->cdr;
     }
 
-    /*
-      if (pclient->EndingProcedure)
-       pclient->EndingProcedure(pclient->ApplicationField);
-     */
     TPCloseDownConnection (ptp, pclient);
-    if (pclient->Index < ptp->NextFreeClientId)
+    
+	if (pclient->Index < ptp->NextFreeClientId)
         ptp->NextFreeClientId = pclient->Index;
-    ptp->Clients[pclient->Index] = NULL;
+    
+	ptp->Clients[pclient->Index] = NULL;
 
     if (pclient->TransBuffer)
         free ((BYTE*)pclient->TransBuffer);
-    pclient->TransBuffer = NULL;
+    
+	pclient->TransBuffer = NULL;
 
-
-
-    while ((ptp->CurrentMaxClients > 0) && (!ptp->Clients[ptp->CurrentMaxClients - 1]))
+	while ((ptp->CurrentMaxClients > 0) && (!ptp->Clients[ptp->CurrentMaxClients - 1]))
         ptp->CurrentMaxClients--;
 
-
-    ListNewr (&ptp->History, pclient);
-    ptp->ClientHistoryNumber++;
-    if (ptp->ClientHistoryNumber > TPNumberClientInHistory)
+	ListNewr (&ptp->History, pclient);
+    
+	ptp->ClientHistoryNumber++;
+    
+	if (ptp->ClientHistoryNumber > TPNumberClientInHistory)
     {
         TPClient* pclient = (TPClient *) ptp->History->car;
         ListRemove (&ptp->History, pclient);

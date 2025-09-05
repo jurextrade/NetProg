@@ -1,15 +1,4 @@
 ﻿  cb2a.c
-  cgi.c
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(174,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(215,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(674,17): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(757,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(758,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(1164,17): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(1485,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(1536,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(1569,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\cgi.c(1769,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   database.c
   dg.c
   dns.c
@@ -28,14 +17,12 @@ C:\PROJECTS_CROSS\NetProg\src\dnscomp.c(752,32): warning C4244: 'return': conver
   fiop.c
   ftp.c
   http.c
-  json.c
   mail.c
 C:\PROJECTS_CROSS\NetProg\src\mail.c(41,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\mail.c(60,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\mail.c(132,27): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\mail.c(140,33): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\mail.c(736,17): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-  mime.c
   mt.c
   mx.c
   mxmanager.c
@@ -48,7 +35,6 @@ C:\PROJECTS_CROSS\NetProg\src\oscom.c(381,24): warning C4244: '=': conversion fr
 C:\PROJECTS_CROSS\NetProg\src\oscom.c(388,24): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\oscom.c(447,20): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\oscom.c(784,20): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
-  osdate.c
   osdb.c
 C:\PROJECTS_CROSS\NetProg\src\osdb.c(767,28): warning C4477: 'sprintf' : format string '%-*.*s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
   C:\PROJECTS_CROSS\NetProg\src\osdb.c(767,28):
@@ -67,13 +53,6 @@ C:\PROJECTS_CROSS\NetProg\src\osio.c(454,27): warning C4477: 'sprintf' : format 
   C:\PROJECTS_CROSS\NetProg\src\osio.c(454,27):
   this argument is used as a field width
   
-  Generating Code...
-  Compiling...
-  oslist.c
-  osmatch.c
-C:\PROJECTS_CROSS\NetProg\src\osmatch.c(887,22): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\osmatch.c(972,54): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
-C:\PROJECTS_CROSS\NetProg\src\osmatch.c(989,55): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
   osreslex.c
 C:\PROJECTS_CROSS\NetProg\src\osreslex.c(90,19): warning C4013: 'zzlook' undefined; assuming extern returning int
 C:\PROJECTS_CROSS\NetProg\src\osreslex.c(91,1): warning C4102: 'zzfussy': unreferenced label
@@ -100,6 +79,8 @@ C:\PROJECTS_CROSS\NetProg\src\osreslex.c(9282,42): warning C4101: 'fourth': unre
   pop.c
 C:\PROJECTS_CROSS\NetProg\src\pop.c(209,25): warning C4244: '=': conversion from '__int64' to 'LONG', possible loss of data
 C:\PROJECTS_CROSS\NetProg\src\pop.c(255,25): warning C4244: '=': conversion from '__int64' to 'LONG', possible loss of data
+  Generating Code...
+  Compiling...
   sc.c
 C:\PROJECTS_CROSS\NetProg\src\sc.c(513,17): warning C4013: 'gets' undefined; assuming extern returning int
 C:\PROJECTS_CROSS\NetProg\src\sc.c(780,26): warning C4477: 'sprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'MXCom *'
@@ -333,7 +314,6 @@ C:\PROJECTS_CROSS\NetProg\src\scsys.c(1585,42): warning C4267: '=': conversion f
 /scyacc.y(1539,1): warning C4102: 'yyerrlab': unreferenced label
   (compiling source file '../../../../src/scyacc.c')
   
-  sha256.c
   smtp.c
   sqlodbc.c
 C:\PROJECTS_CROSS\NetProg\src\sqlodbc.c(112,23): warning C4311: 'type cast': pointer truncation from 'HDBC' to 'int'
@@ -373,8 +353,6 @@ C:\PROJECTS_CROSS\NetProg\src\sqlora.c(502,20): warning C4047: '=': 'SQLDA *' di
 C:\PROJECTS_CROSS\NetProg\src\sqlora.c(614,9): warning C4013: 'sqlnul' undefined; assuming extern returning int
 C:\PROJECTS_CROSS\NetProg\src\sqlora.c(620,13): warning C4013: 'sqlprc' undefined; assuming extern returning int
 C:\PROJECTS_CROSS\NetProg\src\sqlora.c(750,25): warning C4013: 'oracle_send_sqlda' undefined; assuming extern returning int
-  Generating Code...
-  Compiling...
   tcp.c
   tp.c
 C:\PROJECTS_CROSS\NetProg\src\tp.c(259,40): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size

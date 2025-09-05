@@ -246,8 +246,8 @@ void MXInitMessage (MXMessage* pmessage)
     {
 	    pmessage->Offset = 0;
         pmessage->Part = 0;
-        MXFreeContext (pmessage->Context);
-        pmessage->Context = NULL;
+  //      MXFreeContext (pmessage->Context);
+  //      pmessage->Context = NULL;
     }
 
 }

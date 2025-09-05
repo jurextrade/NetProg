@@ -431,7 +431,7 @@ extern "C" {
 
 
     extern MXMessage* MXCreateMessage (MX* pmx, char* classname, char* messclassname);
-    extern void       MXFreeMessage (MX* pms, MXMessage* pmessage);
+    extern void       MXFreeMessage (MX* pmx, MXMessage* pmessage);
 
 
     extern void       MXFreeObject (MX* pmx, MXObject* pobject);

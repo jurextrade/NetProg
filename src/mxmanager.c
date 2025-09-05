@@ -95,6 +95,8 @@ MXMessageClass* MXCreateMessageClass(MX* pmx, MXDialogClass* pclass, char* name,
     {
         pobject = (MXObject*)malloc (sizeof (MXObject));
         if (!pobject) return NULL;
+		
+		pobject->MessageClass = pclassmess;
 
         pobject->Size = 1;
         ret = MXCheckType2 (va_arg(p_liste, char *));

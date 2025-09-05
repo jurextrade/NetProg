@@ -3,37 +3,52 @@
   "WorkspaceRootPath": "C:\\PROJECTS_CROSS\\NetProg\\system\\WINDOWS\\VS\\NetProg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A811B89A-0510-41B2-9D6A-EFAF1461A8F1}|..\\..\\..\\..\\examples\\IP_PROTO_SMTP\\system\\WINDOWS\\VS\\IP_PROTO_SMTP\\IP_PROTO_SMTP.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{100FF07E-432B-4FEA-83D3-0B05831CBEE1}|..\\..\\..\\..\\examples\\IO_PROTO_STORE\\system\\WINDOWS\\VS\\IP_PROTO_STORE\\IO_PROTO_STORE.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC0AA4D5-EED2-49BA-A3B1-EFD1C04A2C8A}|..\\..\\..\\..\\examples\\IP_PROTO_HTTP\\system\\WINDOWS\\VS\\IP_PROTO_HTTP\\IP_PROTO_HTTP.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\mx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\http.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\mxutil.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\dg.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\mt.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\cb2a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\ftp.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\fiop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\database.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\pop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\smtp.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\cb2a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\dg.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\dns.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\pop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\http.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\src\\mx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100FF07E-432B-4FEA-83D3-0B05831CBEE1}|..\\..\\..\\..\\examples\\IO_PROTO_STORE\\system\\WINDOWS\\VS\\IP_PROTO_STORE\\IO_PROTO_STORE.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A811B89A-0510-41B2-9D6A-EFAF1461A8F1}|..\\..\\..\\..\\examples\\IP_PROTO_SMTP\\system\\WINDOWS\\VS\\IP_PROTO_SMTP\\IP_PROTO_SMTP.vcxproj|C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9921976B-54F8-40D4-812D-E5334CF1E619}|NetProg.vcxproj|C:\\PROJECTS_CROSS\\NETPROG\\INCLUDE\\MX.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,149 +58,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "io_proto_store.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
-              "RelativeToolTip": "..\\..\\..\\..\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T11:06:54.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ip_proto_smtp.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
-              "RelativeToolTip": "..\\..\\..\\..\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T11:04:49.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dg.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\dg.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\dg.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\dg.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\dg.c",
-              "ViewState": "AQIAAI8EAAAAAAAAAAAvwJwEAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T05:52:35.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "cb2a.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\cb2a.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\cb2a.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\cb2a.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\cb2a.c",
-              "ViewState": "AQIAAGUEAAAAAAAAAAAvwHcEAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T05:52:27.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "mxutil.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\mxutil.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\mxutil.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\mxutil.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\mxutil.c",
-              "ViewState": "AQIAAPUDAAAAAAAAAAAvwAcEAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T05:25:28.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "smtp.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\smtp.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\smtp.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\smtp.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\smtp.c",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAAAGUAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T04:55:24.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "pop.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\pop.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\pop.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\pop.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\pop.c",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAvwLEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T04:55:20.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "http.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\http.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\http.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\http.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\http.c",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAvwKcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T04:00:17.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mx.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\mx.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\mx.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\mx.c",
-              "RelativeToolTip": "..\\..\\..\\..\\src\\mx.c",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAvwJAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T03:42:01.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ip_proto_http.c",
-              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
-              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
-              "RelativeToolTip": "..\\..\\..\\..\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAswFoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-28T02:18:20.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "dns.c",
               "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\dns.c",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\dns.c",
               "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\dns.c",
               "RelativeToolTip": "..\\..\\..\\..\\src\\dns.c",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAnwDMAAABGAAAA",
+              "ViewState": "AQIAAEgDAAAAAAAAAAAnwFoDAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-30T23:49:14.096Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mt.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\mt.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\mt.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\mt.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\mt.c",
+              "ViewState": "AQIAACsBAAAAAAAAAAAAACsBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-30T01:48:17.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ftp.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\ftp.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\ftp.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\ftp.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\ftp.c",
+              "ViewState": "AQIAAAcEAAAAAAAAAAAnwBkEAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-30T01:48:12.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fiop.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\fiop.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\fiop.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\fiop.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\fiop.c",
+              "ViewState": "AQIAAPACAAAAAAAAAAAnwAIDAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-30T01:48:03.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "database.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\database.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\database.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\database.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\database.c",
+              "ViewState": "AQIAADkBAAAAAAAAAAAAAFoBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-30T01:47:52.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "mx.h",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\include\\mx.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\include\\mx.h",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\include\\mx.h",
+              "RelativeToolTip": "..\\..\\..\\..\\include\\mx.h",
+              "ViewState": "AQIAAKEBAAAAAAAAAAAkwHwBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-30T00:49:51.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "io_proto_store.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
+              "RelativeToolTip": "..\\..\\..\\..\\examples\\IO_PROTO_STORE\\src\\io_proto_store.c",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAHsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T11:06:54.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ip_proto_smtp.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
+              "RelativeToolTip": "..\\..\\..\\..\\examples\\IP_PROTO_SMTP\\src\\ip_proto_smtp.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T11:04:49.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dg.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\dg.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\dg.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\dg.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\dg.c",
+              "ViewState": "AQIAALkDAAAAAAAAAAAnwMsDAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T05:52:35.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "cb2a.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\cb2a.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\cb2a.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\cb2a.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\cb2a.c",
+              "ViewState": "AQIAAI8DAAAAAAAAAAAnwKEDAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T05:52:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mxutil.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\mxutil.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\mxutil.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\mxutil.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\mxutil.c",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAawPkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T05:25:28.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "smtp.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\smtp.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\smtp.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\smtp.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\smtp.c",
+              "ViewState": "AQIAACsBAAAAAAAAAAAnwD0BAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T04:55:24.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pop.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\pop.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\pop.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\pop.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\pop.c",
+              "ViewState": "AQIAANcBAAAAAAAAAAAnwOkBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T04:55:20.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "http.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\http.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\http.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\http.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\http.c",
+              "ViewState": "AQIAANIAAAAAAAAAAAAnwOQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T04:00:17.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "mx.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\src\\mx.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\src\\mx.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\src\\mx.c",
+              "RelativeToolTip": "..\\..\\..\\..\\src\\mx.c",
+              "ViewState": "AQIAAHsCAAAAAAAAAAAvwI0CAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T03:42:01.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ip_proto_http.c",
+              "DocumentMoniker": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
+              "ToolTip": "C:\\PROJECTS_CROSS\\NetProg\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
+              "RelativeToolTip": "..\\..\\..\\..\\examples\\IP_PROTO_HTTP\\src\\ip_proto_http.c",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAgwJsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T02:18:20.247Z",
               "EditorCaption": ""
             }
           ]
